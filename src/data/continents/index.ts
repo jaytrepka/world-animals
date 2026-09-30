@@ -38,11 +38,19 @@ const cache = new Map<ContinentKey, Promise<ContinentData>>()
 
 export const mapUrl = (key: ContinentKey) => `/maps/${key}.webp`
 
-/** Download + decode the big painted map before showing the page (so it doesn't pop in). Never rejects. */
+/**
+ * Download + decode the big painted map before showing the page (so it doesn't pop in).
+ * Never rejects and never waits longer than a few seconds (decode() can stall, e.g. in background tabs).
+ */
 function decodeImage(src: string): Promise<void> {
   const img = new Image()
   img.src = src
-  return img.decode().catch(() => undefined)
+  const loaded = new Promise<void>((resolve) => {
+    img.onload = img.onerror = () => resolve()
+  })
+  const decoded = img.decode().catch(() => undefined)
+  const timeout = new Promise<void>((resolve) => setTimeout(resolve, 4000))
+  return Promise.race([decoded, loaded.then(() => Promise.race([decoded, new Promise<void>((r) => setTimeout(r, 400))])), timeout])
 }
 
 export function isContinent(key: string | undefined): key is ContinentKey {
