@@ -1,0 +1,405 @@
+[
+{
+"id": "saltwater-crocodile",
+"wiki": "Saltwater crocodile",
+"region": "north",
+"lon": 132.4,
+"lat": -12.6
+},
+{
+"id": "southern-cassowary",
+"wiki": "Southern cassowary",
+"region": "north",
+"lon": 145.3,
+"lat": -16.3
+},
+{
+"id": "goodfellows-tree-kangaroo",
+"wiki": "Goodfellow's tree-kangaroo",
+"region": "north",
+"lon": 145.2,
+"lat": -6.2
+},
+{
+"id": "common-spotted-cuscus",
+"wiki": "Common spotted cuscus",
+"region": "north",
+"lon": 142.7,
+"lat": -12.8
+},
+{
+"id": "frilled-lizard",
+"wiki": "Frilled-neck lizard",
+"region": "north",
+"lon": 126.8,
+"lat": -16.4
+},
+{
+"id": "agile-wallaby",
+"wiki": "Agile wallaby",
+"region": "north",
+"lon": 134.6,
+"lat": -14.6
+},
+{
+"id": "antilopine-kangaroo",
+"wiki": "Antilopine kangaroo",
+"region": "north",
+"lon": 129.2,
+"lat": -15.4
+},
+{
+"id": "dugong",
+"wiki": "Dugong",
+"region": "north",
+"lon": 140.4,
+"lat": -10.9,
+"sea": true
+},
+{
+"id": "green-sea-turtle",
+"wiki": "Green sea turtle",
+"region": "north",
+"lon": 147.6,
+"lat": -15.3,
+"sea": true
+},
+{
+"id": "orange-clownfish",
+"wiki": "Orange clownfish",
+"region": "north",
+"lon": 147.3,
+"lat": -18.6,
+"sea": true
+},
+{
+"id": "northern-quoll",
+"wiki": "Northern quoll",
+"region": "north",
+"lon": 125.3,
+"lat": -17.9
+},
+{
+"id": "western-long-beaked-echidna",
+"wiki": "Western long-beaked echidna",
+"region": "north",
+"lon": 134.0,
+"lat": -2.6
+},
+{
+"id": "sugar-glider",
+"wiki": "Sugar glider",
+"region": "north",
+"lon": 141.6,
+"lat": -8.2
+},
+{
+"id": "spectacled-flying-fox",
+"wiki": "Spectacled flying fox",
+"region": "north",
+"lon": 144.2,
+"lat": -15.2
+},
+{
+"id": "green-tree-python",
+"wiki": "Green tree python",
+"region": "north",
+"lon": 139.2,
+"lat": -4.2
+},
+{
+"id": "raggiana-bird-of-paradise",
+"wiki": "Raggiana bird-of-paradise",
+"region": "north",
+"lon": 147.6,
+"lat": -8.4
+},
+{
+"id": "barramundi",
+"wiki": "Barramundi",
+"region": "north",
+"lon": 134.3,
+"lat": -13.1
+},
+{
+"id": "australian-green-tree-frog",
+"wiki": "Australian green tree frog",
+"region": "north",
+"lon": 131.3,
+"lat": -13.8
+},
+{
+"id": "red-kangaroo",
+"wiki": "Red kangaroo",
+"region": "middle",
+"lon": 135.4,
+"lat": -24.3
+},
+{
+"id": "emu",
+"wiki": "Emu",
+"region": "middle",
+"lon": 127.8,
+"lat": -27.2
+},
+{
+"id": "dingo",
+"wiki": "Dingo",
+"region": "middle",
+"lon": 131.0,
+"lat": -22.3
+},
+{
+"id": "thorny-devil",
+"wiki": "Thorny devil",
+"region": "middle",
+"lon": 124.0,
+"lat": -25.6
+},
+{
+"id": "perentie",
+"wiki": "Perentie",
+"region": "middle",
+"lon": 120.7,
+"lat": -21.4
+},
+{
+"id": "greater-bilby",
+"wiki": "Greater bilby",
+"region": "middle",
+"lon": 128.2,
+"lat": -20.4
+},
+{
+"id": "koala",
+"wiki": "Koala",
+"region": "middle",
+"lon": 151.2,
+"lat": -27.9
+},
+{
+"id": "short-beaked-echidna",
+"wiki": "Short-beaked echidna",
+"region": "middle",
+"lon": 145.0,
+"lat": -29.2
+},
+{
+"id": "inland-taipan",
+"wiki": "Inland taipan",
+"region": "middle",
+"lon": 140.3,
+"lat": -26.4
+},
+{
+"id": "humpback-whale",
+"wiki": "Humpback whale",
+"region": "middle",
+"lon": 155.8,
+"lat": -25.2,
+"sea": true
+},
+{
+"id": "black-footed-rock-wallaby",
+"wiki": "Black-footed rock-wallaby",
+"region": "middle",
+"lon": 132.6,
+"lat": -23.8
+},
+{
+"id": "spinifex-hopping-mouse",
+"wiki": "Spinifex hopping mouse",
+"region": "middle",
+"lon": 136.4,
+"lat": -20.6
+},
+{
+"id": "wedge-tailed-eagle",
+"wiki": "Wedge-tailed eagle",
+"region": "middle",
+"lon": 130.2,
+"lat": -28.4
+},
+{
+"id": "central-bearded-dragon",
+"wiki": "Central bearded dragon",
+"region": "middle",
+"lon": 143.0,
+"lat": -23.0
+},
+{
+"id": "whale-shark",
+"wiki": "Whale shark",
+"region": "middle",
+"lon": 112.6,
+"lat": -22.3,
+"sea": true
+},
+{
+"id": "shingleback-lizard",
+"wiki": "Shingleback lizard",
+"region": "middle",
+"lon": 118.2,
+"lat": -29.4
+},
+{
+"id": "tasmanian-devil",
+"wiki": "Tasmanian devil",
+"region": "south",
+"lon": 147.7,
+"lat": -41.3
+},
+{
+"id": "common-wombat",
+"wiki": "Common wombat",
+"region": "south",
+"lon": 149.2,
+"lat": -36.6
+},
+{
+"id": "platypus",
+"wiki": "Platypus",
+"region": "south",
+"lon": 144.8,
+"lat": -36.2
+},
+{
+"id": "quokka",
+"wiki": "Quokka",
+"region": "south",
+"lon": 115.9,
+"lat": -31.3
+},
+{
+"id": "numbat",
+"wiki": "Numbat",
+"region": "south",
+"lon": 117.3,
+"lat": -33.9
+},
+{
+"id": "eastern-grey-kangaroo",
+"wiki": "Eastern grey kangaroo",
+"region": "south",
+"lon": 149.6,
+"lat": -32.9
+},
+{
+"id": "little-penguin",
+"wiki": "Little penguin",
+"region": "south",
+"lon": 145.2,
+"lat": -39.6,
+"sea": true
+},
+{
+"id": "australian-sea-lion",
+"wiki": "Australian sea lion",
+"region": "south",
+"lon": 137.3,
+"lat": -35.8
+},
+{
+"id": "great-white-shark",
+"wiki": "Great white shark",
+"region": "south",
+"lon": 133.2,
+"lat": -36.2,
+"sea": true
+},
+{
+"id": "southern-right-whale",
+"wiki": "Southern right whale",
+"region": "south",
+"lon": 128.2,
+"lat": -33.6,
+"sea": true
+},
+{
+"id": "north-island-brown-kiwi",
+"wiki": "North Island brown kiwi",
+"region": "south",
+"lon": 175.6,
+"lat": -38.6
+},
+{
+"id": "kea",
+"wiki": "Kea",
+"region": "south",
+"lon": 170.6,
+"lat": -43.4
+},
+{
+"id": "tuatara",
+"wiki": "Tuatara",
+"region": "south",
+"lon": 172.9,
+"lat": -41.3
+},
+{
+"id": "hectors-dolphin",
+"wiki": "Hector's dolphin",
+"region": "south",
+"lon": 173.6,
+"lat": -44.2,
+"sea": true
+},
+{
+"id": "new-zealand-fur-seal",
+"wiki": "New Zealand fur seal",
+"region": "south",
+"lon": 176.2,
+"lat": -41.8,
+"sea": true
+},
+{
+"id": "kakapo",
+"wiki": "Kākāpō",
+"region": "south",
+"lon": 167.8,
+"lat": -46.2
+},
+{
+"id": "tiger-snake",
+"wiki": "Tiger snake",
+"region": "south",
+"lon": 141.4,
+"lat": -37.6
+},
+{
+"id": "spotted-tailed-quoll",
+"wiki": "Spotted-tailed quoll",
+"region": "south",
+"lon": 145.4,
+"lat": -42.6
+},
+{
+"id": "leafy-seadragon",
+"wiki": "Leafy seadragon",
+"region": "south",
+"lon": 139.0,
+"lat": -36.9,
+"sea": true
+},
+{
+"id": "common-brushtail-possum",
+"wiki": "Common brushtail possum",
+"region": "south",
+"lon": 150.6,
+"lat": -34.6
+},
+{
+"id": "eastern-blue-tongued-lizard",
+"wiki": "Eastern blue-tongued lizard",
+"region": "south",
+"lon": 146.0,
+"lat": -33.4
+},
+{
+"id": "superb-lyrebird",
+"wiki": "Superb lyrebird",
+"region": "south",
+"lon": 147.3,
+"lat": -37.8
+}
+]
