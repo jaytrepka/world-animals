@@ -1568,5 +1568,91 @@
     "source": "https://commons.wikimedia.org/wiki/File:Cerdocyon_thous,_Colombia.JPG"
    }
   ]
+ },
+ "chacoan-mara": {
+  "count": 3,
+  "credits": [
+   {
+    "file": "File:Чакоанская, или чакская, или малая мара (Dolichotis salinicola), Chacoan mara, Kleiner Mara, Tierpark Berlin Friedrichsfelde, 10.2012.jpg",
+    "author": "Николай Усик / http://paradoxusik.livejournal.com/",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:%D0%A7%D0%B0%D0%BA%D0%BE%D0%B0%D0%BD%D1%81%D0%BA%D0%B0%D1%8F,_%D0%B8%D0%BB%D0%B8_%D1%87%D0%B0%D0%BA%D1%81%D0%BA%D0%B0%D1%8F,_%D0%B8%D0%BB%D0%B8_%D0%BC%D0%B0%D0%BB%D0%B0%D1%8F_%D0%BC%D0%B0%D1%80%D0%B0_(Dolichotis_salinicola),_Chacoan_mara,_Kleiner_Mara,_Tierpark_Berlin_Friedrichsfelde,_10.2012.jpg"
+   },
+   {
+    "file": "File:Dolichotis salinicola 56287557.jpg",
+    "author": "Walter S. Prado",
+    "license": "CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:Dolichotis_salinicola_56287557.jpg"
+   },
+   {
+    "file": "File:Pediolagus salinicola 339483677.jpg",
+    "author": "Tomás Tamagno",
+    "license": "CC BY 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Pediolagus_salinicola_339483677.jpg"
+   }
+  ]
+ },
+ "crab-eating-raccoon": {
+  "count": 2,
+  "credits": [
+   {
+    "file": "File:Procyon cancrivorus 3, Costa Rica.JPG",
+    "author": "Steven G. Johnson",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Procyon_cancrivorus_3,_Costa_Rica.JPG"
+   },
+   {
+    "file": "File:Crab-eating raccoon (Procyon cancrivorus) Manuel Antonio Park CRI 01 2020 4023.jpg",
+    "author": "Mariordo (Mario Roberto Durán Ortiz)",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Crab-eating_raccoon_(Procyon_cancrivorus)_Manuel_Antonio_Park_CRI_01_2020_4023.jpg"
+   }
+  ]
+ },
+ "olinguito": {
+  "count": 3,
+  "credits": [
+   {
+    "file": "File:Olinguito ZooKeys 324, solo.jpg",
+    "author": "Mark Gurney",
+    "license": "CC BY 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Olinguito_ZooKeys_324,_solo.jpg"
+   },
+   {
+    "file": "File:Bassaricyon neblina 254667825.jpg",
+    "author": "Demian Hiß",
+    "license": "CC BY 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Bassaricyon_neblina_254667825.jpg"
+   },
+   {
+    "file": "File:Olinguito ZooKeys 324, solo (3).JPG",
+    "author": "Mark Gurney",
+    "license": "CC BY 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Olinguito_ZooKeys_324,_solo_(3).JPG"
+   }
+  ]
+ },
+ "mountain-coati": {
+  "count": 3,
+  "credits": [
+   {
+    "file": "File:Nasua_olivacea_112082177.jpg",
+    "author": "novvictan",
+    "license": "CC BY 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Nasua_olivacea_112082177.jpg"
+   },
+   {
+    "file": "File:Nasua olivacea 29051746.jpg",
+    "author": "Oscar Marín",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Nasua_olivacea_29051746.jpg"
+   },
+   {
+    "file": "File:Nasua olivacea 29383711.jpg",
+    "author": "Oscar Marín",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Nasua_olivacea_29383711.jpg"
+   }
+  ]
  }
 }

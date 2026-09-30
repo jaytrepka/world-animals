@@ -490,5 +490,29 @@
   "wiki": "Crab-eating fox",
   "lon": -54.5,
   "lat": -31.0
+ },
+ {
+  "id": "chacoan-mara",
+  "wiki": "Chacoan mara",
+  "lon": -64.5,
+  "lat": -29.5
+ },
+ {
+  "id": "crab-eating-raccoon",
+  "wiki": "Crab-eating raccoon",
+  "lon": -44.5,
+  "lat": -2.8
+ },
+ {
+  "id": "olinguito",
+  "wiki": "Olinguito",
+  "lon": -78.5,
+  "lat": 0.8
+ },
+ {
+  "id": "mountain-coati",
+  "wiki": "Nasuella olivacea",
+  "lon": -79.2,
+  "lat": -4.1
  }
 ]

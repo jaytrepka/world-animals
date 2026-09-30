@@ -2,7 +2,7 @@ import type { AnimalContent } from '../../types'
 import {
   kingdom, chordata, mammals, birds, reptiles, amphibians,
   anura, carnivora, primates, rodentia, artiodactyla, squamata, testudines, crocodilia, pilosa, cingulata,
-  chinchillidae, felidae, canidae, cervidae, otariidae, chlamyphoridae,
+  caviidae, chinchillidae, felidae, canidae, cervidae, otariidae, chlamyphoridae,
 } from './taxa'
 
 const procyonidae = { latin: 'Procyonidae', en: 'Raccoons and coatis', cs: 'Medvídkovití' }
@@ -590,6 +590,107 @@ export const moreContent: AnimalContent[] = [
     predators: {
       en: 'Pumas and jaguars may hunt it. Big birds of prey may take the pups.',
       cs: 'Lovit ho může puma nebo jaguár. Štěňata mohou uchvátit velcí dravci.',
+    },
+  },
+  // ---------- added: Chacoan mara and more raccoon relatives ----------
+  {
+    id: 'chacoan-mara',
+    name: { en: 'Chacoan mara', cs: 'Mara slaništní' },
+    classification: {
+      kingdom,
+      phylum: chordata,
+      class: mammals,
+      order: rodentia,
+      family: caviidae,
+      genus: 'Dolichotis',
+      species: 'Dolichotis salinicola',
+    },
+    habitat: {
+      en: 'It lives in the hot, dry, thorny bushland of the Gran Chaco in Argentina, Bolivia and Paraguay. It is the smaller cousin of the Patagonian mara.',
+      cs: 'Žije v horkých, suchých a trnitých křovinách Gran Chaca v Argentině, Bolívii a Paraguayi. Je to menší sestřenice mary stepní.',
+    },
+    diet: {
+      en: 'It nibbles grass, herbs, leaves and fruit, and even juicy cactus.',
+      cs: 'Okusuje trávu, byliny, listy a plody, a dokonce i šťavnaté kaktusy.',
+    },
+    predators: {
+      en: 'Pumas, foxes, wild cats and birds of prey hunt it. It escapes on its long legs or hides in a burrow.',
+      cs: 'Loví ji pumy, lišky, divoké kočky a draví ptáci. Uteče jim na dlouhých nohách nebo se schová do nory.',
+    },
+  },
+  {
+    id: 'crab-eating-raccoon',
+    name: { en: 'Crab-eating raccoon', cs: 'Mýval jižní' },
+    classification: {
+      kingdom,
+      phylum: chordata,
+      class: mammals,
+      order: carnivora,
+      family: procyonidae,
+      genus: 'Procyon',
+      species: 'Procyon cancrivorus',
+    },
+    habitat: {
+      en: 'It lives in forests and swamps near rivers, lakes and seaside mangroves. It wears a black mask around its eyes, like a little robber.',
+      cs: 'Žije v lesích a bažinách u řek, jezer a mořských mangrovů. Kolem očí má černou masku jako malý lupič.',
+    },
+    diet: {
+      en: 'It feels for crabs, crayfish, fish and frogs in the water with its clever hands. It also likes fruit.',
+      cs: 'Šikovnýma rukama hledá ve vodě kraby, raky, ryby a žáby. Rád si pochutná i na ovoci.',
+    },
+    predators: {
+      en: 'Jaguars, pumas, ocelots and big snakes may catch it.',
+      cs: 'Může ho ulovit jaguár, puma, ocelot nebo velký had.',
+    },
+  },
+  {
+    id: 'olinguito',
+    name: { en: 'Olinguito', cs: 'Olinguito' },
+    classification: {
+      kingdom,
+      phylum: chordata,
+      class: mammals,
+      order: carnivora,
+      family: procyonidae,
+      genus: 'Bassaricyon',
+      species: 'Bassaricyon neblina',
+    },
+    habitat: {
+      en: 'It lives in the treetops of misty cloud forests high in the mountains of Colombia and Ecuador. Scientists only discovered it in 2013!',
+      cs: 'Žije v korunách stromů v mlžných horských lesích Kolumbie a Ekvádoru. Vědci ho objevili teprve v roce 2013!',
+    },
+    diet: {
+      en: 'It mostly eats fruit, especially figs, and also sips sweet flower nectar and catches insects.',
+      cs: 'Jí hlavně ovoce, nejraději fíky. Také ochutnává sladký nektar z květů a chytá hmyz.',
+    },
+    predators: {
+      en: 'Wild cats and big birds of prey may catch it, but it hides well in the treetops at night.',
+      cs: 'Může ho ulovit divoká kočka nebo velký dravec, ale v noci se v korunách stromů dobře schová.',
+    },
+  },
+  {
+    id: 'mountain-coati',
+    name: { en: 'Western mountain coati', cs: 'Nosál horský' },
+    classification: {
+      kingdom,
+      phylum: chordata,
+      class: mammals,
+      order: carnivora,
+      family: procyonidae,
+      genus: 'Nasuella',
+      species: 'Nasuella olivacea',
+    },
+    habitat: {
+      en: 'It lives in cold, misty mountain forests and grassy highlands of the Andes in Colombia and Ecuador. It has a long nose and a striped tail.',
+      cs: 'Žije v chladných mlžných horských lesích a na travnatých horských loukách And v Kolumbii a Ekvádoru. Má dlouhý čumák a pruhovaný ocas.',
+    },
+    diet: {
+      en: 'It digs in the soil with its nose and claws for worms, beetles and grubs. It also eats small animals and fruit.',
+      cs: 'Čumákem a drápky hrabe v zemi a hledá žížaly, brouky a larvy. Jí také malá zvířátka a ovoce.',
+    },
+    predators: {
+      en: 'Pumas, Andean foxes and big birds of prey hunt it.',
+      cs: 'Loví ho pumy, andské lišky a velcí draví ptáci.',
     },
   },
 ]

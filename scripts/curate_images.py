@@ -2,7 +2,7 @@
 
 Usage: python3 scripts/curate_images.py <continent> '{"<id>": [2, 3, 1], ...}'
 Keeps only the listed photo numbers (in the given order) and renumbers them 1..n.
-Pass '{}' to only rebuild thumbnails. Needs Pillow (use the venv python, see README).
+Pass '{}' to only build missing thumbnails. Needs Pillow (use the venv python, see README).
 """
 import json, os, shutil, sys
 from PIL import Image, ImageOps
@@ -28,6 +28,8 @@ for aid, keep in KEEP.items():
 json.dump(data, open(path, "w"), indent=1, ensure_ascii=False)
 for aid in data:
     d = os.path.join(ROOT, "public/animals", continent, aid)
+    if aid not in KEEP and os.path.exists(os.path.join(d, "thumb.jpg")):
+        continue  # unchanged animal – keep its thumbnail as is
     im = ImageOps.exif_transpose(Image.open(os.path.join(d, "1.jpg"))).convert("RGB")
     im = ImageOps.fit(im, (240, 240), Image.LANCZOS, centering=(0.5, 0.45))
     im.save(os.path.join(d, "thumb.jpg"), "JPEG", quality=82, optimize=True, progressive=True)

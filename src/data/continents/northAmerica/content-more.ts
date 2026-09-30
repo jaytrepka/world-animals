@@ -564,4 +564,55 @@ export const moreContent: AnimalContent[] = [
       cs: 'Napadnout ji mohou velcí žraloci a kosatky.',
     },
   },
+  // ---------- added: more raccoon relatives ----------
+  {
+    id: 'ringtail',
+    name: { en: 'Ringtail', cs: 'Fret kočičí' },
+    classification: {
+      kingdom: animalia,
+      phylum: chordata,
+      class: mammalia,
+      order: carnivora,
+      family: procyonidae,
+      genus: 'Bassariscus',
+      species: 'Bassariscus astutus',
+    },
+    habitat: {
+      en: 'It lives in rocky canyons, dry mountains and deserts of Mexico and the southwestern United States. Its bushy tail has black and white rings.',
+      cs: 'Žije ve skalnatých kaňonech, suchých horách a pouštích Mexika a jihozápadu Spojených států. Jeho huňatý ocas má černobílé kroužky.',
+    },
+    diet: {
+      en: 'At night it hunts mice, rats, lizards and insects, and it also eats berries and fruit.',
+      cs: 'V noci loví myši, krysy, ještěrky a hmyz a pochutná si i na bobulích a ovoci.',
+    },
+    predators: {
+      en: 'Great horned owls, bobcats and coyotes hunt it. It escapes by climbing up rocks very fast.',
+      cs: 'Loví ho výři, rysové červení a kojoti. Utíká jim tak, že hbitě šplhá po skalách.',
+    },
+  },
+  {
+    id: 'cozumel-raccoon',
+    name: { en: 'Cozumel raccoon', cs: 'Mýval trpasličí' },
+    classification: {
+      kingdom: animalia,
+      phylum: chordata,
+      class: mammalia,
+      order: carnivora,
+      family: procyonidae,
+      genus: 'Procyon',
+      species: 'Procyon pygmaeus',
+    },
+    habitat: {
+      en: 'It lives only on the small island of Cozumel in Mexico, in mangrove swamps and near sandy beaches. It is the smallest raccoon in the world.',
+      cs: 'Žije jen na malém mexickém ostrově Cozumel, v mangrovových bažinách a blízko písečných pláží. Je to nejmenší mýval na světě.',
+    },
+    diet: {
+      en: 'It loves crabs! It also eats fruit, frogs, lizards and insects that it finds on the shore.',
+      cs: 'Nejraději má kraby! Jí ale i ovoce, žáby, ještěrky a hmyz, který najde na břehu.',
+    },
+    predators: {
+      en: 'On its island, big boa snakes and stray dogs can catch it. Only very few of these raccoons are left, so people protect them.',
+      cs: 'Na ostrově ho může chytit velký had hroznýš nebo toulavý pes. Těchto mývalů zbývá jen velmi málo, a proto je lidé chrání.',
+    },
+  },
 ]

@@ -484,5 +484,17 @@
   "lon": -86.5,
   "lat": 8,
   "sea": true
+ },
+ {
+  "id": "ringtail",
+  "wiki": "Ringtail",
+  "lon": -101.5,
+  "lat": 26.5
+ },
+ {
+  "id": "cozumel-raccoon",
+  "wiki": "Cozumel raccoon",
+  "lon": -86.92,
+  "lat": 20.47
  }
 ]

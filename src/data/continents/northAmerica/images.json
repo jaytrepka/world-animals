@@ -1558,5 +1558,39 @@
     "source": "https://commons.wikimedia.org/wiki/File:Manta_birostris-Thailand3.jpg"
    }
   ]
+ },
+ "ringtail": {
+  "count": 3,
+  "credits": [
+   {
+    "file": "File:Squaw-ringtail-28073.jpg",
+    "author": "Robertbody at en.wikipedia",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Squaw-ringtail-28073.jpg"
+   },
+   {
+    "file": "File:Ringtail cat (Bassariscus astutus).jpg",
+    "author": "Theo Kruse Burgers' Zoo",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Ringtail_cat_(Bassariscus_astutus).jpg"
+   },
+   {
+    "file": "File:Bassariscus astutus 171656527.jpg",
+    "author": "Brooke Smith",
+    "license": "CC BY 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Bassariscus_astutus_171656527.jpg"
+   }
+  ]
+ },
+ "cozumel-raccoon": {
+  "count": 1,
+  "credits": [
+   {
+    "file": "File:Cozumel_Raccoon2.jpg",
+    "author": "Camazine",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Cozumel_Raccoon2.jpg"
+   }
+  ]
  }
 }
