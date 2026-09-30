@@ -1249,5 +1249,559 @@
     "source": "https://commons.wikimedia.org/wiki/File:Yak_in_Langtang_Valley.jpg"
    }
   ]
+ },
+ "bowhead-whale": {
+  "count": 3,
+  "credits": [
+   {
+    "file": "File:Bowheads42.jpg",
+    "author": "",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Bowheads42.jpg"
+   },
+   {
+    "file": "File:Bowhead Whale NOAA.jpg",
+    "author": "Vicki Beaver, Alaska Fisheries Science Center, NOAA FIsheries, Marine Mammal Permit#14245",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Bowhead_Whale_NOAA.jpg"
+   },
+   {
+    "file": "File:Grönlandwal 6-1999.jpg",
+    "author": "Ansgar Walk",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Gr%C3%B6nlandwal_6-1999.jpg"
+   }
+  ]
+ },
+ "raccoon-dog": {
+  "count": 2,
+  "credits": [
+   {
+    "file": "File:Der_Marderhund,_Tanuki_oder_Enok_(Nyctereutes_procyonoides),_bitte_nicht_zu_verwechseln_mit_einem_Waschbär,_hier_im_Wisentgehege_in_Springe_(Kleiner_Deister).jpg",
+    "author": "Foto: Bernd Schwabe in Hannover",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Der_Marderhund,_Tanuki_oder_Enok_(Nyctereutes_procyonoides),_bitte_nicht_zu_verwechseln_mit_einem_Waschb%C3%A4r,_hier_im_Wisentgehege_in_Springe_(Kleiner_Deister).jpg"
+   },
+   {
+    "file": "File:Єнотовидний_собака_(Nyctereutes_procyonoides).jpg",
+    "author": "Ryzhkov Sergey",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:%D0%84%D0%BD%D0%BE%D1%82%D0%BE%D0%B2%D0%B8%D0%B4%D0%BD%D0%B8%D0%B9_%D1%81%D0%BE%D0%B1%D0%B0%D0%BA%D0%B0_(Nyctereutes_procyonoides).jpg"
+   }
+  ]
+ },
+ "argali": {
+  "count": 2,
+  "credits": [
+   {
+    "file": "File:Ovis ammon (cropped).jpg",
+    "author": "James Eaton",
+    "license": "CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:Ovis_ammon_(cropped).jpg"
+   },
+   {
+    "file": "File:Ovis ammon ammon 330746043.jpg",
+    "author": "Andrew Bazdyrev",
+    "license": "CC BY 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Ovis_ammon_ammon_330746043.jpg"
+   }
+  ]
+ },
+ "northern-pika": {
+  "count": 2,
+  "credits": [
+   {
+    "file": "File:Pika_in_Nipesotsuyama.jpg",
+    "author": "alpsdake",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Pika_in_Nipesotsuyama.jpg"
+   },
+   {
+    "file": "File:Наблюдательная_поза_пищухи.jpg",
+    "author": "Юрий Емельянов",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:%D0%9D%D0%B0%D0%B1%D0%BB%D1%8E%D0%B4%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D0%BF%D0%BE%D0%B7%D0%B0_%D0%BF%D0%B8%D1%89%D1%83%D1%85%D0%B8.jpg"
+   }
+  ]
+ },
+ "snow-sheep": {
+  "count": 2,
+  "credits": [
+   {
+    "file": "File:Ovis_nivicola_258067468_(cropped_and_zoomed).jpg",
+    "author": "Oknazevad",
+    "license": "CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:Ovis_nivicola_258067468_(cropped_and_zoomed).jpg"
+   },
+   {
+    "file": "File:Ovis nivicola nivicola 96445981.jpg",
+    "author": "Евгений Егорейченков",
+    "license": "CC BY 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Ovis_nivicola_nivicola_96445981.jpg"
+   }
+  ]
+ },
+ "bobak-marmot": {
+  "count": 3,
+  "credits": [
+   {
+    "file": "File:Сурок-байбак._Катарколь.jpg",
+    "author": "Xeniya Gorlenko",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:%D0%A1%D1%83%D1%80%D0%BE%D0%BA-%D0%B1%D0%B0%D0%B9%D0%B1%D0%B0%D0%BA._%D0%9A%D0%B0%D1%82%D0%B0%D1%80%D0%BA%D0%BE%D0%BB%D1%8C.jpg"
+   },
+   {
+    "file": "File:Detenysh_surka-baibaka_v_ohotnichem_hozyaistve_Kamyshinskogo_raiona_Volgogradskoi_oblasti.jpg",
+    "author": "О.В. Мазина",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Detenysh_surka-baibaka_v_ohotnichem_hozyaistve_Kamyshinskogo_raiona_Volgogradskoi_oblasti.jpg"
+   },
+   {
+    "file": "File:Сурок Гальичья сопка (3).jpg",
+    "author": "Ivan ideia",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:%D0%A1%D1%83%D1%80%D0%BE%D0%BA_%D0%93%D0%B0%D0%BB%D1%8C%D0%B8%D1%87%D1%8C%D1%8F_%D1%81%D0%BE%D0%BF%D0%BA%D0%B0_(3).jpg"
+   }
+  ]
+ },
+ "siberian-sturgeon": {
+  "count": 1,
+  "credits": [
+   {
+    "file": "File:Acipenser_baerii.jpg",
+    "author": "This illustration was made by Citron\nYou must credit this : Citron / CC-BY-SA-3.0",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Acipenser_baerii.jpg"
+   }
+  ]
+ },
+ "north-chinese-leopard": {
+  "count": 3,
+  "credits": [
+   {
+    "file": "File:Kineski amurski leopard (Panthera pardus japonensis) u Zagrebu.jpg",
+    "author": "Silverije",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Kineski_amurski_leopard_(Panthera_pardus_japonensis)_u_Zagrebu.jpg"
+   },
+   {
+    "file": "File:Chinesischer Leopard Panthera pardus japonensis Tierpark Hellabrunn-1.jpg",
+    "author": "Rufus46",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Chinesischer_Leopard_Panthera_pardus_japonensis_Tierpark_Hellabrunn-1.jpg"
+   },
+   {
+    "file": "File:Chinesischer Leopard Panthera pardus japonensis Tierpark Hellabrunn-5.jpg",
+    "author": "Rufus46",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Chinesischer_Leopard_Panthera_pardus_japonensis_Tierpark_Hellabrunn-5.jpg"
+   }
+  ]
+ },
+ "markhor": {
+  "count": 3,
+  "credits": [
+   {
+    "file": "File:Markhor_Schraubenziege_Capra_falconeri_Zoo_Augsburg-02.jpg",
+    "author": "Rufus46",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Markhor_Schraubenziege_Capra_falconeri_Zoo_Augsburg-02.jpg"
+   },
+   {
+    "file": "File:Capra_falconeri_Yumemigasaki_Zoo_P6269554.jpg",
+    "author": "Kestrel",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Capra_falconeri_Yumemigasaki_Zoo_P6269554.jpg"
+   },
+   {
+    "file": "File:Capra_falconeri_at_the_Columbus_Zoo-2011_07_11_IMG_0786.JPG",
+    "author": "Postdlf",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Capra_falconeri_at_the_Columbus_Zoo-2011_07_11_IMG_0786.JPG"
+   }
+  ]
+ },
+ "tibetan-antelope": {
+  "count": 3,
+  "credits": [
+   {
+    "file": "File:Chiru (Pantholops hodgsonii) 03.jpg",
+    "author": "Simon Tonge",
+    "license": "CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:Chiru_(Pantholops_hodgsonii)_03.jpg"
+   },
+   {
+    "file": "File:Chiru (Pantholops hodgsonii) 02.jpg",
+    "author": "Simon Tonge",
+    "license": "CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:Chiru_(Pantholops_hodgsonii)_02.jpg"
+   },
+   {
+    "file": "File:Chiru (Pantholops hodgsonii) 01.jpg",
+    "author": "Simon Tonge",
+    "license": "CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:Chiru_(Pantholops_hodgsonii)_01.jpg"
+   }
+  ]
+ },
+ "takin": {
+  "count": 2,
+  "credits": [
+   {
+    "file": "File:Takin Bhutan 1.jpg",
+    "author": "Drajay1976",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Takin_Bhutan_1.jpg"
+   },
+   {
+    "file": "File:Thimphu-Takin-Reservat-06-2015-gje.jpg",
+    "author": "Gerd Eichmann",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Thimphu-Takin-Reservat-06-2015-gje.jpg"
+   }
+  ]
+ },
+ "chinese-giant-salamander": {
+  "count": 3,
+  "credits": [
+   {
+    "file": "File:A._davidianus_head.jpg",
+    "author": "Shu Chen Andrew A. Cunningham Gang Wei Jian Yang Zhiqiang Liang Jie Wang Minyao Wu Fang Yan Hanbin Xiao Xavier A. Harris",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:A._davidianus_head.jpg"
+   },
+   {
+    "file": "File:Velemlok_čínský_zoo_praha_1.jpg",
+    "author": "Petr Hamerník",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Velemlok_%C4%8D%C3%ADnsk%C3%BD_zoo_praha_1.jpg"
+   },
+   {
+    "file": "File:2009_Andrias_davidianus.JPG",
+    "author": "J. Patrick Fischer",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:2009_Andrias_davidianus.JPG"
+   }
+  ]
+ },
+ "finless-porpoise": {
+  "count": 2,
+  "credits": [
+   {
+    "file": "File:Neophocaena phocaenoides -Miyajima Aquarium -Japan-8a.jpg",
+    "author": "ori2uru",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Neophocaena_phocaenoides_-Miyajima_Aquarium_-Japan-8a.jpg"
+   },
+   {
+    "file": "File:Finless Porpoise.JPG",
+    "author": "Cipher01",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Finless_Porpoise.JPG"
+   }
+  ]
+ },
+ "asian-black-bear": {
+  "count": 3,
+  "credits": [
+   {
+    "file": "File:Ursus_thibetanus_3_(Wroclaw_zoo).JPG",
+    "author": "Guérin Nicolas (messages)",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Ursus_thibetanus_3_(Wroclaw_zoo).JPG"
+   },
+   {
+    "file": "File:Formosan_Black_Bear01.jpg",
+    "author": "user:smartneddy",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Formosan_Black_Bear01.jpg"
+   },
+   {
+    "file": "File:خرس_سیاه_-_رودان.jpg",
+    "author": "Ruholah.ahmadi",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:%D8%AE%D8%B1%D8%B3_%D8%B3%DB%8C%D8%A7%D9%87_-_%D8%B1%D9%88%D8%AF%D8%A7%D9%86.jpg"
+   }
+  ]
+ },
+ "russian-tortoise": {
+  "count": 2,
+  "credits": [
+   {
+    "file": "File:Testudo_horsfieldii;_Baikonur_001.jpg",
+    "author": "Yuriy75",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Testudo_horsfieldii;_Baikonur_001.jpg"
+   },
+   {
+    "file": "File:Testudo horsfieldii Kalininabad.jpg",
+    "author": "Alexander A. Fomichev",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Testudo_horsfieldii_Kalininabad.jpg"
+   }
+  ]
+ },
+ "blackbuck": {
+  "count": 3,
+  "credits": [
+   {
+    "file": "File:Blackbuck_by_N_A_Nazeer.jpg",
+    "author": "N.A.Nazeer",
+    "license": "CC BY-SA 2.5 in",
+    "source": "https://commons.wikimedia.org/wiki/File:Blackbuck_by_N_A_Nazeer.jpg"
+   },
+   {
+    "file": "File:Blackbuck_male_female.jpg",
+    "author": "Mr Raja Purohit",
+    "license": "CC BY-SA 2.5",
+    "source": "https://commons.wikimedia.org/wiki/File:Blackbuck_male_female.jpg"
+   },
+   {
+    "file": "File:Pair_of_blackbucks!.jpg",
+    "author": "Parag Kokane",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Pair_of_blackbucks!.jpg"
+   }
+  ]
+ },
+ "sloth-bear": {
+  "count": 3,
+  "credits": [
+   {
+    "file": "File:Sloth_Bear_Washington_DC.JPG",
+    "author": "Asiir",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Sloth_Bear_Washington_DC.JPG"
+   },
+   {
+    "file": "File:Sri_Lankan_sloth_bear_(Melursus_ursinus_inornatus)_male_3.jpg",
+    "author": "Charles J. Sharp",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Sri_Lankan_sloth_bear_(Melursus_ursinus_inornatus)_male_3.jpg"
+   },
+   {
+    "file": "File:Bear_-_Melursus_ursinus_at_Bannerghatta_National_Park_8469.JPG",
+    "author": "Rameshng",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Bear_-_Melursus_ursinus_at_Bannerghatta_National_Park_8469.JPG"
+   }
+  ]
+ },
+ "mugger-crocodile": {
+  "count": 3,
+  "credits": [
+   {
+    "file": "File:Mugger_Chitwan.jpg",
+    "author": "Chris Hartford from London, UK",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Mugger_Chitwan.jpg"
+   },
+   {
+    "file": "File:Mugger_crocodile_(Gando)_in_Chabahar,_Iran-_by_Hadi_Karimi.jpg",
+    "author": "Hadi Karimi هادی کریمی",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Mugger_crocodile_(Gando)_in_Chabahar,_Iran-_by_Hadi_Karimi.jpg"
+   },
+   {
+    "file": "File:Mugger_crocodile_(Crocodylus_palustris)_Gal_Oya.jpg",
+    "author": "Charles J. Sharp",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Mugger_crocodile_(Crocodylus_palustris)_Gal_Oya.jpg"
+   }
+  ]
+ },
+ "indian-grey-mongoose": {
+  "count": 2,
+  "credits": [
+   {
+    "file": "File:Indian grey mongoose in Rabindra Sarobar June 2024 by Tisha Mukherjee 04.jpg",
+    "author": "Tisha Mukherjee",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Indian_grey_mongoose_in_Rabindra_Sarobar_June_2024_by_Tisha_Mukherjee_04.jpg"
+   },
+   {
+    "file": "File:Indian_Mongoose_pups.jpg",
+    "author": "Sranjan",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Indian_Mongoose_pups.jpg"
+   }
+  ]
+ },
+ "irrawaddy-dolphin": {
+  "count": 2,
+  "credits": [
+   {
+    "file": "File:Irrawaddy dolphin-Orcaella brevirostris by 2eight.jpg",
+    "author": "Stefan Brending (2eight)",
+    "license": "CC BY-SA 3.0 de",
+    "source": "https://commons.wikimedia.org/wiki/File:Irrawaddy_dolphin-Orcaella_brevirostris_by_2eight.jpg"
+   },
+   {
+    "file": "File:DKoehl Irrawaddi Dolphin jumping.jpg",
+    "author": "Dan Koehl",
+    "license": "CC BY 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:DKoehl_Irrawaddi_Dolphin_jumping.jpg"
+   }
+  ]
+ },
+ "red-shanked-douc": {
+  "count": 3,
+  "credits": [
+   {
+    "file": "File:Red-shanked_douc_langur_(Pygathrix_nemaeus)_male_Son_Tra.jpg",
+    "author": "Charles J. Sharp",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Red-shanked_douc_langur_(Pygathrix_nemaeus)_male_Son_Tra.jpg"
+   },
+   {
+    "file": "File:Red-shanked_douc_langur_(Pygathrix_nemaeus)_female_and_juvenile_Son_Tra.jpg",
+    "author": "Charles J. Sharp",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Red-shanked_douc_langur_(Pygathrix_nemaeus)_female_and_juvenile_Son_Tra.jpg"
+   },
+   {
+    "file": "File:Red-shanked_douc_langur_(Pygathrix_nemaeus)_female_Son_Tra.jpg",
+    "author": "Charles J. Sharp",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Red-shanked_douc_langur_(Pygathrix_nemaeus)_female_Son_Tra.jpg"
+   }
+  ]
+ },
+ "sunda-slow-loris": {
+  "count": 3,
+  "credits": [
+   {
+    "file": "File:Nycticebus_coucang_001.jpg",
+    "author": "David Haring / Duke Lemur Center",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Nycticebus_coucang_001.jpg"
+   },
+   {
+    "file": "File:Nycticebus_coucang_002.jpg",
+    "author": "David Haring / Duke Lemur Center",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Nycticebus_coucang_002.jpg"
+   },
+   {
+    "file": "File:Nycticebus_coucang_004.jpg",
+    "author": "David Haring / Duke Lemur Center",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Nycticebus_coucang_004.jpg"
+   }
+  ]
+ },
+ "siamang": {
+  "count": 3,
+  "credits": [
+   {
+    "file": "File:Siamang_mid_song.jpg",
+    "author": "Nngowen",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Siamang_mid_song.jpg"
+   },
+   {
+    "file": "File:Siamang_Symphalangus_syndactylus_(7930374956).jpg",
+    "author": "Bernard DUPONT from FRANCE",
+    "license": "CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Siamang_Symphalangus_syndactylus_(7930374956).jpg"
+   },
+   {
+    "file": "File:Siamang_Tierpark_Hellabrunn-4.jpg",
+    "author": "Rufus46",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Siamang_Tierpark_Hellabrunn-4.jpg"
+   }
+  ]
+ },
+ "wallaces-flying-frog": {
+  "count": 3,
+  "credits": [
+   {
+    "file": "File:Rhacophorus nigropalmatus.jpg",
+    "author": "Rushenb",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Rhacophorus_nigropalmatus.jpg"
+   },
+   {
+    "file": "File:Wallace's Flying Frog (Rhacophorus nigropalmatus) (23189284839).jpg",
+    "author": "Bernard DUPONT from FRANCE",
+    "license": "CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Wallace%27s_Flying_Frog_(Rhacophorus_nigropalmatus)_(23189284839).jpg"
+   },
+   {
+    "file": "File:Wallace's Flying Frog (Rhacophorus nigropalmatus) (22928752144).jpg",
+    "author": "Bernard DUPONT from FRANCE",
+    "license": "CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Wallace%27s_Flying_Frog_(Rhacophorus_nigropalmatus)_(22928752144).jpg"
+   }
+  ]
+ },
+ "large-flying-fox": {
+  "count": 2,
+  "credits": [
+   {
+    "file": "File:Wilhelma_Kalong-Flughund_Pteropus_vampyrus_0513.jpg",
+    "author": "NobbiP",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Wilhelma_Kalong-Flughund_Pteropus_vampyrus_0513.jpg"
+   },
+   {
+    "file": "File:Large_flying_foxes_(Pteropus_vampyrus)_in_flight_from_Pulau_Kalong_Rinca.jpg",
+    "author": "Charles J. Sharp",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Large_flying_foxes_(Pteropus_vampyrus)_in_flight_from_Pulau_Kalong_Rinca.jpg"
+   }
+  ]
+ },
+ "binturong": {
+  "count": 2,
+  "credits": [
+   {
+    "file": "File:Binturong_in_Overloon.jpg",
+    "author": "Tassilo Rau",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Binturong_in_Overloon.jpg"
+   },
+   {
+    "file": "File:Binturong_Zoo_Pont_Scorff_17082015_2.jpg",
+    "author": "Vassil",
+    "license": "CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:Binturong_Zoo_Pont_Scorff_17082015_2.jpg"
+   }
+  ]
+ },
+ "sperm-whale": {
+  "count": 2,
+  "credits": [
+   {
+    "file": "File:Mother_and_baby_sperm_whale.jpg",
+    "author": "Gabriel Barathieu",
+    "license": "CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Mother_and_baby_sperm_whale.jpg"
+   },
+   {
+    "file": "File:Sperm_whale_blowhole_Vincze.jpg",
+    "author": "Vilmos Vincze",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Sperm_whale_blowhole_Vincze.jpg"
+   }
+  ]
+ },
+ "kiang": {
+  "count": 2,
+  "credits": [
+   {
+    "file": "File:Kiang_-_Gunjan_Pandey.jpg",
+    "author": "Dr.GunjanPandey",
+    "license": "CC BY 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Kiang_-_Gunjan_Pandey.jpg"
+   },
+   {
+    "file": "File:Equus_kiang_-_Changtang.jpg",
+    "author": "6-A04-W96-K38-S41-V38",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Equus_kiang_-_Changtang.jpg"
+   }
+  ]
  }
 }

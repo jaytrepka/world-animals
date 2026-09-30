@@ -350,5 +350,171 @@
   "wiki": "Common eland",
   "lon": 29.3,
   "lat": -29.3
+ },
+ {
+  "id": "barbary-sheep",
+  "wiki": "Barbary sheep",
+  "lon": 5.5,
+  "lat": 23.5
+ },
+ {
+  "id": "nile-monitor",
+  "wiki": "Nile monitor",
+  "lon": 32.5,
+  "lat": 16.0
+ },
+ {
+  "id": "devil-firefish",
+  "wiki": "Pterois miles",
+  "lon": 38.3,
+  "lat": 21.5,
+  "sea": true
+ },
+ {
+  "id": "black-crowned-crane",
+  "wiki": "Black crowned crane",
+  "lon": -5.0,
+  "lat": 14.5
+ },
+ {
+  "id": "african-wild-ass",
+  "wiki": "African wild ass",
+  "lon": 41.0,
+  "lat": 13.2
+ },
+ {
+  "id": "egyptian-mongoose",
+  "wiki": "Egyptian mongoose",
+  "lon": 5.0,
+  "lat": 36.2
+ },
+ {
+  "id": "serval",
+  "wiki": "Serval",
+  "lon": 22.0,
+  "lat": 6.5
+ },
+ {
+  "id": "common-warthog",
+  "wiki": "Common warthog",
+  "lon": 19.5,
+  "lat": 11.0
+ },
+ {
+  "id": "bongo",
+  "wiki": "Bongo (antelope)",
+  "lon": 16.0,
+  "lat": 3.0
+ },
+ {
+  "id": "mantled-guereza",
+  "wiki": "Mantled guereza",
+  "lon": 25.0,
+  "lat": 3.5
+ },
+ {
+  "id": "grey-parrot",
+  "wiki": "Grey parrot",
+  "lon": 16.5,
+  "lat": -3.5
+ },
+ {
+  "id": "senegal-bushbaby",
+  "wiki": "Senegal bushbaby",
+  "lon": -1.5,
+  "lat": 11.0
+ },
+ {
+  "id": "african-manatee",
+  "wiki": "African manatee",
+  "lon": -17.0,
+  "lat": 11.0,
+  "sea": true
+ },
+ {
+  "id": "aardvark",
+  "wiki": "Aardvark",
+  "lon": 7.5,
+  "lat": 9.0
+ },
+ {
+  "id": "grevys-zebra",
+  "wiki": "Grévy's zebra",
+  "lon": 39.0,
+  "lat": 4.5
+ },
+ {
+  "id": "gerenuk",
+  "wiki": "Gerenuk",
+  "lon": 43.5,
+  "lat": 3.0
+ },
+ {
+  "id": "bat-eared-fox",
+  "wiki": "Bat-eared fox",
+  "lon": 46.5,
+  "lat": 7.5
+ },
+ {
+  "id": "aardwolf",
+  "wiki": "Aardwolf",
+  "lon": 25.5,
+  "lat": -24.8
+ },
+ {
+  "id": "leopard-tortoise",
+  "wiki": "Leopard tortoise",
+  "lon": 24.5,
+  "lat": -28.5
+ },
+ {
+  "id": "springbok",
+  "wiki": "Springbok",
+  "lon": 18.5,
+  "lat": -29.0
+ },
+ {
+  "id": "rock-hyrax",
+  "wiki": "Rock hyrax",
+  "lon": 20.0,
+  "lat": -33.3
+ },
+ {
+  "id": "ground-pangolin",
+  "wiki": "Ground pangolin",
+  "lon": 28.5,
+  "lat": -20.5
+ },
+ {
+  "id": "honey-badger",
+  "wiki": "Honey badger",
+  "lon": 27.0,
+  "lat": -15.5
+ },
+ {
+  "id": "giant-manta-ray",
+  "wiki": "Giant oceanic manta ray",
+  "lon": 36.5,
+  "lat": -24.5,
+  "sea": true
+ },
+ {
+  "id": "cape-fur-seal",
+  "wiki": "Arctocephalus pusillus",
+  "lon": 13.5,
+  "lat": -22.5,
+  "sea": true
+ },
+ {
+  "id": "aye-aye",
+  "wiki": "Aye-aye",
+  "lon": 49.5,
+  "lat": -15.8
+ },
+ {
+  "id": "verreauxs-sifaka",
+  "wiki": "Verreaux's sifaka",
+  "lon": 44.5,
+  "lat": -20.5
  }
 ]

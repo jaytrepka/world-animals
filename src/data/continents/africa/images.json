@@ -1141,5 +1141,560 @@
     "source": "https://commons.wikimedia.org/wiki/File:Potamochoerus_porcus_Zoo_Amneville_28092014_2.jpg"
    }
   ]
+ },
+ "barbary-sheep": {
+  "count": 2,
+  "credits": [
+   {
+    "file": "File:BarbarySheep4.jpg",
+    "author": "Rei at English Wikipedia. Picture taken by Rei in July 2006.",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:BarbarySheep4.jpg"
+   },
+   {
+    "file": "File:Ammotragus_lervia,_ZOO_Praha_121.jpg",
+    "author": "Matěj Baťha",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Ammotragus_lervia,_ZOO_Praha_121.jpg"
+   }
+  ]
+ },
+ "nile-monitor": {
+  "count": 3,
+  "credits": [
+   {
+    "file": "File:Nile_monitor_(Varanus_niloticus)_2.jpg",
+    "author": "Charles J. Sharp",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Nile_monitor_(Varanus_niloticus)_2.jpg"
+   },
+   {
+    "file": "File:Nile_monitor_lizard_(Varanus_niloticus)_head.jpg",
+    "author": "Charles J. Sharp",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Nile_monitor_lizard_(Varanus_niloticus)_head.jpg"
+   },
+   {
+    "file": "File:Nile_Monitor_(Varanus_niloticus)_juvenile_..._(51856177187).jpg",
+    "author": "Bernard DUPONT from FRANCE",
+    "license": "CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Nile_Monitor_(Varanus_niloticus)_juvenile_..._(51856177187).jpg"
+   }
+  ]
+ },
+ "devil-firefish": {
+  "count": 3,
+  "credits": [
+   {
+    "file": "File:Common_lionfish_near_Dunraven_wreck.JPG",
+    "author": "Alexander Vasenin",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Common_lionfish_near_Dunraven_wreck.JPG"
+   },
+   {
+    "file": "File:Common_lionfish_hunting_glassfish_at_El_Mina_wreck.JPG",
+    "author": "Alexander Vasenin",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Common_lionfish_hunting_glassfish_at_El_Mina_wreck.JPG"
+   },
+   {
+    "file": "File:Going_away_(51510843964).jpg",
+    "author": "Paolo Gamba from Paris, France",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Going_away_(51510843964).jpg"
+   }
+  ]
+ },
+ "black-crowned-crane": {
+  "count": 2,
+  "credits": [
+   {
+    "file": "File:Black_Crowned_Crane_1194px.jpg",
+    "author": "Photo by and (c)2006 Derek Ramsey (Ram-Man)",
+    "license": "CC BY-SA 2.5",
+    "source": "https://commons.wikimedia.org/wiki/File:Black_Crowned_Crane_1194px.jpg"
+   },
+   {
+    "file": "File:Milwaukee_County_Zoo_August_2022_021_(black_crowned_crane).jpg",
+    "author": "Michael Barera",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Milwaukee_County_Zoo_August_2022_021_(black_crowned_crane).jpg"
+   }
+  ]
+ },
+ "african-wild-ass": {
+  "count": 2,
+  "credits": [
+   {
+    "file": "File:Equus_africanus_somaliensis_-_Réserve_africaine_de_Sigean_01.jpg",
+    "author": "H. Zell",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Equus_africanus_somaliensis_-_R%C3%A9serve_africaine_de_Sigean_01.jpg"
+   },
+   {
+    "file": "File:Ybswa_3b_(16022134507).jpg",
+    "author": "Greg Goebel from Loveland CO, USA",
+    "license": "CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Ybswa_3b_(16022134507).jpg"
+   }
+  ]
+ },
+ "egyptian-mongoose": {
+  "count": 2,
+  "credits": [
+   {
+    "file": "File:Herpestes_ichneumon_Египетский_мангуст,_или_фараонова_крыса,_или_ихневмо́н.jpg",
+    "author": "Anna Liflyand",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Herpestes_ichneumon_%D0%95%D0%B3%D0%B8%D0%BF%D0%B5%D1%82%D1%81%D0%BA%D0%B8%D0%B9_%D0%BC%D0%B0%D0%BD%D0%B3%D1%83%D1%81%D1%82,_%D0%B8%D0%BB%D0%B8_%D1%84%D0%B0%D1%80%D0%B0%D0%BE%D0%BD%D0%BE%D0%B2%D0%B0_%D0%BA%D1%80%D1%8B%D1%81%D0%B0,_%D0%B8%D0%BB%D0%B8_%D0%B8%D1%85%D0%BD%D0%B5%D0%B2%D0%BC%D0%BE%CC%81%D0%BD.jpg"
+   },
+   {
+    "file": "File:Herpestes_ichneumon_-_Egyptian_Mongoose.JPG",
+    "author": "Revital Salomon",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Herpestes_ichneumon_-_Egyptian_Mongoose.JPG"
+   }
+  ]
+ },
+ "serval": {
+  "count": 2,
+  "credits": [
+   {
+    "file": "File:Serval_at_Auckland_Zoo_-_Flickr_-_111_Emergency.jpg",
+    "author": "111 Emergency from New Zealand",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Serval_at_Auckland_Zoo_-_Flickr_-_111_Emergency.jpg"
+   },
+   {
+    "file": "File:Serval_imported_from_iNaturalist_photo_27691409_on_6_December_2024.jpg",
+    "author": "(c) Stan Rullman, some rights reserved (CC BY)",
+    "license": "CC BY 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Serval_imported_from_iNaturalist_photo_27691409_on_6_December_2024.jpg"
+   }
+  ]
+ },
+ "common-warthog": {
+  "count": 3,
+  "credits": [
+   {
+    "file": "File:Nolan_warthog_(Phacochoerus_africanus_africanus).jpg",
+    "author": "Charles J. Sharp",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Nolan_warthog_(Phacochoerus_africanus_africanus).jpg"
+   },
+   {
+    "file": "File:Common_warthog_(Phacochoerus_africanus_sundevallii)_female.jpg",
+    "author": "Charles J. Sharp",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Common_warthog_(Phacochoerus_africanus_sundevallii)_female.jpg"
+   },
+   {
+    "file": "File:Warthogs_(Phacochoerus_africanus)_male.jpg",
+    "author": "Charles J. Sharp",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Southern_warthog_(Phacochoerus_africanus_sundevallii)_male.jpg"
+   }
+  ]
+ },
+ "bongo": {
+  "count": 3,
+  "credits": [
+   {
+    "file": "File:Tragelaphus_eurycerus_-Marwell_Wildlife,_Hampshire,_England-8a.jpg",
+    "author": "Charles Miller from Basingstoke, United Kingdom",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Tragelaphus_eurycerus_-Marwell_Wildlife,_Hampshire,_England-8a.jpg"
+   },
+   {
+    "file": "File:Eastern_Bongo_at_Jacksonville_Zoo.jpg",
+    "author": "amateur photography by michel",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Eastern_Bongo_at_Jacksonville_Zoo.jpg"
+   },
+   {
+    "file": "File:BongoNEW.jpg",
+    "author": "No machine-readable author provided. Ltshears assumed (based on copyright claims).",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:BongoNEW.jpg"
+   }
+  ]
+ },
+ "mantled-guereza": {
+  "count": 3,
+  "credits": [
+   {
+    "file": "File:Mantelaffe-mit-Baby-Zoo-Muenster.jpg",
+    "author": "Tuxyso",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Mantelaffe-mit-Baby-Zoo-Muenster.jpg"
+   },
+   {
+    "file": "File:Abyssinian_black-and-white_colobus_(Colobus_guereza_guereza)_male.jpg",
+    "author": "Charles J. Sharp",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Abyssinian_black-and-white_colobus_(Colobus_guereza_guereza)_male.jpg"
+   },
+   {
+    "file": "File:Kilimanjaro_guereza_(Colobus_guereza_caudatus)_showing_hand_Arusha.jpg",
+    "author": "Charles J. Sharp",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Kilimanjaro_guereza_(Colobus_guereza_caudatus)_showing_hand_Arusha.jpg"
+   }
+  ]
+ },
+ "grey-parrot": {
+  "count": 3,
+  "credits": [
+   {
+    "file": "File:Congo_African_Grey_Parrot_-head_detail.jpg",
+    "author": "L.Miguel Bugallo Sánchez (http://commons.wikimedia.org/wiki/User:Lmbuga)",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Congo_African_Grey_Parrot_-head_detail.jpg"
+   },
+   {
+    "file": "File:Perroquet_à_Yampopo_Beach_-_Douala.jpg",
+    "author": "Florettesokeng",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Perroquet_%C3%A0_Yampopo_Beach_-_Douala.jpg"
+   },
+   {
+    "file": "File:Psittacus_erithacus_663525642_(rotated).jpg",
+    "author": "avocat",
+    "license": "CC BY 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Psittacus_erithacus_663525642_(rotated).jpg"
+   }
+  ]
+ },
+ "senegal-bushbaby": {
+  "count": 2,
+  "credits": [
+   {
+    "file": "File:Galago senegalensis.jpg",
+    "author": "OpenCage",
+    "license": "CC BY-SA 2.5",
+    "source": "https://commons.wikimedia.org/wiki/File:Galago_senegalensis.jpg"
+   },
+   {
+    "file": "File:240614 Senegal bushbaby.jpg",
+    "author": "名古屋太郎",
+    "license": "CC BY 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:240614_Senegal_bushbaby.jpg"
+   }
+  ]
+ },
+ "african-manatee": {
+  "count": 2,
+  "credits": [
+   {
+    "file": "File:African_manatee_at_Coex_Aquarium,_South_Korea.jpg",
+    "author": "Gameraquai",
+    "license": "CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:African_manatee_at_Coex_Aquarium,_South_Korea.jpg"
+   },
+   {
+    "file": "File:Trichechus_senegalensis.jpg",
+    "author": "Daiju Azuma",
+    "license": "CC BY-SA 2.5",
+    "source": "https://commons.wikimedia.org/wiki/File:Trichechus_senegalensis.jpg"
+   }
+  ]
+ },
+ "aardvark": {
+  "count": 3,
+  "credits": [
+   {
+    "file": "File:Orycteropus_afer_175359469.jpg",
+    "author": "Kelly Abram",
+    "license": "CC BY 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Orycteropus_afer_175359469.jpg"
+   },
+   {
+    "file": "File:Aardvark_(Orycteropus_afer).jpg",
+    "author": "Theo Kruse Burgers' Zoo",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Aardvark_(Orycteropus_afer).jpg"
+   },
+   {
+    "file": "File:Orycteropus_afer_175359476.jpg",
+    "author": "Kelly Abram",
+    "license": "CC BY 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Orycteropus_afer_175359476.jpg"
+   }
+  ]
+ },
+ "grevys-zebra": {
+  "count": 2,
+  "credits": [
+   {
+    "file": "File:Grevy's_Zebra_Stallion.jpg",
+    "author": "Rainbirder",
+    "license": "CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Grevy%27s_Zebra_Stallion.jpg"
+   },
+   {
+    "file": "File:Equus_grevyi_in_Samburu.jpg",
+    "author": "Jesse Hull",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Equus_grevyi_in_Samburu.jpg"
+   }
+  ]
+ },
+ "gerenuk": {
+  "count": 2,
+  "credits": [
+   {
+    "file": "File:San_diego_zoo_group_3_DSC_0908_(35305473932).jpg",
+    "author": "Laura Wolf",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:San_diego_zoo_group_3_DSC_0908_(35305473932).jpg"
+   },
+   {
+    "file": "File:San_Diego_Zoo_Avril_2013_13.JPG",
+    "author": "Abujoy",
+    "license": "CC BY 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:San_Diego_Zoo_Avril_2013_13.JPG"
+   }
+  ]
+ },
+ "bat-eared-fox": {
+  "count": 3,
+  "credits": [
+   {
+    "file": "File:Otocyon_megalotis_-_Etosha_2014.jpg",
+    "author": "Yathin S Krishnappa",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Otocyon_megalotis_-_Etosha_2014.jpg"
+   },
+   {
+    "file": "File:Bat-eared_fox,_Otocyon_megalotis,_at_Kgalagadi_Transfrontier_Park,_Northern_Cape,_South_Africa_(34193161324)_(cropped).jpg",
+    "author": "Derek Keats from Johannesburg, South Africa",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Bat-eared_fox,_Otocyon_megalotis,_at_Kgalagadi_Transfrontier_Park,_Northern_Cape,_South_Africa_(34193161324)_(cropped).jpg"
+   },
+   {
+    "file": "File:Bat-Eared_Fox,_Seronera_Valley,_Serengeti,_Tanzania_(33947794552).jpg",
+    "author": "Christoph Strässler from Oberdorf BL, Schweiz",
+    "license": "CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Bat-Eared_Fox,_Seronera_Valley,_Serengeti,_Tanzania_(33947794552).jpg"
+   }
+  ]
+ },
+ "aardwolf": {
+  "count": 2,
+  "credits": [
+   {
+    "file": "File:Aardwolf,_Buffalo_Springs_National_Park,_Kenya_1_(cropped).jpg",
+    "author": "Stefan Haag",
+    "license": "CC BY 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Aardwolf,_Buffalo_Springs_National_Park,_Kenya_1_(cropped).jpg"
+   },
+   {
+    "file": "File:Aardwolf,_Proteles_cristata,_at_Lion_and_Rhino_Reserve,_Gauteng,_South_Africa_(47987215058).jpg",
+    "author": "Derek Keats from Johannesburg, South Africa",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Aardwolf,_Proteles_cristata,_at_Lion_and_Rhino_Reserve,_Gauteng,_South_Africa_(47987215058).jpg"
+   }
+  ]
+ },
+ "leopard-tortoise": {
+  "count": 3,
+  "credits": [
+   {
+    "file": "File:Leopard_Tortoise_(Stigmochelys_pardalis)_(17331907085).jpg",
+    "author": "Bernard DUPONT from FRANCE",
+    "license": "CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Leopard_Tortoise_(Stigmochelys_pardalis)_(17331907085).jpg"
+   },
+   {
+    "file": "File:Stigmochelys_pardalis,_Usakos.jpg",
+    "author": "Ursula Franke",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Stigmochelys_pardalis,_Usakos.jpg"
+   },
+   {
+    "file": "File:Chobe_Riverfront,_Botswana_(2634707078).jpg",
+    "author": "Joachim Huber from Switzerland",
+    "license": "CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Chobe_Riverfront,_Botswana_(2634707078).jpg"
+   }
+  ]
+ },
+ "springbok": {
+  "count": 3,
+  "credits": [
+   {
+    "file": "File:174_Male_Springbok_in_Etosha_National_Park_Photo_by_Giles_Laurent.jpg",
+    "author": "Giles Laurent",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:174_Male_Springbok_in_Etosha_National_Park_Photo_by_Giles_Laurent.jpg"
+   },
+   {
+    "file": "File:096_Juvenile_Springbok_jumping_in_Etosha_National_Park_Photo_by_Giles_Laurent.jpg",
+    "author": "Giles Laurent",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:096_Juvenile_Springbok_jumping_in_Etosha_National_Park_Photo_by_Giles_Laurent.jpg"
+   },
+   {
+    "file": "File:Springbok_(Antidorcas_marsupialis_hofmeyri)_juvenile_head_composite.jpg",
+    "author": "Charles J. Sharp",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Springbok_(Antidorcas_marsupialis_hofmeyri)_juvenile_head_composite.jpg"
+   }
+  ]
+ },
+ "rock-hyrax": {
+  "count": 3,
+  "credits": [
+   {
+    "file": "File:Rock_hyrax_Serengeti_National_Park.jpg",
+    "author": "Naturedata",
+    "license": "CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:Rock_hyrax_Serengeti_National_Park.jpg"
+   },
+   {
+    "file": "File:189_Rock_hyrax_climbing_a_tree_in_Damaraland_Photo_by_Giles_Laurent.jpg",
+    "author": "Giles Laurent",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:189_Rock_hyrax_climbing_a_tree_in_Damaraland_Photo_by_Giles_Laurent.jpg"
+   },
+   {
+    "file": "File:190_Rock_hyrax_family_in_Damaraland_Photo_by_Giles_Laurent.jpg",
+    "author": "Giles Laurent",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:190_Rock_hyrax_family_in_Damaraland_Photo_by_Giles_Laurent.jpg"
+   }
+  ]
+ },
+ "ground-pangolin": {
+  "count": 2,
+  "credits": [
+   {
+    "file": "File:Manis_temminckii_(29645803646).jpg",
+    "author": "U.S. Fish and Wildlife Service Headquarters",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Manis_temminckii_(29645803646).jpg"
+   },
+   {
+    "file": "File:Manis_temminckii_(29390603130).jpg",
+    "author": "U.S. Fish and Wildlife Service Headquarters",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Manis_temminckii_(29390603130).jpg"
+   }
+  ]
+ },
+ "honey-badger": {
+  "count": 3,
+  "credits": [
+   {
+    "file": "File:Honey_Badger.jpg",
+    "author": "Sumeet Moghe",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Honey_Badger.jpg"
+   },
+   {
+    "file": "File:Prague ZOO - Mellivora capensis 2.jpg",
+    "author": "Matěj Baťha",
+    "license": "CC BY-SA 2.5",
+    "source": "https://commons.wikimedia.org/wiki/File:Prague_ZOO_-_Mellivora_capensis_2.jpg"
+   },
+   {
+    "file": "File:Honey badger, Mellivora capensis, carrying young pup in her mouth at Kgalagadi Transfrontier Park, Northern Cape, South Africa (34739010541).jpg",
+    "author": "Derek Keats from Johannesburg, South Africa",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Honey_badger,_Mellivora_capensis,_carrying_young_pup_in_her_mouth_at_Kgalagadi_Transfrontier_Park,_Northern_Cape,_South_Africa_(34739010541).jpg"
+   }
+  ]
+ },
+ "giant-manta-ray": {
+  "count": 3,
+  "credits": [
+   {
+    "file": "File:Manta_birostris-Thailand4.jpg",
+    "author": "jon hanson from london, UK",
+    "license": "CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Manta_birostris-Thailand4.jpg"
+   },
+   {
+    "file": "File:Manta_birostris-Thailand3.jpg",
+    "author": "jon hanson from london, UK",
+    "license": "CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Manta_birostris-Thailand3.jpg"
+   },
+   {
+    "file": "File:M._Birostris_swimming_with_a_diver.jpg",
+    "author": "Elias Levy",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:M._Birostris_swimming_with_a_diver.jpg"
+   }
+  ]
+ },
+ "cape-fur-seal": {
+  "count": 3,
+  "credits": [
+   {
+    "file": "File:CC - Portrait of a Cape fur seal at Cape Cross, Namibia, 2007.jpg",
+    "author": "Josep M. Gracia",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:CC_-_Portrait_of_a_Cape_fur_seal_at_Cape_Cross,_Namibia,_2007.jpg"
+   },
+   {
+    "file": "File:129 Cape fur seal bull walking at Pelican point Photo by Giles Laurent.jpg",
+    "author": "Giles Laurent",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:129_Cape_fur_seal_bull_walking_at_Pelican_point_Photo_by_Giles_Laurent.jpg"
+   },
+   {
+    "file": "File:130 Baby Cape fur seal at Cape cross Photo by Giles Laurent.jpg",
+    "author": "Giles Laurent",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:130_Baby_Cape_fur_seal_at_Cape_cross_Photo_by_Giles_Laurent.jpg"
+   }
+  ]
+ },
+ "aye-aye": {
+  "count": 3,
+  "credits": [
+   {
+    "file": "File:Wild aye aye.jpg",
+    "author": "nomis-simon",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Wild_aye_aye.jpg"
+   },
+   {
+    "file": "File:Aye-aye (Daubentonia madagascariensis) 2.jpg",
+    "author": "Tom Junek",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Aye-aye_(Daubentonia_madagascariensis)_2.jpg"
+   },
+   {
+    "file": "File:Aye aye Frankfurt.jpg",
+    "author": "Elias Neideck",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Aye_aye_Frankfurt.jpg"
+   }
+  ]
+ },
+ "verreauxs-sifaka": {
+  "count": 3,
+  "credits": [
+   {
+    "file": "File:Verreaux’s-sifaka-propithecus-verreauxi-kevin-gepford.jpg",
+    "author": "Kevin Gepford",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Verreaux%E2%80%99s-sifaka-propithecus-verreauxi-kevin-gepford.jpg"
+   },
+   {
+    "file": "File:Verreaux_Sifaka_(Propithecus_verreauxi)_juvenile_(9616339486).jpg",
+    "author": "Bernard DUPONT from FRANCE",
+    "license": "CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Verreaux_Sifaka_(Propithecus_verreauxi)_juvenile_(9616339486).jpg"
+   },
+   {
+    "file": "File:Verreauxs_Sifika_Kirindy_Madagascar.jpg",
+    "author": "JialiangGao www.peace-on-earth.org",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Verreauxs_Sifika_Kirindy_Madagascar.jpg"
+   }
+  ]
  }
 }

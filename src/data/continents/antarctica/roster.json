@@ -21,5 +21,12 @@
  {"id": "macaroni-penguin", "wiki": "Macaroni penguin", "lon": 73.5, "lat": -53.1},
  {"id": "southern-rockhopper-penguin", "wiki": "Eastern rockhopper penguin", "lon": 69.5, "lat": -49.3},
  {"id": "wandering-albatross", "wiki": "Snowy albatross", "lon": 51.8, "lat": -46.4},
- {"id": "crabeater-seal", "wiki": "Crabeater seal", "lon": 75.0, "lat": -67.5, "sea": true}
+ {"id": "crabeater-seal", "wiki": "Crabeater seal", "lon": 75.0, "lat": -67.5, "sea": true},
+ {"id": "sperm-whale", "wiki": "Sperm whale", "lon": -140.0, "lat": -64.0, "sea": true},
+ {"id": "southern-bottlenose-whale", "wiki": "Southern bottlenose whale", "lon": 35.0, "lat": -64.0, "sea": true},
+ {"id": "subantarctic-fur-seal", "wiki": "Subantarctic fur seal", "lon": 37.8, "lat": -46.9},
+ {"id": "light-mantled-albatross", "wiki": "Light-mantled albatross", "lon": 169.1, "lat": -52.5},
+ {"id": "southern-giant-petrel", "wiki": "Southern giant petrel", "lon": 62.6, "lat": -67.8},
+ {"id": "antarctic-starfish", "wiki": "Odontaster validus", "lon": 110.0, "lat": -64.8, "sea": true},
+ {"id": "antarctic-jellyfish", "wiki": "Diplulmaris antarctica", "lon": -150.0, "lat": -74.5, "sea": true}
 ]

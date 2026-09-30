@@ -345,5 +345,112 @@
   "wiki": "Superb lyrebird",
   "lon": 147.3,
   "lat": -37.8
+ },
+ {
+  "id": "freshwater-crocodile",
+  "wiki": "Freshwater crocodile",
+  "lon": 136.5,
+  "lat": -17.0
+ },
+ {
+  "id": "australian-box-jellyfish",
+  "wiki": "Chironex fleckeri",
+  "lon": 129.5,
+  "lat": -11.5,
+  "sea": true
+ },
+ {
+  "id": "reef-manta-ray",
+  "wiki": "Reef manta ray",
+  "lon": 151.5,
+  "lat": -17.5,
+  "sea": true
+ },
+ {
+  "id": "pig-nosed-turtle",
+  "wiki": "Pig-nosed turtle",
+  "lon": 141.3,
+  "lat": -5.9
+ },
+ {
+  "id": "rakali",
+  "wiki": "Rakali",
+  "lon": 139.5,
+  "lat": -17.8
+ },
+ {
+  "id": "australian-lungfish",
+  "wiki": "Australian lungfish",
+  "lon": 151.6,
+  "lat": -25.0
+ },
+ {
+  "id": "grey-headed-flying-fox",
+  "wiki": "Grey-headed flying fox",
+  "lon": 152.6,
+  "lat": -30.5
+ },
+ {
+  "id": "lace-monitor",
+  "wiki": "Lace monitor",
+  "lon": 148.4,
+  "lat": -21.6
+ },
+ {
+  "id": "kowari",
+  "wiki": "Kowari",
+  "lon": 138.3,
+  "lat": -24.0
+ },
+ {
+  "id": "laughing-kookaburra",
+  "wiki": "Laughing kookaburra",
+  "lon": 145.2,
+  "lat": -19.8
+ },
+ {
+  "id": "eastern-brown-snake",
+  "wiki": "Eastern brown snake",
+  "lon": 147.8,
+  "lat": -30.3
+ },
+ {
+  "id": "eastern-long-necked-turtle",
+  "wiki": "Eastern long-necked turtle",
+  "lon": 142.0,
+  "lat": -34.3
+ },
+ {
+  "id": "southern-brown-bandicoot",
+  "wiki": "Southern brown bandicoot",
+  "lon": 135.6,
+  "lat": -33.8
+ },
+ {
+  "id": "yellow-footed-rock-wallaby",
+  "wiki": "Yellow-footed rock-wallaby",
+  "lon": 138.6,
+  "lat": -32.0
+ },
+ {
+  "id": "southern-blue-ringed-octopus",
+  "wiki": "Southern blue-ringed octopus",
+  "lon": 114.0,
+  "lat": -34.5,
+  "sea": true
+ },
+ {
+  "id": "port-jackson-shark",
+  "wiki": "Port Jackson shark",
+  "lon": 150.8,
+  "lat": -39.0,
+  "sea": true
+ },
+ {
+  "id": "new-zealand-sea-lion",
+  "wiki": "New Zealand sea lion",
+  "lon": 171.5,
+  "lat": -46.8,
+  "sea": true
  }
 ]

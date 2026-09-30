@@ -351,5 +351,144 @@
   "lon": -64.0,
   "lat": -55.6,
   "sea": true
+ },
+ {
+  "id": "kinkajou",
+  "wiki": "Kinkajou",
+  "lon": -71.5,
+  "lat": -7.5
+ },
+ {
+  "id": "bald-uakari",
+  "wiki": "Bald uakari",
+  "lon": -72.0,
+  "lat": -4.0
+ },
+ {
+  "id": "black-caiman",
+  "wiki": "Black caiman",
+  "lon": -63.0,
+  "lat": -6.5
+ },
+ {
+  "id": "amazonian-manatee",
+  "wiki": "Amazonian manatee",
+  "lon": -63.0,
+  "lat": -1.0
+ },
+ {
+  "id": "matamata",
+  "wiki": "Mata mata",
+  "lon": -57.0,
+  "lat": -0.5
+ },
+ {
+  "id": "hoatzin",
+  "wiki": "Hoatzin",
+  "lon": -61.0,
+  "lat": 6.0
+ },
+ {
+  "id": "surinam-toad",
+  "wiki": "Common Surinam toad",
+  "lon": -55.8,
+  "lat": 5.0
+ },
+ {
+  "id": "boa-constrictor",
+  "wiki": "Boa constrictor",
+  "lon": -75.0,
+  "lat": 7.0
+ },
+ {
+  "id": "galapagos-sea-lion",
+  "wiki": "Galápagos sea lion",
+  "lon": -88.5,
+  "lat": -2.0,
+  "sea": true
+ },
+ {
+  "id": "andean-flamingo",
+  "wiki": "Andean flamingo",
+  "lon": -68.5,
+  "lat": -26.5
+ },
+ {
+  "id": "southern-tamandua",
+  "wiki": "Southern tamandua",
+  "lon": -45.0,
+  "lat": -15.0
+ },
+ {
+  "id": "southern-three-banded-armadillo",
+  "wiki": "Southern three-banded armadillo",
+  "lon": -63.5,
+  "lat": -24.5
+ },
+ {
+  "id": "bush-dog",
+  "wiki": "Bush dog",
+  "lon": -55.0,
+  "lat": -10.0
+ },
+ {
+  "id": "jaguarundi",
+  "wiki": "Jaguarundi",
+  "lon": -63.0,
+  "lat": -17.0
+ },
+ {
+  "id": "margay",
+  "wiki": "Margay",
+  "lon": -49.0,
+  "lat": -26.0
+ },
+ {
+  "id": "mountain-viscacha",
+  "wiki": "Southern viscacha",
+  "lon": -69.0,
+  "lat": -20.0
+ },
+ {
+  "id": "lowland-paca",
+  "wiki": "Lowland paca",
+  "lon": -40.5,
+  "lat": -15.0
+ },
+ {
+  "id": "marsh-deer",
+  "wiki": "Marsh deer",
+  "lon": -59.0,
+  "lat": -33.8
+ },
+ {
+  "id": "pink-fairy-armadillo",
+  "wiki": "Pink fairy armadillo",
+  "lon": -66.5,
+  "lat": -33.0
+ },
+ {
+  "id": "geoffroys-cat",
+  "wiki": "Geoffroy's cat",
+  "lon": -67.0,
+  "lat": -44.5
+ },
+ {
+  "id": "degu",
+  "wiki": "Common degu",
+  "lon": -71.8,
+  "lat": -36.3
+ },
+ {
+  "id": "huemul",
+  "wiki": "South Andean deer",
+  "lon": -72.8,
+  "lat": -45.3
+ },
+ {
+  "id": "crab-eating-fox",
+  "wiki": "Crab-eating fox",
+  "lon": -54.5,
+  "lat": -31.0
  }
 ]

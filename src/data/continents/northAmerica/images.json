@@ -1124,5 +1124,439 @@
     "source": "https://commons.wikimedia.org/wiki/File:Bearded_Seal_(Erignathus_barbatus),_Baltasound_marina_-_geograph.org.uk_-_2323379.jpg"
    }
   ]
+ },
+ "dall-sheep": {
+  "count": 3,
+  "credits": [
+   {
+    "file": "File:Dall_Sheep_male.jpg",
+    "author": "Nirajha",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Dall_Sheep_male.jpg"
+   },
+   {
+    "file": "File:Dall_Sheep_Ewe_(0968efe1-d032-4834-bada-bb862e09ddfb).jpg",
+    "author": "Mary Lewandowski",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Dall_Sheep_Ewe_(0968efe1-d032-4834-bada-bb862e09ddfb).jpg"
+   },
+   {
+    "file": "File:Dall_sheep_in_denali.jpg",
+    "author": "Denali National Park and Preserve",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Dall_sheep_in_denali.jpg"
+   }
+  ]
+ },
+ "mountain-goat": {
+  "count": 2,
+  "credits": [
+   {
+    "file": "File:Flickr_-_Oregon_Department_of_Fish_&_Wildlife_-_023_mtn_goat_indian_rock_paustian_odfw.jpg",
+    "author": "Oregon Department of Fish & Wildlife",
+    "license": "CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Flickr_-_Oregon_Department_of_Fish_%26_Wildlife_-_023_mtn_goat_indian_rock_paustian_odfw.jpg"
+   },
+   {
+    "file": "File:Wherever_you_go_I_will_go.JPG",
+    "author": "Wingchi Poon",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Wherever_you_go_I_will_go.JPG"
+   }
+  ]
+ },
+ "snowshoe-hare": {
+  "count": 3,
+  "credits": [
+   {
+    "file": "File:Snowshoe_Hare,_Shirleys_Bay.jpg",
+    "author": "D. Gordon E. Robertson",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Snowshoe_Hare,_Shirleys_Bay.jpg"
+   },
+   {
+    "file": "File:Lepus_americanus_5459_cropped.jpg",
+    "author": "Lepus_americanus_5459.JPG: Walter Siegmund (talk)\nderivative work: Wsiegmund",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Lepus_americanus_5459_cropped.jpg"
+   },
+   {
+    "file": "File:SNOWSHOE_HARE_(Lepus_americanus)_(8-20-13)_stunner_c_g,_n-w_conejos_co,_co_(2)_(9592453799).jpg",
+    "author": "ALAN SCHMIERER",
+    "license": "CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:SNOWSHOE_HARE_(Lepus_americanus)_(8-20-13)_stunner_c_g,_n-w_conejos_co,_co_(2)_(9592453799).jpg"
+   }
+  ]
+ },
+ "arctic-wolf": {
+  "count": 1,
+  "credits": [
+   {
+    "file": "File:Arctic_Wolf_in_Aulavik_National_Park_04_(cropped).jpg",
+    "author": "Stephan Sprinz",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Arctic_Wolf_in_Aulavik_National_Park_04_(cropped).jpg"
+   }
+  ]
+ },
+ "north-american-porcupine": {
+  "count": 3,
+  "credits": [
+   {
+    "file": "File:Juvenile-Male-Porky.jpg",
+    "author": "Charles Homler",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Juvenile-Male-Porky.jpg"
+   },
+   {
+    "file": "File:North_American_porcupine_(Erethizon_dorsatum_nigrescens)_Yoho_2.jpg",
+    "author": "Charles J. Sharp",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:North_American_porcupine_(Erethizon_dorsatum_nigrescens)_Yoho_2.jpg"
+   },
+   {
+    "file": "File:North_American_porcupine_(Erethizon_dorsatum_nigrescens)_Yoho.jpg",
+    "author": "Charles J. Sharp",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:North_American_porcupine_(Erethizon_dorsatum_nigrescens)_Yoho.jpg"
+   }
+  ]
+ },
+ "wood-frog": {
+  "count": 3,
+  "credits": [
+   {
+    "file": "File:Lithobates_sylvaticus_(Woodfrog).jpg",
+    "author": "Brian Gratwicke",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Lithobates_sylvaticus_(Woodfrog).jpg"
+   },
+   {
+    "file": "File:Wood_Frog.jpg",
+    "author": "DDauri Daniel D'Auria",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Wood_Frog.jpg"
+   },
+   {
+    "file": "File:WoodFrog_DarienLakesStatePark_2020-06-16_(02).jpg",
+    "author": "GodGnipael",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:WoodFrog_DarienLakesStatePark_2020-06-16_(02).jpg"
+   }
+  ]
+ },
+ "desert-tortoise": {
+  "count": 3,
+  "credits": [
+   {
+    "file": "File:Gopherus_agassizii.jpg",
+    "author": "Tigerhawkvok",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Gopherus_agassizii.jpg"
+   },
+   {
+    "file": "File:Baby_Desert_Tortoise_(16490346262).jpg",
+    "author": "U.S. Geological Survey from Reston, VA, USA",
+    "license": "CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:Baby_Desert_Tortoise_(16490346262).jpg"
+   },
+   {
+    "file": "File:Desert_Tortoise_at_Red_Rock_Canyon_National_Conservation_Area,_NV.jpg",
+    "author": "Sarov702",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Desert_Tortoise_at_Red_Rock_Canyon_National_Conservation_Area,_NV.jpg"
+   }
+  ]
+ },
+ "california-condor": {
+  "count": 2,
+  "credits": [
+   {
+    "file": "File:California-condor-gymnogyps-californianus-078_(21196759264).jpg",
+    "author": "Don Graham from Redlands, CA, USA - God bless it!",
+    "license": "CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:California-condor-gymnogyps-californianus-078_(21196759264).jpg"
+   },
+   {
+    "file": "File:Condor_in_flight.JPG",
+    "author": "PhilArmitage",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Condor_in_flight.JPG"
+   }
+  ]
+ },
+ "california-sea-lion": {
+  "count": 2,
+  "credits": [
+   {
+    "file": "File:California_Sea_Lion,_Monterey,_California,_United_States_imported_from_iNaturalist_photo_203598492.jpg",
+    "author": "(c) Jonathan Eisen, some rights reserved (CC BY)",
+    "license": "CC BY 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:California_Sea_Lion,_Monterey,_California,_United_States_imported_from_iNaturalist_photo_203598492.jpg"
+   },
+   {
+    "file": "File:California_sea_lion_in_La_Jolla_(70568).jpg",
+    "author": "Rhododendrites",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:California_sea_lion_in_La_Jolla_(70568).jpg"
+   }
+  ]
+ },
+ "black-footed-ferret": {
+  "count": 3,
+  "credits": [
+   {
+    "file": "File:Mustela_nigripes_2.jpg",
+    "author": "USFWS Mountain Prairie",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Mustela_nigripes_2.jpg"
+   },
+   {
+    "file": "File:Black-footed_Ferret_001.jpg",
+    "author": "Ltshears",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Black-footed_Ferret_001.jpg"
+   },
+   {
+    "file": "File:Jumping_black_footed_ferret.jpg",
+    "author": "USFWS Mountain Prairie",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Jumping_black_footed_ferret.jpg"
+   }
+  ]
+ },
+ "texas-horned-lizard": {
+  "count": 3,
+  "credits": [
+   {
+    "file": "File:Phrynosoma_cornutum_-_Flickr_-_aspidoscelis_(9).jpg",
+    "author": "Patrick Alexander from Las Cruces, NM",
+    "license": "CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:Phrynosoma_cornutum_-_Flickr_-_aspidoscelis_(9).jpg"
+   },
+   {
+    "file": "File:Texas_Horned_Lizard,_Gulf_Islands_National_Seashore,_Gulf_Breeze,_FL,_US_imported_from_iNaturalist_photo_21296626.jpg",
+    "author": "(c) Gabriel Campbell, some rights reserved (CC BY)",
+    "license": "CC BY 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Texas_Horned_Lizard,_Gulf_Islands_National_Seashore,_Gulf_Breeze,_FL,_US_imported_from_iNaturalist_photo_21296626.jpg"
+   },
+   {
+    "file": "File:Texas_Horned_Lizard,_Island_of_Palms,_Isle_of_Palms,_SC,_US_imported_from_iNaturalist_photo_134852018.jpg",
+    "author": "(c) Matt Berger, some rights reserved (CC BY)",
+    "license": "CC BY 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Texas_Horned_Lizard,_Island_of_Palms,_Isle_of_Palms,_SC,_US_imported_from_iNaturalist_photo_134852018.jpg"
+   }
+  ]
+ },
+ "hellbender": {
+  "count": 2,
+  "credits": [
+   {
+    "file": "File:Hellbender_Cryptobranchus_alleganiensis.jpg",
+    "author": "Brian Gratwicke",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Hellbender_Cryptobranchus_alleganiensis.jpg"
+   },
+   {
+    "file": "File:Hellbender.jpg",
+    "author": "Brian Gratwicke",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Hellbender.jpg"
+   }
+  ]
+ },
+ "virginia-opossum": {
+  "count": 2,
+  "credits": [
+   {
+    "file": "File:Opossum 2.jpg",
+    "author": "Cody Pope",
+    "license": "CC BY-SA 2.5",
+    "source": "https://commons.wikimedia.org/wiki/File:Opossum_2.jpg"
+   },
+   {
+    "file": "File:Didelphis virginiana with young.JPG",
+    "author": "Specialjake",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Didelphis_virginiana_with_young.JPG"
+   }
+  ]
+ },
+ "bobcat": {
+  "count": 3,
+  "credits": [
+   {
+    "file": "File:Bobcat_at_Columbus_Zoo_Boo.jpg",
+    "author": "Becker1999 (Paul and Cathy)",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Bobcat_at_Columbus_Zoo_Boo.jpg"
+   },
+   {
+    "file": "File:Bobcat,_Southeast_Calgary,_Calgary,_AB,_Canada_imported_from_iNaturalist_photo_122372175.jpg",
+    "author": "(c) Emma, some rights reserved (CC BY)",
+    "license": "CC BY 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Bobcat,_Southeast_Calgary,_Calgary,_AB,_Canada_imported_from_iNaturalist_photo_122372175.jpg"
+   },
+   {
+    "file": "File:Bobbie_2010_2.jpg",
+    "author": "Bill W Ca at English Wikipedia",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Bobbie_2010_2.jpg"
+   }
+  ]
+ },
+ "north-american-river-otter": {
+  "count": 2,
+  "credits": [
+   {
+    "file": "File:Northern_River_Otter_on_Seedskadee_NWR_(22802102984).jpg",
+    "author": "USFWS Mountain-Prairie",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Northern_River_Otter_on_Seedskadee_NWR_(22802102984).jpg"
+   },
+   {
+    "file": "File:RiverOtterSwimmingOregonZoo.jpg",
+    "author": "User:Cacophony",
+    "license": "CC BY 2.5",
+    "source": "https://commons.wikimedia.org/wiki/File:RiverOtterSwimmingOregonZoo.jpg"
+   }
+  ]
+ },
+ "white-tailed-deer": {
+  "count": 3,
+  "credits": [
+   {
+    "file": "File:White-tailed_deer.jpg",
+    "author": "USDA photo by Scott Bauer",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:White-tailed_deer.jpg"
+   },
+   {
+    "file": "File:White-tailed_Deer,_female,_Costa_Rica.jpg",
+    "author": "D. Gordon E. Robertson",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:White-tailed_Deer,_female,_Costa_Rica.jpg"
+   },
+   {
+    "file": "File:20241115_white_tailed_deer_cedar_hill_cemetery_PD203703.jpg",
+    "author": "Paul Danese",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:20241115_white_tailed_deer_cedar_hill_cemetery_PD203703.jpg"
+   }
+  ]
+ },
+ "atlantic-cod": {
+  "count": 2,
+  "credits": [
+   {
+    "file": "File:Atlantic_Cod,_Atlantischer_Kabeljau_(Gadus_morhua).jpg",
+    "author": "Wilhelm Thomas Fiege",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Atlantic_Cod,_Atlantischer_Kabeljau_(Gadus_morhua).jpg"
+   },
+   {
+    "file": "File:Atlantic_cod_under_a_shipwreck.jpg",
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Atlantic_cod_under_a_shipwreck.jpg"
+   }
+  ]
+ },
+ "collared-peccary": {
+  "count": 2,
+  "credits": [
+   {
+    "file": "File:Pecari_tajacu_-_02.jpg",
+    "author": "Carlos Delgado",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Pecari_tajacu_-_02.jpg"
+   },
+   {
+    "file": "File:Running_Javelina.jpg",
+    "author": "Wing-Chi Poon",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Running_Javelina.jpg"
+   }
+  ]
+ },
+ "white-nosed-coati": {
+  "count": 3,
+  "credits": [
+   {
+    "file": "File:194 White-nosed coati at the beach in Yucatán Photo by Giles Laurent (cropped).jpg",
+    "author": "Giles Laurent",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:194_White-nosed_coati_at_the_beach_in_Yucat%C3%A1n_Photo_by_Giles_Laurent_(cropped).jpg"
+   },
+   {
+    "file": "File:White-nosed coati in Costa RIca.jpg",
+    "author": "Bernard Gagnon",
+    "license": "CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:White-nosed_coati_in_Costa_RIca.jpg"
+   },
+   {
+    "file": "File:Coati Nasua narica Side 2212px.jpg",
+    "author": "Photo by Derek Ramsey (Ram-Man)",
+    "license": "CC BY-SA 2.5",
+    "source": "https://commons.wikimedia.org/wiki/File:Coati_Nasua_narica_Side_2212px.jpg"
+   }
+  ]
+ },
+ "common-vampire-bat": {
+  "count": 2,
+  "credits": [
+   {
+    "file": "File:Desmo-Flug-01.jpg",
+    "author": "Uwe Schmidt",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Desmo-Flug-01.jpg"
+   },
+   {
+    "file": "File:Vampire_Bat_12.jpg",
+    "author": "Ltshears",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Vampire_Bat_12.jpg"
+   }
+  ]
+ },
+ "bairds-tapir": {
+  "count": 2,
+  "credits": [
+   {
+    "file": "File:Baird's_tapir_mother_with_baby_(92151).jpg",
+    "author": "Rhododendrites",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Baird%27s_tapir_mother_with_baby_(92151).jpg"
+   },
+   {
+    "file": "File:Central_American_Tapir-Belize20.jpg",
+    "author": "",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Central_American_Tapir-Belize20.jpg"
+   }
+  ]
+ },
+ "giant-oceanic-manta-ray": {
+  "count": 3,
+  "credits": [
+   {
+    "file": "File:Manta_birostris-Thailand4.jpg",
+    "author": "jon hanson from london, UK",
+    "license": "CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Manta_birostris-Thailand4.jpg"
+   },
+   {
+    "file": "File:M._Birostris_swimming_with_a_diver.jpg",
+    "author": "Elias Levy",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:M._Birostris_swimming_with_a_diver.jpg"
+   },
+   {
+    "file": "File:Manta_birostris-Thailand3.jpg",
+    "author": "jon hanson from london, UK",
+    "license": "CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Manta_birostris-Thailand3.jpg"
+   }
+  ]
  }
 }

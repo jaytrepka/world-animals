@@ -431,5 +431,142 @@
     "source": "https://commons.wikimedia.org/wiki/File:Icefish_Chionodraco_hamatus.jpg"
    }
   ]
+ },
+ "sperm-whale": {
+  "count": 2,
+  "credits": [
+   {
+    "file": "File:Mother_and_baby_sperm_whale.jpg",
+    "author": "Gabriel Barathieu",
+    "license": "CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Mother_and_baby_sperm_whale.jpg"
+   },
+   {
+    "file": "File:Sperm_whale_blowhole_Vincze.jpg",
+    "author": "Vilmos Vincze",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Sperm_whale_blowhole_Vincze.jpg"
+   }
+  ]
+ },
+ "southern-bottlenose-whale": {
+  "count": 3,
+  "credits": [
+   {
+    "file": "File:Hyperoodon planifrons 87418134.jpg",
+    "author": "Simon Tonge",
+    "license": "CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:Hyperoodon_planifrons_87418134.jpg"
+   },
+   {
+    "file": "File:Southern Bottlenose Whale, Hyperoodon planifrons, December 2016, near Clarence Island.jpg",
+    "author": "Simon Tonge",
+    "license": "CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:Southern_Bottlenose_Whale,_Hyperoodon_planifrons,_December_2016,_near_Clarence_Island.jpg"
+   },
+   {
+    "file": "File:Hyperoodon planifrons 87417973.jpg",
+    "author": "Simon Tonge",
+    "license": "CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:Hyperoodon_planifrons_87417973.jpg"
+   }
+  ]
+ },
+ "subantarctic-fur-seal": {
+  "count": 3,
+  "credits": [
+   {
+    "file": "File:Arctocephalus_tropicalis_CrozetIslands_female.jpg",
+    "author": "Nicolas Servera (otarie_san@yahoo.fr)",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Arctocephalus_tropicalis_CrozetIslands_female.jpg"
+   },
+   {
+    "file": "File:Arctocephalus_tropicalis_CrozetIslands_male.jpg",
+    "author": "Nicolas Servera (otarie_san@yahoo.fr)",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Arctocephalus_tropicalis_CrozetIslands_male.jpg"
+   },
+   {
+    "file": "File:Arctocephalus_tropicalis_CrozetIslands_pup.jpg",
+    "author": "Nicolas Servera (otarie_san@yahoo.fr)",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Arctocephalus_tropicalis_CrozetIslands_pup.jpg"
+   }
+  ]
+ },
+ "light-mantled-albatross": {
+  "count": 3,
+  "credits": [
+   {
+    "file": "File:Kerguelen_-_Phoebetria_palpebrata.jpg",
+    "author": "Dimitri Damasceno from Bruxelles, Belgium",
+    "license": "CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Kerguelen_-_Phoebetria_palpebrata.jpg"
+   },
+   {
+    "file": "File:Light-mantled_sooty_albatross._Campbell._Oscar_Thomas.jpg",
+    "author": "OKNZ",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Light-mantled_sooty_albatross._Campbell._Oscar_Thomas.jpg"
+   },
+   {
+    "file": "File:Light-mantled_Sooty_Albatross._Auckland._Oscar_Thomas.jpg",
+    "author": "OKNZ",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Light-mantled_Sooty_Albatross._Auckland._Oscar_Thomas.jpg"
+   }
+  ]
+ },
+ "antarctic-starfish": {
+  "count": 2,
+  "credits": [
+   {
+    "file": "File:Odontaster validus 229771878.jpg",
+    "author": "Vasyliuk Oleksij",
+    "license": "CC BY 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Odontaster_validus_229771878.jpg"
+   },
+   {
+    "file": "File:Red starfish, Odontaster validus.jpg",
+    "author": "Zureks",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Red_starfish,_Odontaster_validus.jpg"
+   }
+  ]
+ },
+ "antarctic-jellyfish": {
+  "count": 2,
+  "credits": [
+   {
+    "file": "File:Diplulmaris_antarctica.jpg",
+    "author": "Steve Clabuesch, National Science Foundation",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Diplulmaris_antarctica.jpg"
+   },
+   {
+    "file": "File:Ice_planet_and_antarctic_jellyfish_(cropped).jpg",
+    "author": "Erwan AMICE",
+    "license": "CC BY 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Ice_planet_and_antarctic_jellyfish_(cropped).jpg"
+   }
+  ]
+ },
+ "southern-giant-petrel": {
+  "count": 2,
+  "credits": [
+   {
+    "file": "File:SouthernGiantPetrel.jpg",
+    "author": "Polinova",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:SouthernGiantPetrel.jpg"
+   },
+   {
+    "file": "File:Macronectes_giganteus_-East_Falkland_-flying-8b-4c.jpg",
+    "author": "Macronectes_giganteus_-East_Falkland_-flying-8b.jpg: Richard Giddins\nderivative work: Snowmanradio (talk)",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Macronectes_giganteus_-East_Falkland_-flying-8b-4c.jpg"
+   }
+  ]
  }
 }

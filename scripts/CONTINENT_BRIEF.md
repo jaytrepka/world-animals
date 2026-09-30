@@ -62,3 +62,12 @@ Follow the Australia files exactly for style and structure:
 
 ## 5. Report back
 Short report: number of animals per part, anything uncertain (Czech names, photos you couldn't fix). Don't paste file contents.
+
+## Adding animals to an existing continent
+- Keep all existing entries unchanged. Append new animals to `roster.json`, put their texts in a NEW file
+  `content-more.ts` (export `moreContent: AnimalContent[]`) and add it to the array in `content.ts`.
+- Before choosing, see which species already exist anywhere:
+  `grep -ho "species: '[^']*'" src/data/continents/*/content*.ts | sort -u` — prefer species that are not in the app yet.
+- New positions must respect the minimum spacing from ALL animals of the continent (old and new).
+- `python3 scripts/fetch_images.py <key>` only fetches animals without photos, so existing photos are untouched;
+  review the new ones on a contact sheet: `$PY scripts/contact_sheet.py <key> <dir> <id> <id> ...`.

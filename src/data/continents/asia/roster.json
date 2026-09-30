@@ -386,5 +386,177 @@
   "wiki": "Komodo dragon",
   "lon": 120.2,
   "lat": -8.6
+ },
+ {
+  "id": "bowhead-whale",
+  "wiki": "Bowhead whale",
+  "lon": 178.0,
+  "lat": 62.5,
+  "sea": true
+ },
+ {
+  "id": "raccoon-dog",
+  "wiki": "Common raccoon dog",
+  "lon": 130.0,
+  "lat": 50.8
+ },
+ {
+  "id": "argali",
+  "wiki": "Argali",
+  "lon": 88.3,
+  "lat": 50.3
+ },
+ {
+  "id": "northern-pika",
+  "wiki": "Northern pika",
+  "lon": 130.0,
+  "lat": 60.0
+ },
+ {
+  "id": "snow-sheep",
+  "wiki": "Snow sheep",
+  "lon": 148.0,
+  "lat": 66.0
+ },
+ {
+  "id": "bobak-marmot",
+  "wiki": "Bobak marmot",
+  "lon": 70.0,
+  "lat": 52.0
+ },
+ {
+  "id": "siberian-sturgeon",
+  "wiki": "Siberian sturgeon",
+  "lon": 80.0,
+  "lat": 64.0
+ },
+ {
+  "id": "north-chinese-leopard",
+  "wiki": "North-Chinese leopard",
+  "lon": 112.5,
+  "lat": 37.8
+ },
+ {
+  "id": "markhor",
+  "wiki": "Markhor",
+  "lon": 71.0,
+  "lat": 36.0
+ },
+ {
+  "id": "tibetan-antelope",
+  "wiki": "Tibetan antelope",
+  "lon": 84.0,
+  "lat": 35.0
+ },
+ {
+  "id": "takin",
+  "wiki": "Takin",
+  "lon": 98.5,
+  "lat": 28.2
+ },
+ {
+  "id": "chinese-giant-salamander",
+  "wiki": "Chinese giant salamander",
+  "lon": 110.5,
+  "lat": 28.5
+ },
+ {
+  "id": "finless-porpoise",
+  "wiki": "Indo-Pacific finless porpoise",
+  "lon": 114.5,
+  "lat": 21.3,
+  "sea": true
+ },
+ {
+  "id": "asian-black-bear",
+  "wiki": "Asian black bear",
+  "lon": 128.0,
+  "lat": 37.8
+ },
+ {
+  "id": "russian-tortoise",
+  "wiki": "Central Asian tortoise",
+  "lon": 62.0,
+  "lat": 40.0
+ },
+ {
+  "id": "blackbuck",
+  "wiki": "Blackbuck",
+  "lon": 73.5,
+  "lat": 26.3
+ },
+ {
+  "id": "sloth-bear",
+  "wiki": "Sloth bear",
+  "lon": 83.5,
+  "lat": 23.8
+ },
+ {
+  "id": "mugger-crocodile",
+  "wiki": "Mugger crocodile",
+  "lon": 68.3,
+  "lat": 25.5
+ },
+ {
+  "id": "indian-grey-mongoose",
+  "wiki": "Indian grey mongoose",
+  "lon": 70.8,
+  "lat": 21.5
+ },
+ {
+  "id": "irrawaddy-dolphin",
+  "wiki": "Irrawaddy dolphin",
+  "lon": 96.5,
+  "lat": 15.5,
+  "sea": true
+ },
+ {
+  "id": "red-shanked-douc",
+  "wiki": "Red-shanked douc",
+  "lon": 106.5,
+  "lat": 17.5
+ },
+ {
+  "id": "sunda-slow-loris",
+  "wiki": "Sunda slow loris",
+  "lon": 102.3,
+  "lat": 4.5
+ },
+ {
+  "id": "siamang",
+  "wiki": "Siamang",
+  "lon": 97.8,
+  "lat": 3.2
+ },
+ {
+  "id": "wallaces-flying-frog",
+  "wiki": "Wallace's flying frog",
+  "lon": 116.0,
+  "lat": -0.8
+ },
+ {
+  "id": "large-flying-fox",
+  "wiki": "Large flying fox",
+  "lon": 110.5,
+  "lat": -7.3
+ },
+ {
+  "id": "binturong",
+  "wiki": "Binturong",
+  "lon": 118.5,
+  "lat": 9.5
+ },
+ {
+  "id": "sperm-whale",
+  "wiki": "Sperm whale",
+  "lon": 85.0,
+  "lat": 7.5,
+  "sea": true
+ },
+ {
+  "id": "kiang",
+  "wiki": "Kiang",
+  "lon": 95.0,
+  "lat": 35.5
  }
 ]
