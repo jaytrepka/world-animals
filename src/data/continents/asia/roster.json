@@ -1,0 +1,390 @@
+[
+ {
+  "id": "polar-bear",
+  "wiki": "Polar bear",
+  "lon": -179.9,
+  "lat": 71.2
+ },
+ {
+  "id": "walrus",
+  "wiki": "Walrus",
+  "lon": -171.0,
+  "lat": 67.5,
+  "sea": true
+ },
+ {
+  "id": "reindeer",
+  "wiki": "Reindeer",
+  "lon": 90.0,
+  "lat": 70.0
+ },
+ {
+  "id": "arctic-fox",
+  "wiki": "Arctic fox",
+  "lon": 70.0,
+  "lat": 69.0
+ },
+ {
+  "id": "muskox",
+  "wiki": "Muskox",
+  "lon": 107.0,
+  "lat": 73.0
+ },
+ {
+  "id": "snowy-owl",
+  "wiki": "Snowy owl",
+  "lon": 125.0,
+  "lat": 70.0
+ },
+ {
+  "id": "beluga-whale",
+  "wiki": "Beluga whale",
+  "lon": 72.0,
+  "lat": 75.0,
+  "sea": true
+ },
+ {
+  "id": "moose",
+  "wiki": "Moose",
+  "lon": 72.0,
+  "lat": 60.0
+ },
+ {
+  "id": "sable",
+  "wiki": "Sable",
+  "lon": 100.0,
+  "lat": 60.0
+ },
+ {
+  "id": "wolverine",
+  "wiki": "Wolverine",
+  "lon": 135.0,
+  "lat": 64.0
+ },
+ {
+  "id": "siberian-salamander",
+  "wiki": "Salamandrella keyserlingii",
+  "lon": 118.0,
+  "lat": 62.0
+ },
+ {
+  "id": "taimen",
+  "wiki": "Hucho taimen",
+  "lon": 118.0,
+  "lat": 57.0
+ },
+ {
+  "id": "baikal-seal",
+  "wiki": "Baikal seal",
+  "lon": 108.2,
+  "lat": 53.5
+ },
+ {
+  "id": "pallas-cat",
+  "wiki": "Pallas's cat",
+  "lon": 116.0,
+  "lat": 50.5
+ },
+ {
+  "id": "siberian-musk-deer",
+  "wiki": "Siberian musk deer",
+  "lon": 98.0,
+  "lat": 51.5
+ },
+ {
+  "id": "eurasian-lynx",
+  "wiki": "Eurasian lynx",
+  "lon": 88.0,
+  "lat": 57.0
+ },
+ {
+  "id": "stellers-sea-eagle",
+  "wiki": "Steller's sea eagle",
+  "lon": 150.8,
+  "lat": 59.6
+ },
+ {
+  "id": "steller-sea-lion",
+  "wiki": "Steller sea lion",
+  "lon": 146.0,
+  "lat": 55.5,
+  "sea": true
+ },
+ {
+  "id": "kamchatka-brown-bear",
+  "wiki": "Kamchatka brown bear",
+  "lon": 160.0,
+  "lat": 57.5
+ },
+ {
+  "id": "sea-otter",
+  "wiki": "Sea otter",
+  "lon": 167.0,
+  "lat": 55.0,
+  "sea": true
+ },
+ {
+  "id": "amur-tiger",
+  "wiki": "Siberian tiger",
+  "lon": 136.0,
+  "lat": 47.5
+ },
+ {
+  "id": "amur-leopard",
+  "wiki": "Amur leopard",
+  "lon": 131.2,
+  "lat": 43.0
+ },
+ {
+  "id": "red-crowned-crane",
+  "wiki": "Red-crowned crane",
+  "lon": 144.5,
+  "lat": 43.3
+ },
+ {
+  "id": "japanese-macaque",
+  "wiki": "Japanese macaque",
+  "lon": 138.4,
+  "lat": 36.7
+ },
+ {
+  "id": "japanese-giant-salamander",
+  "wiki": "Japanese giant salamander",
+  "lon": 131.3,
+  "lat": 33.3
+ },
+ {
+  "id": "chinese-alligator",
+  "wiki": "Chinese alligator",
+  "lon": 118.6,
+  "lat": 30.9
+ },
+ {
+  "id": "giant-panda",
+  "wiki": "Giant panda",
+  "lon": 102.8,
+  "lat": 30.5
+ },
+ {
+  "id": "golden-snub-nosed-monkey",
+  "wiki": "Golden snub-nosed monkey",
+  "lon": 108.0,
+  "lat": 33.8
+ },
+ {
+  "id": "bactrian-camel",
+  "wiki": "Bactrian camel",
+  "lon": 101.0,
+  "lat": 43.0
+ },
+ {
+  "id": "przewalskis-horse",
+  "wiki": "Przewalski's horse",
+  "lon": 106.0,
+  "lat": 47.5
+ },
+ {
+  "id": "yak",
+  "wiki": "Yak",
+  "lon": 89.0,
+  "lat": 32.0
+ },
+ {
+  "id": "red-panda",
+  "wiki": "Red panda",
+  "lon": 88.3,
+  "lat": 27.5
+ },
+ {
+  "id": "indian-rhinoceros",
+  "wiki": "Indian rhinoceros",
+  "lon": 93.5,
+  "lat": 26.6
+ },
+ {
+  "id": "gharial",
+  "wiki": "Gharial",
+  "lon": 78.3,
+  "lat": 26.6
+ },
+ {
+  "id": "snow-leopard",
+  "wiki": "Snow leopard",
+  "lon": 79.5,
+  "lat": 42.3
+ },
+ {
+  "id": "saiga",
+  "wiki": "Saiga antelope",
+  "lon": 68.0,
+  "lat": 46.5
+ },
+ {
+  "id": "caspian-seal",
+  "wiki": "Caspian seal",
+  "lon": 51.5,
+  "lat": 39.5,
+  "sea": true
+ },
+ {
+  "id": "asiatic-cheetah",
+  "wiki": "Asiatic cheetah",
+  "lon": 56.0,
+  "lat": 34.5
+ },
+ {
+  "id": "striped-hyena",
+  "wiki": "Striped hyena",
+  "lon": 41.0,
+  "lat": 35.0
+ },
+ {
+  "id": "nubian-ibex",
+  "wiki": "Nubian ibex",
+  "lon": 35.2,
+  "lat": 29.8
+ },
+ {
+  "id": "loggerhead-sea-turtle",
+  "wiki": "Loggerhead sea turtle",
+  "lon": 59.3,
+  "lat": 20.3,
+  "sea": true
+ },
+ {
+  "id": "dromedary",
+  "wiki": "Dromedary",
+  "lon": 46.0,
+  "lat": 25.0
+ },
+ {
+  "id": "arabian-oryx",
+  "wiki": "Arabian oryx",
+  "lon": 45.5,
+  "lat": 19.5
+ },
+ {
+  "id": "bengal-tiger",
+  "wiki": "Bengal tiger",
+  "lon": 80.6,
+  "lat": 19.0
+ },
+ {
+  "id": "indian-peafowl",
+  "wiki": "Indian peafowl",
+  "lon": 74.5,
+  "lat": 18.5
+ },
+ {
+  "id": "king-cobra",
+  "wiki": "King cobra",
+  "lon": 75.1,
+  "lat": 13.5
+ },
+ {
+  "id": "asian-elephant",
+  "wiki": "Asian elephant",
+  "lon": 80.7,
+  "lat": 8.0
+ },
+ {
+  "id": "whale-shark",
+  "wiki": "Whale shark",
+  "lon": 73.0,
+  "lat": 4.0,
+  "sea": true
+ },
+ {
+  "id": "olive-ridley-sea-turtle",
+  "wiki": "Olive ridley sea turtle",
+  "lon": 87.5,
+  "lat": 18.5,
+  "sea": true
+ },
+ {
+  "id": "burmese-python",
+  "wiki": "Burmese python",
+  "lon": 95.5,
+  "lat": 21.0
+ },
+ {
+  "id": "clouded-leopard",
+  "wiki": "Clouded leopard",
+  "lon": 102.0,
+  "lat": 21.0
+ },
+ {
+  "id": "lar-gibbon",
+  "wiki": "Lar gibbon",
+  "lon": 101.4,
+  "lat": 14.4
+ },
+ {
+  "id": "mekong-giant-catfish",
+  "wiki": "Mekong giant catfish",
+  "lon": 105.9,
+  "lat": 12.5
+ },
+ {
+  "id": "dugong",
+  "wiki": "Dugong",
+  "lon": 98.3,
+  "lat": 7.5,
+  "sea": true
+ },
+ {
+  "id": "malayan-tapir",
+  "wiki": "Malayan tapir",
+  "lon": 102.0,
+  "lat": -1.0
+ },
+ {
+  "id": "bornean-orangutan",
+  "wiki": "Bornean orangutan",
+  "lon": 111.9,
+  "lat": -2.5
+ },
+ {
+  "id": "rhinoceros-hornbill",
+  "wiki": "Rhinoceros hornbill",
+  "lon": 113.2,
+  "lat": 2.3
+ },
+ {
+  "id": "proboscis-monkey",
+  "wiki": "Proboscis monkey",
+  "lon": 117.8,
+  "lat": 5.3
+ },
+ {
+  "id": "ocellaris-clownfish",
+  "wiki": "Ocellaris clownfish",
+  "lon": 113.0,
+  "lat": 10.0,
+  "sea": true
+ },
+ {
+  "id": "philippine-eagle",
+  "wiki": "Philippine eagle",
+  "lon": 121.8,
+  "lat": 16.8
+ },
+ {
+  "id": "philippine-tarsier",
+  "wiki": "Philippine tarsier",
+  "lon": 124.2,
+  "lat": 9.8
+ },
+ {
+  "id": "babirusa",
+  "wiki": "North Sulawesi babirusa",
+  "lon": 123.5,
+  "lat": 0.7
+ },
+ {
+  "id": "komodo-dragon",
+  "wiki": "Komodo dragon",
+  "lon": 120.2,
+  "lat": -8.6
+ }
+]

@@ -1,0 +1,307 @@
+[
+ {
+  "id": "polar-bear",
+  "wiki": "Polar bear",
+  "lon": 16.5,
+  "lat": 78.5
+ },
+ {
+  "id": "walrus",
+  "wiki": "Walrus",
+  "lon": 32.0,
+  "lat": 76.0,
+  "sea": true
+ },
+ {
+  "id": "arctic-fox",
+  "wiki": "Arctic fox",
+  "lon": -16.0,
+  "lat": 65.6
+ },
+ {
+  "id": "atlantic-puffin",
+  "wiki": "Atlantic puffin",
+  "lon": -20.5,
+  "lat": 64.5
+ },
+ {
+  "id": "orca",
+  "wiki": "Orca",
+  "lon": 12.5,
+  "lat": 69.0,
+  "sea": true
+ },
+ {
+  "id": "reindeer",
+  "wiki": "Reindeer",
+  "lon": 25.5,
+  "lat": 68.8
+ },
+ {
+  "id": "wolverine",
+  "wiki": "Wolverine",
+  "lon": 17.0,
+  "lat": 67.0
+ },
+ {
+  "id": "moose",
+  "wiki": "Moose",
+  "lon": 15.0,
+  "lat": 62.5
+ },
+ {
+  "id": "norway-lemming",
+  "wiki": "Norway lemming",
+  "lon": 7.5,
+  "lat": 60.2
+ },
+ {
+  "id": "atlantic-salmon",
+  "wiki": "Atlantic salmon",
+  "lon": 4.0,
+  "lat": 63.5,
+  "sea": true
+ },
+ {
+  "id": "grey-wolf",
+  "wiki": "Wolf",
+  "lon": 42.0,
+  "lat": 60.5
+ },
+ {
+  "id": "beluga-whale",
+  "wiki": "Beluga whale",
+  "lon": 37.5,
+  "lat": 65.3,
+  "sea": true
+ },
+ {
+  "id": "snowy-owl",
+  "wiki": "Snowy owl",
+  "lon": 52.0,
+  "lat": 67.8
+ },
+ {
+  "id": "grey-seal",
+  "wiki": "Grey seal",
+  "lon": 20.5,
+  "lat": 58.3,
+  "sea": true
+ },
+ {
+  "id": "european-otter",
+  "wiki": "Eurasian otter",
+  "lon": -5.0,
+  "lat": 57.3
+ },
+ {
+  "id": "siberian-flying-squirrel",
+  "wiki": "Siberian flying squirrel",
+  "lon": 26.0,
+  "lat": 61.5
+ },
+ {
+  "id": "eurasian-lynx",
+  "wiki": "Eurasian lynx",
+  "lon": 13.5,
+  "lat": 49.0
+ },
+ {
+  "id": "red-fox",
+  "wiki": "Red fox",
+  "lon": 15.6,
+  "lat": 50.7
+ },
+ {
+  "id": "roe-deer",
+  "wiki": "Roe deer",
+  "lon": 17.4,
+  "lat": 49.2
+ },
+ {
+  "id": "european-hedgehog",
+  "wiki": "European hedgehog",
+  "lon": 4.6,
+  "lat": 50.8
+ },
+ {
+  "id": "wild-boar",
+  "wiki": "Wild boar",
+  "lon": 10.5,
+  "lat": 50.5
+ },
+ {
+  "id": "eurasian-beaver",
+  "wiki": "Eurasian beaver",
+  "lon": 12.2,
+  "lat": 52.8
+ },
+ {
+  "id": "white-stork",
+  "wiki": "White stork",
+  "lon": 16.5,
+  "lat": 52.5
+ },
+ {
+  "id": "european-bison",
+  "wiki": "European bison",
+  "lon": 23.8,
+  "lat": 52.7
+ },
+ {
+  "id": "brown-hare",
+  "wiki": "European hare",
+  "lon": 15.6,
+  "lat": 47.6
+ },
+ {
+  "id": "european-badger",
+  "wiki": "European badger",
+  "lon": -1.5,
+  "lat": 52.0
+ },
+ {
+  "id": "fire-salamander",
+  "wiki": "Fire salamander",
+  "lon": 8.2,
+  "lat": 48.3
+ },
+ {
+  "id": "chamois",
+  "wiki": "Chamois",
+  "lon": 12.0,
+  "lat": 47.2
+ },
+ {
+  "id": "alpine-marmot",
+  "wiki": "Alpine marmot",
+  "lon": 9.2,
+  "lat": 46.5
+ },
+ {
+  "id": "alpine-ibex",
+  "wiki": "Alpine ibex",
+  "lon": 6.9,
+  "lat": 45.4
+ },
+ {
+  "id": "harbour-seal",
+  "wiki": "Harbor seal",
+  "lon": 6.5,
+  "lat": 54.3,
+  "sea": true
+ },
+ {
+  "id": "brown-bear",
+  "wiki": "Brown bear",
+  "lon": -5.6,
+  "lat": 43.0
+ },
+ {
+  "id": "european-ground-squirrel",
+  "wiki": "European ground squirrel",
+  "lon": 20.5,
+  "lat": 47.3
+ },
+ {
+  "id": "saiga",
+  "wiki": "Saiga antelope",
+  "lon": 45.0,
+  "lat": 46.5
+ },
+ {
+  "id": "olm",
+  "wiki": "Olm",
+  "lon": 14.2,
+  "lat": 45.8
+ },
+ {
+  "id": "iberian-lynx",
+  "wiki": "Iberian lynx",
+  "lon": -4.0,
+  "lat": 38.2
+ },
+ {
+  "id": "barbary-macaque",
+  "wiki": "Barbary macaque",
+  "lon": -5.4,
+  "lat": 36.25
+ },
+ {
+  "id": "greater-flamingo",
+  "wiki": "Greater flamingo",
+  "lon": 4.5,
+  "lat": 43.5
+ },
+ {
+  "id": "bearded-vulture",
+  "wiki": "Bearded vulture",
+  "lon": 0.8,
+  "lat": 42.6
+ },
+ {
+  "id": "mouflon",
+  "wiki": "European mouflon",
+  "lon": 9.2,
+  "lat": 40.1
+ },
+ {
+  "id": "crested-porcupine",
+  "wiki": "Crested porcupine",
+  "lon": 12.5,
+  "lat": 42.3
+ },
+ {
+  "id": "hermanns-tortoise",
+  "wiki": "Hermann's tortoise",
+  "lon": 21.8,
+  "lat": 39.5
+ },
+ {
+  "id": "nose-horned-viper",
+  "wiki": "Vipera ammodytes",
+  "lon": 22.5,
+  "lat": 42.0
+ },
+ {
+  "id": "kri-kri",
+  "wiki": "Kri-kri",
+  "lon": 24.0,
+  "lat": 35.3
+ },
+ {
+  "id": "loggerhead-sea-turtle",
+  "wiki": "Loggerhead sea turtle",
+  "lon": 20.0,
+  "lat": 37.2,
+  "sea": true
+ },
+ {
+  "id": "mediterranean-monk-seal",
+  "wiki": "Mediterranean monk seal",
+  "lon": 25.3,
+  "lat": 38.3,
+  "sea": true
+ },
+ {
+  "id": "fin-whale",
+  "wiki": "Fin whale",
+  "lon": 8.3,
+  "lat": 43.3,
+  "sea": true
+ },
+ {
+  "id": "bottlenose-dolphin",
+  "wiki": "Common bottlenose dolphin",
+  "lon": 34.5,
+  "lat": 43.3,
+  "sea": true
+ },
+ {
+  "id": "common-octopus",
+  "wiki": "Common octopus",
+  "lon": 12.0,
+  "lat": 39.8,
+  "sea": true
+ }
+]

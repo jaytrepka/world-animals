@@ -1,0 +1,355 @@
+[
+ {
+  "id": "golden-poison-frog",
+  "wiki": "Golden poison frog",
+  "lon": -77.0,
+  "lat": 2.8
+ },
+ {
+  "id": "spectacled-bear",
+  "wiki": "Spectacled bear",
+  "lon": -78.0,
+  "lat": -1.5
+ },
+ {
+  "id": "galapagos-tortoise",
+  "wiki": "Galápagos tortoise",
+  "lon": -90.4,
+  "lat": -0.7
+ },
+ {
+  "id": "marine-iguana",
+  "wiki": "Marine iguana",
+  "lon": -93.1,
+  "lat": -1.0,
+  "sea": true
+ },
+ {
+  "id": "scalloped-hammerhead",
+  "wiki": "Scalloped hammerhead",
+  "lon": -81.6,
+  "lat": 4.0,
+  "sea": true
+ },
+ {
+  "id": "green-anaconda",
+  "wiki": "Green anaconda",
+  "lon": -68.5,
+  "lat": 7.0
+ },
+ {
+  "id": "colombian-red-howler",
+  "wiki": "Colombian red howler",
+  "lon": -73.0,
+  "lat": 4.0
+ },
+ {
+  "id": "giant-otter",
+  "wiki": "Giant otter",
+  "lon": -59.0,
+  "lat": 4.5
+ },
+ {
+  "id": "leatherback-sea-turtle",
+  "wiki": "Leatherback sea turtle",
+  "lon": -53.5,
+  "lat": 6.5,
+  "sea": true
+ },
+ {
+  "id": "harpy-eagle",
+  "wiki": "Harpy eagle",
+  "lon": -64.5,
+  "lat": 3.0
+ },
+ {
+  "id": "west-indian-manatee",
+  "wiki": "West Indian manatee",
+  "lon": -60.5,
+  "lat": 9.0,
+  "sea": true
+ },
+ {
+  "id": "scarlet-macaw",
+  "wiki": "Scarlet macaw",
+  "lon": -71.0,
+  "lat": -1.0
+ },
+ {
+  "id": "arapaima",
+  "wiki": "Arapaima gigas",
+  "lon": -74.5,
+  "lat": -5.0
+ },
+ {
+  "id": "amazon-river-dolphin",
+  "wiki": "Amazon river dolphin",
+  "lon": -60.0,
+  "lat": -3.3
+ },
+ {
+  "id": "red-bellied-piranha",
+  "wiki": "Red-bellied piranha",
+  "lon": -65.5,
+  "lat": -3.5
+ },
+ {
+  "id": "brown-throated-sloth",
+  "wiki": "Brown-throated sloth",
+  "lon": -67.8,
+  "lat": 0.0
+ },
+ {
+  "id": "electric-eel",
+  "wiki": "Electric eel",
+  "lon": -54.5,
+  "lat": -2.5
+ },
+ {
+  "id": "green-iguana",
+  "wiki": "Green iguana",
+  "lon": -73.5,
+  "lat": 10.0
+ },
+ {
+  "id": "pygmy-marmoset",
+  "wiki": "Pygmy marmoset",
+  "lon": -69.3,
+  "lat": -4.5
+ },
+ {
+  "id": "common-squirrel-monkey",
+  "wiki": "Common squirrel monkey",
+  "lon": -47.5,
+  "lat": -3.0
+ },
+ {
+  "id": "jaguar",
+  "wiki": "Jaguar",
+  "lon": -57.0,
+  "lat": -17.5
+ },
+ {
+  "id": "capybara",
+  "wiki": "Capybara",
+  "lon": -57.0,
+  "lat": -28.3
+ },
+ {
+  "id": "yacare-caiman",
+  "wiki": "Yacare caiman",
+  "lon": -57.5,
+  "lat": -20.5
+ },
+ {
+  "id": "toco-toucan",
+  "wiki": "Toco toucan",
+  "lon": -53.0,
+  "lat": -16.0
+ },
+ {
+  "id": "giant-anteater",
+  "wiki": "Giant anteater",
+  "lon": -50.0,
+  "lat": -13.0
+ },
+ {
+  "id": "maned-wolf",
+  "wiki": "Maned wolf",
+  "lon": -47.0,
+  "lat": -19.5
+ },
+ {
+  "id": "giant-armadillo",
+  "wiki": "Giant armadillo",
+  "lon": -53.5,
+  "lat": -20.5
+ },
+ {
+  "id": "golden-lion-tamarin",
+  "wiki": "Golden lion tamarin",
+  "lon": -42.3,
+  "lat": -22.5
+ },
+ {
+  "id": "humpback-whale",
+  "wiki": "Humpback whale",
+  "lon": -38.0,
+  "lat": -18.0,
+  "sea": true
+ },
+ {
+  "id": "common-marmoset",
+  "wiki": "Common marmoset",
+  "lon": -40.0,
+  "lat": -10.5
+ },
+ {
+  "id": "south-american-tapir",
+  "wiki": "South American tapir",
+  "lon": -60.5,
+  "lat": -12.5
+ },
+ {
+  "id": "emperor-tamarin",
+  "wiki": "Emperor tamarin",
+  "lon": -69.5,
+  "lat": -11.0
+ },
+ {
+  "id": "llama",
+  "wiki": "Llama",
+  "lon": -66.5,
+  "lat": -18.5
+ },
+ {
+  "id": "alpaca",
+  "wiki": "Alpaca",
+  "lon": -72.0,
+  "lat": -13.5
+ },
+ {
+  "id": "vicuna",
+  "wiki": "Vicuña",
+  "lon": -67.0,
+  "lat": -22.5
+ },
+ {
+  "id": "titicaca-water-frog",
+  "wiki": "Telmatobius culeus",
+  "lon": -69.4,
+  "lat": -15.9
+ },
+ {
+  "id": "humboldt-squid",
+  "wiki": "Humboldt squid",
+  "lon": -78.5,
+  "lat": -12.5,
+  "sea": true
+ },
+ {
+  "id": "chacoan-peccary",
+  "wiki": "Chacoan peccary",
+  "lon": -61.0,
+  "lat": -21.5
+ },
+ {
+  "id": "south-american-coati",
+  "wiki": "South American coati",
+  "lon": -54.4,
+  "lat": -25.6
+ },
+ {
+  "id": "patagonian-mara",
+  "wiki": "Patagonian mara",
+  "lon": -67.5,
+  "lat": -41.0
+ },
+ {
+  "id": "guanaco",
+  "wiki": "Guanaco",
+  "lon": -72.8,
+  "lat": -51.0
+ },
+ {
+  "id": "andean-condor",
+  "wiki": "Andean condor",
+  "lon": -70.3,
+  "lat": -33.3
+ },
+ {
+  "id": "long-tailed-chinchilla",
+  "wiki": "Long-tailed chinchilla",
+  "lon": -70.8,
+  "lat": -30.5
+ },
+ {
+  "id": "magellanic-penguin",
+  "wiki": "Magellanic penguin",
+  "lon": -59.0,
+  "lat": -51.7
+ },
+ {
+  "id": "southern-elephant-seal",
+  "wiki": "Southern elephant seal",
+  "lon": -62.8,
+  "lat": -42.4,
+  "sea": true
+ },
+ {
+  "id": "southern-right-whale",
+  "wiki": "Southern right whale",
+  "lon": -64.0,
+  "lat": -46.5,
+  "sea": true
+ },
+ {
+  "id": "commersons-dolphin",
+  "wiki": "Commerson's dolphin",
+  "lon": -66.0,
+  "lat": -50.0,
+  "sea": true
+ },
+ {
+  "id": "greater-rhea",
+  "wiki": "Greater rhea",
+  "lon": -62.0,
+  "lat": -35.5
+ },
+ {
+  "id": "argentine-horned-frog",
+  "wiki": "Argentine horned frog",
+  "lon": -56.0,
+  "lat": -33.0
+ },
+ {
+  "id": "pampas-deer",
+  "wiki": "Pampas deer",
+  "lon": -57.8,
+  "lat": -36.6
+ },
+ {
+  "id": "plains-viscacha",
+  "wiki": "Plains viscacha",
+  "lon": -63.5,
+  "lat": -38.5
+ },
+ {
+  "id": "puma",
+  "wiki": "Cougar",
+  "lon": -71.5,
+  "lat": -47.5
+ },
+ {
+  "id": "southern-pudu",
+  "wiki": "Southern pudu",
+  "lon": -73.8,
+  "lat": -42.6
+ },
+ {
+  "id": "darwins-frog",
+  "wiki": "Darwin's frog",
+  "lon": -73.0,
+  "lat": -39.5
+ },
+ {
+  "id": "blue-whale",
+  "wiki": "Blue whale",
+  "lon": -76.0,
+  "lat": -45.0,
+  "sea": true
+ },
+ {
+  "id": "culpeo",
+  "wiki": "Culpeo",
+  "lon": -68.5,
+  "lat": -54.0
+ },
+ {
+  "id": "south-american-sea-lion",
+  "wiki": "South American sea lion",
+  "lon": -64.0,
+  "lat": -55.6,
+  "sea": true
+ }
+]

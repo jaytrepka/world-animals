@@ -1,10 +1,8 @@
-import { useCallback, useEffect, useLayoutEffect, useRef, useState } from 'react'
-import geo from '../data/geo/australia.json'
-import { australiaAnimals } from '../data/australia'
+import { useEffect, useLayoutEffect, useRef, useState } from 'react'
+import { REGION_NAMES, mapUrl, type ContinentData, type ContinentGeo } from '../data/continents'
 import type { Animal, RegionId } from '../data/types'
 import { UI, useLang } from '../i18n'
 import { speak } from '../speech'
-import AustraliaMap from './AustraliaMap'
 import { ArrowIcon } from './icons'
 
 const REGIONS: RegionId[] = ['north', 'middle', 'south']
@@ -15,7 +13,7 @@ type Camera = { s: number; tx: number; ty: number }
 const PAD_Y = 96
 const PAD_X = 24
 
-function cameraFor(region: RegionId, vw: number, vh: number): Camera {
+function cameraFor(geo: ContinentGeo, region: RegionId, vw: number, vh: number): Camera {
   const v = geo.views[region]
   const availW = vw - PAD_X * 2
   const availH = vh - PAD_Y * 2
@@ -27,7 +25,7 @@ function cameraFor(region: RegionId, vw: number, vh: number): Camera {
   return { s, tx, ty }
 }
 
-function clampCamera(c: Camera, vw: number, vh: number): Camera {
+function clampCamera(geo: ContinentGeo, c: Camera, vw: number, vh: number): Camera {
   const mapW = geo.width * c.s
   const mapH = geo.height * c.s
   const clamp = (t: number, size: number, view: number) =>
@@ -36,17 +34,21 @@ function clampCamera(c: Camera, vw: number, vh: number): Camera {
 }
 
 export default function ContinentPage({
+  data,
   region,
   onRegion,
   onBack,
   onAnimal,
 }: {
+  data: ContinentData
   region: RegionId
   onRegion: (r: RegionId) => void
   onBack: () => void
   onAnimal: (a: Animal) => void
 }) {
   const { lang, t } = useLang()
+  const { geo, animals } = data
+  const regionName = (r: RegionId) => t(REGION_NAMES[data.key]?.[r] ?? UI[r])
   const viewportRef = useRef<HTMLDivElement>(null)
   const [size, setSize] = useState({ w: window.innerWidth, h: window.innerHeight })
   // Manual dragging offset; it belongs to one region and resets when the region changes
@@ -64,29 +66,31 @@ export default function ContinentPage({
     return () => ro.disconnect()
   }, [])
 
-  const base = cameraFor(region, size.w, size.h)
-  const cam = clampCamera({ ...base, tx: base.tx + pan.x, ty: base.ty + pan.y }, size.w, size.h)
+  const base = cameraFor(geo, region, size.w, size.h)
+  const cam = clampCamera(geo, { ...base, tx: base.tx + pan.x, ty: base.ty + pan.y }, size.w, size.h)
 
   const idx = REGIONS.indexOf(region)
-  const go = useCallback(
-    (delta: number) => {
-      const next = REGIONS[idx + delta]
-      if (next) {
-        speak(t(UI[next]), lang)
-        onRegion(next)
-      }
-    },
-    [idx, onRegion, lang, t],
-  )
+  const go = (delta: number) => {
+    const next = REGIONS[idx + delta]
+    if (next) {
+      speak(regionName(next), lang)
+      onRegion(next)
+    }
+  }
 
+  // Keyboard arrows (the handler always calls the latest `go`)
+  const goRef = useRef(go)
+  useEffect(() => {
+    goRef.current = go
+  })
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
-      if (e.key === 'ArrowUp') go(-1)
-      if (e.key === 'ArrowDown') go(1)
+      if (e.key === 'ArrowUp') goRef.current(-1)
+      if (e.key === 'ArrowDown') goRef.current(1)
     }
     window.addEventListener('keydown', onKey)
     return () => window.removeEventListener('keydown', onKey)
-  }, [go])
+  }, [])
 
   const onPointerDown = (e: React.PointerEvent) => {
     drag.current = { x: e.clientX, y: e.clientY, px: pan.x, py: pan.y, moved: false }
@@ -137,8 +141,16 @@ export default function ContinentPage({
             } as React.CSSProperties
           }
         >
-          <AustraliaMap />
-          {australiaAnimals.map((a) => (
+          <img
+            className="painted-map"
+            src={mapUrl(data.key)}
+            width={geo.width}
+            height={geo.height}
+            alt=""
+            draggable={false}
+            decoding="async"
+          />
+          {animals.map((a) => (
             <button
               key={a.id}
               className={`animal-pin ${a.region === region ? 'here' : 'away'}`}
@@ -149,7 +161,7 @@ export default function ContinentPage({
               aria-label={a.name[lang]}
               title={a.name[lang]}
             >
-              <img src={a.thumb} alt="" draggable={false} loading="lazy" />
+              <img src={a.thumb} alt="" draggable={false} />
             </button>
           ))}
         </div>
@@ -160,12 +172,12 @@ export default function ContinentPage({
       </button>
 
       {idx > 0 && (
-        <button className="round-btn nav-btn nav-up" onClick={() => go(-1)} aria-label={t(UI.goNorth)}>
+        <button className="round-btn nav-btn nav-up" onClick={() => go(-1)} aria-label={regionName(REGIONS[idx - 1])}>
           <ArrowIcon dir="up" />
         </button>
       )}
       {idx < REGIONS.length - 1 && (
-        <button className="round-btn nav-btn nav-down" onClick={() => go(1)} aria-label={t(UI.goSouth)}>
+        <button className="round-btn nav-btn nav-down" onClick={() => go(1)} aria-label={regionName(REGIONS[idx + 1])}>
           <ArrowIcon dir="down" />
         </button>
       )}

@@ -1,0 +1,353 @@
+[
+ {
+  "id": "polar-bear",
+  "wiki": "Polar bear",
+  "lon": -95.8,
+  "lat": 58.6
+ },
+ {
+  "id": "muskox",
+  "wiki": "Muskox",
+  "lon": -22.8,
+  "lat": 71.8
+ },
+ {
+  "id": "caribou",
+  "wiki": "Reindeer",
+  "lon": -105.0,
+  "lat": 65.0
+ },
+ {
+  "id": "arctic-fox",
+  "wiki": "Arctic fox",
+  "lon": -72.0,
+  "lat": 68.0
+ },
+ {
+  "id": "narwhal",
+  "wiki": "Narwhal",
+  "lon": -66.0,
+  "lat": 73.0,
+  "sea": true
+ },
+ {
+  "id": "walrus",
+  "wiki": "Walrus",
+  "lon": -168.0,
+  "lat": 67.5,
+  "sea": true
+ },
+ {
+  "id": "beluga-whale",
+  "wiki": "Beluga whale",
+  "lon": -86.0,
+  "lat": 60.0,
+  "sea": true
+ },
+ {
+  "id": "snowy-owl",
+  "wiki": "Snowy owl",
+  "lon": -110.0,
+  "lat": 71.0
+ },
+ {
+  "id": "arctic-hare",
+  "wiki": "Arctic hare",
+  "lon": -80.0,
+  "lat": 80.0
+ },
+ {
+  "id": "grizzly-bear",
+  "wiki": "Grizzly bear",
+  "lon": -150.0,
+  "lat": 63.5
+ },
+ {
+  "id": "moose",
+  "wiki": "Moose",
+  "lon": -135.0,
+  "lat": 63.0
+ },
+ {
+  "id": "canada-lynx",
+  "wiki": "Canada lynx",
+  "lon": -118.0,
+  "lat": 59.0
+ },
+ {
+  "id": "wolverine",
+  "wiki": "Wolverine",
+  "lon": -140.0,
+  "lat": 67.0
+ },
+ {
+  "id": "harp-seal",
+  "wiki": "Harp seal",
+  "lon": -55.0,
+  "lat": 58.0,
+  "sea": true
+ },
+ {
+  "id": "humpback-whale",
+  "wiki": "Humpback whale",
+  "lon": -145.0,
+  "lat": 57.0,
+  "sea": true
+ },
+ {
+  "id": "bald-eagle",
+  "wiki": "Bald eagle",
+  "lon": -132.5,
+  "lat": 58.6
+ },
+ {
+  "id": "greenland-shark",
+  "wiki": "Greenland shark",
+  "lon": -25.0,
+  "lat": 68.0,
+  "sea": true
+ },
+ {
+  "id": "bearded-seal",
+  "wiki": "Bearded seal",
+  "lon": -135.0,
+  "lat": 71.0,
+  "sea": true
+ },
+ {
+  "id": "american-bison",
+  "wiki": "American bison",
+  "lon": -110.5,
+  "lat": 44.6
+ },
+ {
+  "id": "pronghorn",
+  "wiki": "Pronghorn",
+  "lon": -106.0,
+  "lat": 40.5
+ },
+ {
+  "id": "grey-wolf",
+  "wiki": "Wolf",
+  "lon": -93.0,
+  "lat": 47.5
+ },
+ {
+  "id": "american-black-bear",
+  "wiki": "American black bear",
+  "lon": -83.5,
+  "lat": 35.6
+ },
+ {
+  "id": "raccoon",
+  "wiki": "Raccoon",
+  "lon": -77.0,
+  "lat": 40.0
+ },
+ {
+  "id": "striped-skunk",
+  "wiki": "Striped skunk",
+  "lon": -90.0,
+  "lat": 40.0
+ },
+ {
+  "id": "north-american-beaver",
+  "wiki": "North American beaver",
+  "lon": -73.0,
+  "lat": 48.5
+ },
+ {
+  "id": "cougar",
+  "wiki": "Cougar",
+  "lon": -112.0,
+  "lat": 38.0
+ },
+ {
+  "id": "coyote",
+  "wiki": "Coyote",
+  "lon": -100.0,
+  "lat": 35.0
+ },
+ {
+  "id": "bighorn-sheep",
+  "wiki": "Bighorn sheep",
+  "lon": -116.0,
+  "lat": 51.0
+ },
+ {
+  "id": "western-diamondback-rattlesnake",
+  "wiki": "Western diamondback rattlesnake",
+  "lon": -106.5,
+  "lat": 32.5
+ },
+ {
+  "id": "gila-monster",
+  "wiki": "Gila monster",
+  "lon": -112.0,
+  "lat": 32.5
+ },
+ {
+  "id": "sea-otter",
+  "wiki": "Sea otter",
+  "lon": -122.3,
+  "lat": 36.5,
+  "sea": true
+ },
+ {
+  "id": "orca",
+  "wiki": "Orca",
+  "lon": -128.0,
+  "lat": 49.0,
+  "sea": true
+ },
+ {
+  "id": "american-alligator",
+  "wiki": "American alligator",
+  "lon": -92.0,
+  "lat": 30.5
+ },
+ {
+  "id": "eastern-chipmunk",
+  "wiki": "Eastern chipmunk",
+  "lon": -73.0,
+  "lat": 44.0
+ },
+ {
+  "id": "blue-whale",
+  "wiki": "Blue whale",
+  "lon": -124.0,
+  "lat": 33.0,
+  "sea": true
+ },
+ {
+  "id": "black-tailed-prairie-dog",
+  "wiki": "Black-tailed prairie dog",
+  "lon": -101.0,
+  "lat": 44.0
+ },
+ {
+  "id": "elk",
+  "wiki": "Elk",
+  "lon": -121.0,
+  "lat": 44.5
+ },
+ {
+  "id": "brown-throated-sloth",
+  "wiki": "Brown-throated sloth",
+  "lon": -77.6,
+  "lat": 8.1
+ },
+ {
+  "id": "red-eyed-tree-frog",
+  "wiki": "Agalychnis callidryas",
+  "lon": -83.5,
+  "lat": 9.6
+ },
+ {
+  "id": "mantled-howler",
+  "wiki": "Mantled howler",
+  "lon": -85.3,
+  "lat": 12.8
+ },
+ {
+  "id": "resplendent-quetzal",
+  "wiki": "Resplendent quetzal",
+  "lon": -88.2,
+  "lat": 15.5
+ },
+ {
+  "id": "jaguar",
+  "wiki": "Jaguar",
+  "lon": -91.5,
+  "lat": 17.6
+ },
+ {
+  "id": "keel-billed-toucan",
+  "wiki": "Keel-billed toucan",
+  "lon": -88.3,
+  "lat": 20.0
+ },
+ {
+  "id": "green-iguana",
+  "wiki": "Green iguana",
+  "lon": -95.6,
+  "lat": 17.0
+ },
+ {
+  "id": "axolotl",
+  "wiki": "Axolotl",
+  "lon": -99.1,
+  "lat": 19.4
+ },
+ {
+  "id": "ocelot",
+  "wiki": "Ocelot",
+  "lon": -98.5,
+  "lat": 23.5
+ },
+ {
+  "id": "gray-whale",
+  "wiki": "Gray whale",
+  "lon": -114.5,
+  "lat": 27.0,
+  "sea": true
+ },
+ {
+  "id": "whale-shark",
+  "wiki": "Whale shark",
+  "lon": -110.5,
+  "lat": 24.5,
+  "sea": true
+ },
+ {
+  "id": "bottlenose-dolphin",
+  "wiki": "Common bottlenose dolphin",
+  "lon": -91.0,
+  "lat": 26.5,
+  "sea": true
+ },
+ {
+  "id": "west-indian-manatee",
+  "wiki": "West Indian manatee",
+  "lon": -83.3,
+  "lat": 28.3,
+  "sea": true
+ },
+ {
+  "id": "american-crocodile",
+  "wiki": "American crocodile",
+  "lon": -80.8,
+  "lat": 25.5
+ },
+ {
+  "id": "american-flamingo",
+  "wiki": "American flamingo",
+  "lon": -78.0,
+  "lat": 22.2
+ },
+ {
+  "id": "rhinoceros-iguana",
+  "wiki": "Rhinoceros iguana",
+  "lon": -71.0,
+  "lat": 18.8
+ },
+ {
+  "id": "hawksbill-sea-turtle",
+  "wiki": "Hawksbill sea turtle",
+  "lon": -76.0,
+  "lat": 16.5,
+  "sea": true
+ },
+ {
+  "id": "common-coqui",
+  "wiki": "Common coquí",
+  "lon": -66.5,
+  "lat": 18.2
+ },
+ {
+  "id": "nine-banded-armadillo",
+  "wiki": "Nine-banded armadillo",
+  "lon": -98.0,
+  "lat": 29.5
+ }
+]

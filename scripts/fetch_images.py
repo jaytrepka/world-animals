@@ -1,8 +1,11 @@
 """Download animal photos from Wikimedia Commons (via English Wikipedia media lists).
 
-Usage: python3 scripts/fetch_images.py [id ...]
-Writes public/animals/<id>/{thumb,1,2,3}.jpg and src/data/images.json (with credits).
-Per-animal overrides: scripts/image_overrides.json  {id: ["File:Something.jpg", ...]}
+Usage: python3 scripts/fetch_images.py <continent> [id ...]
+Reads   src/data/continents/<continent>/roster.json (+ content*.ts for scientific names)
+Writes  public/animals/<continent>/<id>/{1,2,3}.jpg and src/data/continents/<continent>/images.json (credits).
+Without ids it only fetches animals that have no photos yet; with ids it re-fetches those.
+Optional overrides: src/data/continents/<continent>/image_overrides.json  {id: ["File:Something.jpg", ...]}
+Afterwards: curate_images.py (drop bad photos, builds thumbs) and compress_images.py.
 """
 import json, os, re, sys, time, urllib.parse, urllib.request, html
 
@@ -39,10 +42,11 @@ def commons_search(query, limit=25):
     d = get("https://commons.wikimedia.org/w/api.php?" + q)
     return [r["title"] for r in d["query"]["search"] if re.search(r"\.jpe?g$", r["title"], re.I) and not BAD.search(r["title"])]
 
-def species_names():
+def species_names(cdir):
+    import glob
     names = {}
-    for region in ("north", "middle", "south"):
-        src = open(os.path.join(ROOT, f"src/data/australia/content-{region}.ts")).read()
+    for path in glob.glob(os.path.join(cdir, "content*.ts")):
+        src = open(path).read()
         for m in re.finditer(r"id:\s*['\"]([^'\"]+)['\"].*?species:\s*['\"]([^'\"]+)['\"]", src, re.S):
             names[m.group(1)] = m.group(2)
     return names
@@ -64,13 +68,15 @@ def info(file_title, width):
     }
 
 def main():
-    roster = json.load(open(os.path.join(ROOT, "scripts/roster.json")))
-    overrides_path = os.path.join(ROOT, "scripts/image_overrides.json")
+    continent = sys.argv[1]
+    cdir = os.path.join(ROOT, "src/data/continents", continent)
+    roster = json.load(open(os.path.join(cdir, "roster.json")))
+    overrides_path = os.path.join(cdir, "image_overrides.json")
     overrides = json.load(open(overrides_path)) if os.path.exists(overrides_path) else {}
-    out_path = os.path.join(ROOT, "src/data/images.json")
+    out_path = os.path.join(cdir, "images.json")
     result = json.load(open(out_path)) if os.path.exists(out_path) else {}
-    only = set(sys.argv[1:])
-    species = species_names()
+    only = set(sys.argv[2:])
+    species = species_names(cdir)
     for a in roster:
         aid = a["id"]
         if only and aid not in only:
@@ -94,7 +100,7 @@ def main():
                 break
         if not picked:
             print("NO IMAGES", aid); continue
-        d = os.path.join(ROOT, "public/animals", aid)
+        d = os.path.join(ROOT, "public/animals", continent, aid)
         os.makedirs(d, exist_ok=True)
         for fn in os.listdir(d):
             os.remove(os.path.join(d, fn))
@@ -103,8 +109,6 @@ def main():
             open(os.path.join(d, f"{n}.jpg"), "wb").write(get(i["url"], raw=True))
             credits.append({"file": f, "author": i["author"], "license": i["license"], "source": i["source"]})
             time.sleep(0.3)
-        thumb = info(picked[0][0], 330)
-        open(os.path.join(d, "thumb.jpg"), "wb").write(get(thumb["url"], raw=True))
         result[aid] = {"count": len(picked), "credits": credits}
         print("ok", aid, len(picked), [c["file"] for c in credits])
         json.dump(result, open(out_path, "w"), indent=1, ensure_ascii=False)

@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
-import { australiaAnimals } from './data/australia'
+import { isContinent, loadContinent, type ContinentData, type ContinentKey } from './data/continents'
 import type { Lang, RegionId } from './data/types'
 import { LangContext, UI } from './i18n'
 import { stopSpeaking } from './speech'
@@ -8,13 +8,13 @@ import ContinentPage from './components/ContinentPage'
 import AnimalModal from './components/AnimalModal'
 import { CzechFlag, UkFlag } from './components/icons'
 
-type Route = { page: 'home' } | { page: 'continent'; continent: string; region: RegionId; animal?: string }
+type Route = { page: 'home' } | { page: 'continent'; continent: ContinentKey; region: RegionId; animal?: string }
 
 const REGIONS: RegionId[] = ['north', 'middle', 'south']
 
 function parseHash(hash: string): Route {
   const [continent, region, animal] = hash.replace(/^#\/?/, '').split('/')
-  if (continent === 'australia') {
+  if (isContinent(continent)) {
     return { page: 'continent', continent, region: REGIONS.includes(region as RegionId) ? (region as RegionId) : 'north', animal }
   }
   return { page: 'home' }
@@ -73,14 +73,35 @@ export default function App() {
   }, [])
 
   const langValue = useMemo(() => ({ lang, setLang }), [lang, setLang])
-  const animal = route.page === 'continent' && route.animal ? australiaAnimals.find((a) => a.id === route.animal) : undefined
+
+  // Continent data (map + animals) is loaded on demand
+  const [data, setData] = useState<ContinentData | null>(null)
+  const wantedKey = route.page === 'continent' ? route.continent : null
+  useEffect(() => {
+    if (!wantedKey) return
+    let alive = true
+    loadContinent(wantedKey).then((d) => alive && setData(d))
+    return () => {
+      alive = false
+    }
+  }, [wantedKey])
+  const current = data && data.key === wantedKey ? data : null
+  const animal = route.page === 'continent' && route.animal ? current?.animals.find((a) => a.id === route.animal) : undefined
 
   return (
     <LangContext.Provider value={langValue}>
       {route.page === 'home' ? (
         <HomePage onOpen={(c) => navigate({ page: 'continent', continent: c, region: 'north' })} />
+      ) : !current ? (
+        <div className="loading" aria-busy="true">
+          <span>🐾</span>
+          <span>🐾</span>
+          <span>🐾</span>
+        </div>
       ) : (
         <ContinentPage
+          key={current.key}
+          data={current}
           region={route.region}
           onRegion={(region) => navigate({ ...route, region, animal: undefined }, true)}
           onBack={() => navigate({ page: 'home' })}

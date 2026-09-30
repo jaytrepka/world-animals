@@ -28,3 +28,4 @@ scripts/geo/
 *.HEIC
 __pycache__/
 .vercel
+scripts/.build/

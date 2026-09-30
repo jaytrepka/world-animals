@@ -1,10 +1,10 @@
 import { useState } from 'react'
 import world from '../data/geo/world.json'
+import { isContinent, loadContinent, thumbUrl, type ContinentKey } from '../data/continents'
 import { CONTINENT_NAMES, UI, useLang } from '../i18n'
 import { speak } from '../speech'
 import Logo from './Logo'
 
-const AVAILABLE = new Set(['australia'])
 
 const COLORS: Record<string, string> = {
   northAmerica: '#f4a259',
@@ -16,22 +16,52 @@ const COLORS: Record<string, string> = {
   antarctica: '#ffffff',
 }
 
-/** A few animal photos floating over the playable continent, as a hint that it can be tapped. */
-const TEASERS: Record<string, { id: string; dx: number; dy: number }[]> = {
+/** A few animal photos floating over each continent, as a hint that it can be tapped. */
+const TEASERS: Partial<Record<ContinentKey, { id: string; dx: number; dy: number }[]>> = {
+  northAmerica: [
+    { id: 'polar-bear', dx: -8, dy: -62 },
+    { id: 'grizzly-bear', dx: -38, dy: -14 },
+    { id: 'american-bison', dx: 18, dy: 12 },
+  ],
+  southAmerica: [
+    { id: 'jaguar', dx: -12, dy: -24 },
+    { id: 'capybara', dx: 28, dy: 8 },
+    { id: 'patagonian-mara', dx: -14, dy: 46 },
+  ],
+  europe: [
+    { id: 'red-fox', dx: -30, dy: 8 },
+    { id: 'brown-bear', dx: 16, dy: -22 },
+    { id: 'eurasian-lynx', dx: 26, dy: 20 },
+  ],
+  africa: [
+    { id: 'lion', dx: -30, dy: -10 },
+    { id: 'reticulated-giraffe', dx: 24, dy: -8 },
+    { id: 'meerkat', dx: 6, dy: 44 },
+  ],
+  asia: [
+    { id: 'giant-panda', dx: 10, dy: 8 },
+    { id: 'bengal-tiger', dx: -44, dy: 44 },
+    { id: 'snow-leopard', dx: -40, dy: -4 },
+  ],
   australia: [
-    { id: 'red-kangaroo', dx: -40, dy: -6 },
-    { id: 'koala', dx: 34, dy: -22 },
-    { id: 'platypus', dx: 20, dy: 34 },
+    { id: 'red-kangaroo', dx: -32, dy: -6 },
+    { id: 'koala', dx: 30, dy: -18 },
+    { id: 'platypus', dx: 16, dy: 30 },
+  ],
+  antarctica: [
+    { id: 'emperor-penguin', dx: -60, dy: 4 },
+    { id: 'orca', dx: 0, dy: 6 },
+    { id: 'leopard-seal', dx: 60, dy: 4 },
   ],
 }
 
-export default function HomePage({ onOpen }: { onOpen: (continent: string) => void }) {
+export default function HomePage({ onOpen }: { onOpen: (continent: ContinentKey) => void }) {
   const { lang, t } = useLang()
   const [wiggle, setWiggle] = useState<string | null>(null)
 
   const tap = (key: string) => {
     const name = t(CONTINENT_NAMES[key])
-    if (AVAILABLE.has(key)) {
+    if (isContinent(key)) {
       speak(name, lang)
       onOpen(key)
     } else {
@@ -59,7 +89,7 @@ export default function HomePage({ onOpen }: { onOpen: (continent: string) => vo
           </defs>
           <path d={world.sphere} fill="url(#ocean)" stroke="#fff" strokeWidth="4" />
           {Object.entries(world.continents).map(([key, d]) => {
-            const available = AVAILABLE.has(key)
+            const available = isContinent(key)
             return (
               <path
                 key={key}
@@ -68,23 +98,25 @@ export default function HomePage({ onOpen }: { onOpen: (continent: string) => vo
                 fill={COLORS[key]}
                 filter="url(#land-shadow)"
                 onClick={() => tap(key)}
+                onPointerEnter={() => isContinent(key) && loadContinent(key)}
                 role="button"
                 aria-label={t(CONTINENT_NAMES[key])}
               />
             )
           })}
-          {Object.entries(TEASERS).map(([key, list]) => {
+          {(Object.entries(TEASERS) as [ContinentKey, { id: string; dx: number; dy: number }[]][]).map(([key, list]) => {
+            if (!isContinent(key)) return null
             const [x, y] = world.labels[key as keyof typeof world.labels]
             return (
               <g key={key} className="teasers" onClick={() => tap(key)}>
-                <circle cx={x} cy={y} r="60" className="pulse" />
-                {list.map((a) => (
-                  <g key={a.id} transform={`translate(${x + a.dx} ${y + a.dy})`}>
-                    <clipPath id={`tc-${a.id}`}>
-                      <circle r="22" />
+                
+                {list.map((a, i) => (
+                  <g key={a.id} transform={`translate(${x + a.dx} ${y + a.dy})`} className="teaser" style={{ animationDelay: `${-i * 0.7}s` }}>
+                    <clipPath id={`tc-${key}-${a.id}`}>
+                      <circle r="19" />
                     </clipPath>
-                    <circle r="25" fill="#fff" />
-                    <image href={`/animals/${a.id}/thumb.jpg`} x="-22" y="-22" width="44" height="44" clipPath={`url(#tc-${a.id})`} preserveAspectRatio="xMidYMid slice" />
+                    <circle r="22" fill="#fff" />
+                    <image href={thumbUrl(key, a.id)} x="-19" y="-19" width="38" height="38" clipPath={`url(#tc-${key}-${a.id})`} preserveAspectRatio="xMidYMid slice" />
                   </g>
                 ))}
               </g>

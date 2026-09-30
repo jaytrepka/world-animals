@@ -1,0 +1,354 @@
+[
+ {
+  "id": "dromedary",
+  "wiki": "Dromedary",
+  "lon": -10.0,
+  "lat": 21.0
+ },
+ {
+  "id": "fennec-fox",
+  "wiki": "Fennec fox",
+  "lon": 3.0,
+  "lat": 30.0
+ },
+ {
+  "id": "barbary-macaque",
+  "wiki": "Barbary macaque",
+  "lon": -5.0,
+  "lat": 33.2
+ },
+ {
+  "id": "addax",
+  "wiki": "Addax",
+  "lon": 11.5,
+  "lat": 17.0
+ },
+ {
+  "id": "scimitar-oryx",
+  "wiki": "Scimitar oryx",
+  "lon": 19.0,
+  "lat": 15.0
+ },
+ {
+  "id": "dorcas-gazelle",
+  "wiki": "Dorcas gazelle",
+  "lon": 27.0,
+  "lat": 27.0
+ },
+ {
+  "id": "egyptian-cobra",
+  "wiki": "Egyptian cobra",
+  "lon": 31.0,
+  "lat": 29.5
+ },
+ {
+  "id": "nubian-ibex",
+  "wiki": "Nubian ibex",
+  "lon": 36.0,
+  "lat": 20.5
+ },
+ {
+  "id": "dugong",
+  "wiki": "Dugong",
+  "lon": 36.3,
+  "lat": 24.5,
+  "sea": true
+ },
+ {
+  "id": "red-sea-clownfish",
+  "wiki": "Red Sea clownfish",
+  "lon": 40.3,
+  "lat": 17.3,
+  "sea": true
+ },
+ {
+  "id": "gelada",
+  "wiki": "Gelada",
+  "lon": 38.2,
+  "lat": 13.2
+ },
+ {
+  "id": "mediterranean-monk-seal",
+  "wiki": "Mediterranean monk seal",
+  "lon": -17.8,
+  "lat": 21.2,
+  "sea": true
+ },
+ {
+  "id": "loggerhead-sea-turtle",
+  "wiki": "Loggerhead sea turtle",
+  "lon": 20.0,
+  "lat": 33.8,
+  "sea": true
+ },
+ {
+  "id": "greater-flamingo",
+  "wiki": "Greater flamingo",
+  "lon": 9.5,
+  "lat": 34.0
+ },
+ {
+  "id": "striped-hyena",
+  "wiki": "Striped hyena",
+  "lon": 25.0,
+  "lat": 13.8
+ },
+ {
+  "id": "african-spurred-tortoise",
+  "wiki": "African spurred tortoise",
+  "lon": -15.0,
+  "lat": 15.0
+ },
+ {
+  "id": "saharan-horned-viper",
+  "wiki": "Cerastes cerastes",
+  "lon": -2.0,
+  "lat": 25.0
+ },
+ {
+  "id": "caracal",
+  "wiki": "Caracal",
+  "lon": 8.5,
+  "lat": 19.5
+ },
+ {
+  "id": "mountain-gorilla",
+  "wiki": "Mountain gorilla",
+  "lon": 29.6,
+  "lat": -1.4
+ },
+ {
+  "id": "chimpanzee",
+  "wiki": "Chimpanzee",
+  "lon": -12.0,
+  "lat": 11.0
+ },
+ {
+  "id": "bonobo",
+  "wiki": "Bonobo",
+  "lon": 22.0,
+  "lat": -1.5
+ },
+ {
+  "id": "okapi",
+  "wiki": "Okapi",
+  "lon": 28.5,
+  "lat": 1.5
+ },
+ {
+  "id": "african-forest-elephant",
+  "wiki": "African forest elephant",
+  "lon": 11.8,
+  "lat": -0.8
+ },
+ {
+  "id": "african-bush-elephant",
+  "wiki": "African bush elephant",
+  "lon": 38.5,
+  "lat": -3.2
+ },
+ {
+  "id": "lion",
+  "wiki": "Lion",
+  "lon": 34.8,
+  "lat": -2.3
+ },
+ {
+  "id": "reticulated-giraffe",
+  "wiki": "Reticulated giraffe",
+  "lon": 37.5,
+  "lat": 0.7
+ },
+ {
+  "id": "hippopotamus",
+  "wiki": "Hippopotamus",
+  "lon": 31.8,
+  "lat": 2.3
+ },
+ {
+  "id": "plains-zebra",
+  "wiki": "Plains zebra",
+  "lon": 34.9,
+  "lat": -7.2
+ },
+ {
+  "id": "ethiopian-wolf",
+  "wiki": "Ethiopian wolf",
+  "lon": 39.7,
+  "lat": 6.9
+ },
+ {
+  "id": "nile-crocodile",
+  "wiki": "Nile crocodile",
+  "lon": 36.0,
+  "lat": 3.7
+ },
+ {
+  "id": "shoebill",
+  "wiki": "Shoebill",
+  "lon": 30.8,
+  "lat": 7.5
+ },
+ {
+  "id": "mandrill",
+  "wiki": "Mandrill",
+  "lon": 11.5,
+  "lat": 2.0
+ },
+ {
+  "id": "red-river-hog",
+  "wiki": "Red river hog",
+  "lon": 10.0,
+  "lat": 4.8
+ },
+ {
+  "id": "pygmy-hippopotamus",
+  "wiki": "Pygmy hippopotamus",
+  "lon": -8.5,
+  "lat": 5.5
+ },
+ {
+  "id": "gaboon-viper",
+  "wiki": "Gaboon viper",
+  "lon": -1.5,
+  "lat": 6.5
+ },
+ {
+  "id": "leatherback-sea-turtle",
+  "wiki": "Leatherback sea turtle",
+  "lon": 8.5,
+  "lat": -2.5,
+  "sea": true
+ },
+ {
+  "id": "whale-shark",
+  "wiki": "Whale shark",
+  "lon": 45.0,
+  "lat": 11.8,
+  "sea": true
+ },
+ {
+  "id": "meerkat",
+  "wiki": "Meerkat",
+  "lon": 20.5,
+  "lat": -26.0
+ },
+ {
+  "id": "cheetah",
+  "wiki": "Cheetah",
+  "lon": 18.0,
+  "lat": -22.0
+ },
+ {
+  "id": "black-rhinoceros",
+  "wiki": "Black rhinoceros",
+  "lon": 16.0,
+  "lat": -18.8
+ },
+ {
+  "id": "gemsbok",
+  "wiki": "Gemsbok",
+  "lon": 15.5,
+  "lat": -24.5
+ },
+ {
+  "id": "african-penguin",
+  "wiki": "African penguin",
+  "lon": 18.3,
+  "lat": -35.0,
+  "sea": true
+ },
+ {
+  "id": "great-white-shark",
+  "wiki": "Great white shark",
+  "lon": 22.5,
+  "lat": -35.3,
+  "sea": true
+ },
+ {
+  "id": "leopard",
+  "wiki": "African leopard",
+  "lon": 31.5,
+  "lat": -24.0
+ },
+ {
+  "id": "white-rhinoceros",
+  "wiki": "White rhinoceros",
+  "lon": 32.0,
+  "lat": -28.0
+ },
+ {
+  "id": "african-wild-dog",
+  "wiki": "African wild dog",
+  "lon": 23.5,
+  "lat": -19.5
+ },
+ {
+  "id": "common-ostrich",
+  "wiki": "Common ostrich",
+  "lon": 24.0,
+  "lat": -22.8
+ },
+ {
+  "id": "ring-tailed-lemur",
+  "wiki": "Ring-tailed lemur",
+  "lon": 45.3,
+  "lat": -23.5
+ },
+ {
+  "id": "fossa",
+  "wiki": "Fossa (animal)",
+  "lon": 46.8,
+  "lat": -16.3
+ },
+ {
+  "id": "panther-chameleon",
+  "wiki": "Panther chameleon",
+  "lon": 49.2,
+  "lat": -13.3
+ },
+ {
+  "id": "indri",
+  "wiki": "Indri",
+  "lon": 48.4,
+  "lat": -18.9
+ },
+ {
+  "id": "humpback-whale",
+  "wiki": "Humpback whale",
+  "lon": 51.0,
+  "lat": -17.5,
+  "sea": true
+ },
+ {
+  "id": "coelacanth",
+  "wiki": "West Indian Ocean coelacanth",
+  "lon": 42.9,
+  "lat": -11.6,
+  "sea": true
+ },
+ {
+  "id": "african-buffalo",
+  "wiki": "African buffalo",
+  "lon": 31.8,
+  "lat": -12.5
+ },
+ {
+  "id": "secretarybird",
+  "wiki": "Secretarybird",
+  "lon": 22.0,
+  "lat": -31.5
+ },
+ {
+  "id": "black-mamba",
+  "wiki": "Black mamba",
+  "lon": 35.0,
+  "lat": -18.0
+ },
+ {
+  "id": "common-eland",
+  "wiki": "Common eland",
+  "lon": 29.3,
+  "lat": -29.3
+ }
+]

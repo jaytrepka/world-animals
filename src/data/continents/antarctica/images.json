@@ -1,0 +1,435 @@
+{
+ "king-penguin": {
+  "count": 3,
+  "credits": [
+   {
+    "file": "File:SGI-2016-South_Georgia_(Fortuna_Bay)–King_penguin_(Aptenodytes_patagonicus)_04.jpg",
+    "author": "Godot13",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:SGI-2016-South_Georgia_(Fortuna_Bay)%E2%80%93King_penguin_(Aptenodytes_patagonicus)_04.jpg"
+   },
+   {
+    "file": "File:King_Penguin,_Macquarie_Island_imported_from_iNaturalist_photo_1949452.jpg",
+    "author": "(c) John Barkla, some rights reserved (CC BY)",
+    "license": "CC BY 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:King_Penguin,_Macquarie_Island_imported_from_iNaturalist_photo_1949452.jpg"
+   },
+   {
+    "file": "File:Aptenodytes_patagonicus_-St_Andrews_Bay,_South_Georgia,_British_Overseas_Territories,_UK_-head-8_(1).jpg",
+    "author": "Liam Quinn from Canada",
+    "license": "CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Aptenodytes_patagonicus_-St_Andrews_Bay,_South_Georgia,_British_Overseas_Territories,_UK_-head-8_(1).jpg"
+   }
+  ]
+ },
+ "antarctic-fur-seal": {
+  "count": 3,
+  "credits": [
+   {
+    "file": "File:Seebär_(Arctocephalus)_01.jpg",
+    "author": "Sastognuti",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Seeb%C3%A4r_(Arctocephalus)_01.jpg"
+   },
+   {
+    "file": "File:Sealuk.jpg",
+    "author": "Uwe Kils",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Sealuk.jpg"
+   },
+   {
+    "file": "File:Antarctic_Fur_Seal_Pups_amid_Tussock_Grass_(5724536166).jpg",
+    "author": "Liam Quinn from Canada",
+    "license": "CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Antarctic_Fur_Seal_Pups_amid_Tussock_Grass_(5724536166).jpg"
+   }
+  ]
+ },
+ "antarctic-krill": {
+  "count": 2,
+  "credits": [
+   {
+    "file": "File:Antarctic_krill_(Euphausia_superba).jpg",
+    "author": "Krill666.jpg: Uwe Kils I am willing to give the image in 1700 resolution to Wikipedia Uwe Kils",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Antarctic_krill_(Euphausia_superba).jpg"
+   },
+   {
+    "file": "File:Kilsheadkils.jpg",
+    "author": "Image by User:Uwe kils.",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Kilsheadkils.jpg"
+   }
+  ]
+ },
+ "chinstrap-penguin": {
+  "count": 3,
+  "credits": [
+   {
+    "file": "File:South_Shetland-2016-Deception_Island–Chinstrap_penguin_(Pygoscelis_antarctica)_04.jpg",
+    "author": "Godot13",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:South_Shetland-2016-Deception_Island%E2%80%93Chinstrap_penguin_(Pygoscelis_antarctica)_04.jpg"
+   },
+   {
+    "file": "File:Manchot_01.jpg",
+    "author": "",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Manchot_01.jpg"
+   },
+   {
+    "file": "File:OrneHarbor40.JPG",
+    "author": "Lewnwdc77",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:OrneHarbor40.JPG"
+   }
+  ]
+ },
+ "leopard-seal": {
+  "count": 3,
+  "credits": [
+   {
+    "file": "File:Antarctic_Sound-2016-Brown_Bluff–Leopard_seal_(Hydrurga_leptonyx)_04.jpg",
+    "author": "Godot13",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Antarctic_Sound-2016-Brown_Bluff%E2%80%93Leopard_seal_(Hydrurga_leptonyx)_04.jpg"
+   },
+   {
+    "file": "File:Antarctic_Sound-2016-Brown_Bluff–Leopard_seal_(Hydrurga_leptonyx)_05.jpg",
+    "author": "Godot13",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Antarctic_Sound-2016-Brown_Bluff%E2%80%93Leopard_seal_(Hydrurga_leptonyx)_05.jpg"
+   },
+   {
+    "file": "File:Fish8426_-_Flickr_-_NOAA_Photo_Library.jpg",
+    "author": "Credit: NOAA NMFS SWFSC Antarctic Marine Living Resources (AMLR) Program.",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Fish8426_-_Flickr_-_NOAA_Photo_Library.jpg"
+   }
+  ]
+ },
+ "gentoo-penguin": {
+  "count": 3,
+  "credits": [
+   {
+    "file": "File:Brown_Bluff-2016-Tabarin_Peninsula–Gentoo_penguin_(Pygoscelis_papua)_03.jpg",
+    "author": "Godot13",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Brown_Bluff-2016-Tabarin_Peninsula%E2%80%93Gentoo_penguin_(Pygoscelis_papua)_03.jpg"
+   },
+   {
+    "file": "File:Falkland_Islands_Penguins_05.jpg",
+    "author": "Ben Tubby",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Falkland_Islands_Penguins_05.jpg"
+   },
+   {
+    "file": "File:2020-11_Kerguelen_Islands_-_Gentoo_penguin_11.jpg",
+    "author": "Antoine Lamielle",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:2020-11_Kerguelen_Islands_-_Gentoo_penguin_11.jpg"
+   }
+  ]
+ },
+ "humpback-whale": {
+  "count": 3,
+  "credits": [
+   {
+    "file": "File:Humpback_whale_breaching_off_Cabo_San_Lucas.jpg",
+    "author": "Juan Cruzado Cortés",
+    "license": "CC BY 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Humpback_whale_breaching_off_Cabo_San_Lucas.jpg"
+   },
+   {
+    "file": "File:Humpback_Whale,_blowholes.jpg",
+    "author": "D. Gordon E. Robertson",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Humpback_Whale,_blowholes.jpg"
+   },
+   {
+    "file": "File:026b_Humpback_whale_jump_and_splash_Photo_by_Giles_Laurent.jpg",
+    "author": "Giles Laurent",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:026b_Humpback_whale_jump_and_splash_Photo_by_Giles_Laurent.jpg"
+   }
+  ]
+ },
+ "emperor-penguin": {
+  "count": 2,
+  "credits": [
+   {
+    "file": "File:Aptenodytes_forsteri_-Snow_Hill_Island,_Antarctica_-adults_and_juvenile-8.jpg",
+    "author": "Ian Duffy from UK",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Aptenodytes_forsteri_-Snow_Hill_Island,_Antarctica_-adults_and_juvenile-8.jpg"
+   },
+   {
+    "file": "File:Kaiserpinguine_mit_Jungen.jpg",
+    "author": "Image ID: corp2417, NOAA Corps Collection\nPhotographer: Giuseppe Zibordi\nCredit: Michael Van Woert, NOAA NESDIS, ORA",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Kaiserpinguine_mit_Jungen.jpg"
+   }
+  ]
+ },
+ "snow-petrel": {
+  "count": 2,
+  "credits": [
+   {
+    "file": "File:Pétrel_des_neiges_-_Snow_Petrel.jpg",
+    "author": "This illustration was made by Samuel Blanc.\nIf you plan on using it, an email to samuel @ sblanc.com would be greatly ap",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:P%C3%A9trel_des_neiges_-_Snow_Petrel.jpg"
+   },
+   {
+    "file": "File:Pagodroma_nivea_in_ross_sea1.jpg",
+    "author": "Brocken Inaglory",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Pagodroma_nivea_in_ross_sea1.jpg"
+   }
+  ]
+ },
+ "antarctic-minke-whale": {
+  "count": 2,
+  "credits": [
+   {
+    "file": "File:2024-10-26 Cuverville Antarctic minke whale 01.jpg",
+    "author": "Carina Gsottbauer",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:2024-10-26_Cuverville_Antarctic_minke_whale_01.jpg"
+   },
+   {
+    "file": "File:2024-10-26 Cuverville Antarctic minke whale 05.jpg",
+    "author": "Carina Gsottbauer",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:2024-10-26_Cuverville_Antarctic_minke_whale_05.jpg"
+   }
+  ]
+ },
+ "ross-seal": {
+  "count": 1,
+  "credits": [
+   {
+    "file": "File:Ommatophoca_rossii_(Ross_Seal),_off_Wilkes_Land,_Antarctica_1.jpg",
+    "author": "botheredbybees",
+    "license": "CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:Ommatophoca_rossii_(Ross_Seal),_off_Wilkes_Land,_Antarctica_1.jpg"
+   }
+  ]
+ },
+ "orca": {
+  "count": 2,
+  "credits": [
+   {
+    "file": "File:Killerwhales_jumping.jpg",
+    "author": "Robert Pittman",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Killerwhales_jumping.jpg"
+   },
+   {
+    "file": "File:Orca_porpoising.jpg",
+    "author": "Minette Layne from Seattle, Washington, USA",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Orca_porpoising.jpg"
+   }
+  ]
+ },
+ "weddell-seal": {
+  "count": 3,
+  "credits": [
+   {
+    "file": "File:Curious_Weddel_Seal.jpg",
+    "author": "Vassil Tzvetanov",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Curious_Weddel_Seal.jpg"
+   },
+   {
+    "file": "File:Mikkelsen_Harbour-2016-Trinity_Island_(D'Hainaut_Island)–Weddell_seal_(Leptonychotes_weddellii)_03.jpg",
+    "author": "Godot13",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Mikkelsen_Harbour-2016-Trinity_Island_(D%27Hainaut_Island)%E2%80%93Weddell_seal_(Leptonychotes_weddellii)_03.jpg"
+   },
+   {
+    "file": "File:Weddell_seal.jpg",
+    "author": "Photographer: Giuseppe Zibordi  Credit: Michael Van Woert, NOAA NESDIS, ORA",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Weddell_seal.jpg"
+   }
+  ]
+ },
+ "adelie-penguin": {
+  "count": 2,
+  "credits": [
+   {
+    "file": "File:Hope_Bay-2016-Trinity_Peninsula–Adélie_penguin_(Pygoscelis_adeliae)_04.jpg",
+    "author": "Godot13",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Hope_Bay-2016-Trinity_Peninsula%E2%80%93Ad%C3%A9lie_penguin_(Pygoscelis_adeliae)_04.jpg"
+   },
+   {
+    "file": "File:Adelie_Penguin,_Dumont_Durville,_Antarctica_imported_from_iNaturalist_photo_2912294.jpg",
+    "author": "(c) John Barkla, some rights reserved (CC BY)",
+    "license": "CC BY 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Adelie_Penguin,_Dumont_Durville,_Antarctica_imported_from_iNaturalist_photo_2912294.jpg"
+   }
+  ]
+ },
+ "southern-elephant-seal": {
+  "count": 2,
+  "credits": [
+   {
+    "file": "File:2020-11_Kerguelen_Islands_-_Southern_elephant_seal_30.jpg",
+    "author": "Antoine Lamielle",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:2020-11_Kerguelen_Islands_-_Southern_elephant_seal_30.jpg"
+   },
+   {
+    "file": "File:Patagonya'da_deniz_filleri_-_panoramio.jpg",
+    "author": "Ahmet Colakoglu",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Patagonya%27da_deniz_filleri_-_panoramio.jpg"
+   }
+  ]
+ },
+ "blue-whale": {
+  "count": 2,
+  "credits": [
+   {
+    "file": "File:Anim1754_-_Flickr_-_NOAA_Photo_Library.jpg",
+    "author": "NOAA Photo Library",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Anim1754_-_Flickr_-_NOAA_Photo_Library.jpg"
+   },
+   {
+    "file": "File:Bluewhale2_noaa.jpg",
+    "author": "NOAA",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Bluewhale2_noaa.jpg"
+   }
+  ]
+ },
+ "macaroni-penguin": {
+  "count": 1,
+  "credits": [
+   {
+    "file": "File:SGI-2016-South_Georgia_(Cooper_Bay)–Macaroni_penguin_(Eudyptes_chrysolophus)_01.jpg",
+    "author": "Godot13",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:SGI-2016-South_Georgia_(Cooper_Bay)%E2%80%93Macaroni_penguin_(Eudyptes_chrysolophus)_01.jpg"
+   }
+  ]
+ },
+ "southern-rockhopper-penguin": {
+  "count": 3,
+  "credits": [
+   {
+    "file": "File:Gorfou_sauteur_-_Rockhopper_Penguin.jpg",
+    "author": "This illustration was made by Samuel Blanc.\nIf you plan on using it, an email to samuel @ sblanc.com would be greatly ap",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Gorfou_sauteur_-_Rockhopper_Penguin.jpg"
+   },
+   {
+    "file": "File:Rockhopper_Penguin_on_Saunders_Island_(5586446214).jpg",
+    "author": "Liam Quinn from Canada",
+    "license": "CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Rockhopper_Penguin_on_Saunders_Island_(5586446214).jpg"
+   },
+   {
+    "file": "File:Rockhopper-Colony.jpg",
+    "author": "Ben Tubby",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Rockhopper-Colony.jpg"
+   }
+  ]
+ },
+ "wandering-albatross": {
+  "count": 3,
+  "credits": [
+   {
+    "file": "File:Diomedea_exulans_-_SE_Tasmania.jpg",
+    "author": "JJ Harrison (https://www.jjharrison.com.au/)",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Diomedea_exulans_-_SE_Tasmania.jpg"
+   },
+   {
+    "file": "File:Diomedea_exulans_in_flight_-_SE_Tasmania.jpg",
+    "author": "JJ Harrison (https://tiny.jjharrison.com.au/t/fCEqOJC1cJUcoIOa)",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Diomedea_exulans_in_flight_-_SE_Tasmania.jpg"
+   },
+   {
+    "file": "File:Diomedea_exulans_in_flight_2_-_SE_Tasmania.jpg",
+    "author": "JJ Harrison (https://www.jjharrison.com.au/)",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Diomedea_exulans_in_flight_2_-_SE_Tasmania.jpg"
+   }
+  ]
+ },
+ "crabeater-seal": {
+  "count": 2,
+  "credits": [
+   {
+    "file": "File:Lobodon_carcinophagus_on_sea_ice_(cropped).jpg",
+    "author": "François Guerraz",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Lobodon_carcinophagus_on_sea_ice_(cropped).jpg"
+   },
+   {
+    "file": "File:Crabeater_Seals_(js).jpg",
+    "author": "Jerzystrzelecki",
+    "license": "CC BY 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Crabeater_Seals_(js).jpg"
+   }
+  ]
+ },
+ "antarctic-toothfish": {
+  "count": 2,
+  "credits": [
+   {
+    "file": "File:Dissostichus mawsoni NOAA Fish8711.jpg",
+    "author": "Valerie Loeb",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Dissostichus_mawsoni_NOAA_Fish8711.jpg"
+   },
+   {
+    "file": "File:Dissostichus mawsoni lateral.jpg",
+    "author": "GeSHaFish",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Dissostichus_mawsoni_lateral.jpg"
+   }
+  ]
+ },
+ "hourglass-dolphin": {
+  "count": 3,
+  "credits": [
+   {
+    "file": "File:Hourglass dolphin drake passage 1.15.25 DSC 6492-topaz-rawdenoise.jpg",
+    "author": "lwolfartist",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Hourglass_dolphin_drake_passage_1.15.25_DSC_6492-topaz-rawdenoise.jpg"
+   },
+   {
+    "file": "File:Hourglass dolphin drake passage 1.15.25 DSC 6457-topaz-rawdenoise.jpg",
+    "author": "lwolfartist",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Hourglass_dolphin_drake_passage_1.15.25_DSC_6457-topaz-rawdenoise.jpg"
+   },
+   {
+    "file": "File:Hourglass dolphin drake passage 1.15.25 DSC 6480-topaz-rawdenoise.jpg",
+    "author": "lwolfartist",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Hourglass_dolphin_drake_passage_1.15.25_DSC_6480-topaz-rawdenoise.jpg"
+   }
+  ]
+ },
+ "crocodile-icefish": {
+  "count": 1,
+  "credits": [
+   {
+    "file": "File:Icefish Chionodraco hamatus.jpg",
+    "author": "",
+    "license": "Copyrighted free use",
+    "source": "https://commons.wikimedia.org/wiki/File:Icefish_Chionodraco_hamatus.jpg"
+   }
+  ]
+ }
+}

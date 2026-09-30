@@ -1,0 +1,991 @@
+{
+ "polar-bear": {
+  "count": 2,
+  "credits": [
+   {
+    "file": "File:Polar_Bear_-_Alaska_(cropped).jpg",
+    "author": "Alan Wilson",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Polar_Bear_-_Alaska_(cropped).jpg"
+   },
+   {
+    "file": "File:Polar_Bear_AdF.jpg",
+    "author": "Arturo de Frias Marques",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Polar_Bear_AdF.jpg"
+   }
+  ]
+ },
+ "walrus": {
+  "count": 3,
+  "credits": [
+   {
+    "file": "File:Walrus_in_the_Russian_Arctic_National_Park,_Novaya_Zemlya_2015-2.jpg",
+    "author": "Nixette",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Walrus_in_the_Russian_Arctic_National_Park,_Novaya_Zemlya_2015-2.jpg"
+   },
+   {
+    "file": "File:Walrus_2_(6383855895).jpg",
+    "author": "Dolovis (uploader)",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Walrus_2_(6383855895).jpg"
+   },
+   {
+    "file": "File:Walrus2.jpg",
+    "author": "Togiak National Wildlife Refuge",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Walrus2.jpg"
+   }
+  ]
+ },
+ "arctic-fox": {
+  "count": 3,
+  "credits": [
+   {
+    "file": "File:Vulpes_lagopus_in_Iceland_(cropped_3).jpg",
+    "author": "Jonatan Pie (unsplash.com/@r3dmax)",
+    "license": "CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:Vulpes_lagopus_in_Iceland_(cropped_3).jpg"
+   },
+   {
+    "file": "File:Posing_for_a_portrait_(Unsplash).jpg",
+    "author": "Jonatan Pie",
+    "license": "CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:Posing_for_a_portrait_(Unsplash).jpg"
+   },
+   {
+    "file": "File:Самка_песца_со_спутниковым_предатчиком_(cropped).jpg",
+    "author": "Hobboto4ek (Ольга Яковлевна Куликова / Olga Y. Kulikova)",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:%D0%A1%D0%B0%D0%BC%D0%BA%D0%B0_%D0%BF%D0%B5%D1%81%D1%86%D0%B0_%D1%81%D0%BE_%D1%81%D0%BF%D1%83%D1%82%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2%D1%8B%D0%BC_%D0%BF%D1%80%D0%B5%D0%B4%D0%B0%D1%82%D1%87%D0%B8%D0%BA%D0%BE%D0%BC_(cropped).jpg"
+   }
+  ]
+ },
+ "atlantic-puffin": {
+  "count": 3,
+  "credits": [
+   {
+    "file": "File:Puffin_(Fratercula_arctica).jpg",
+    "author": "Charles J. Sharp",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Puffin_(Fratercula_arctica).jpg"
+   },
+   {
+    "file": "File:Puffin_(Fratercula_arctica)_head.jpg",
+    "author": "Charles J. Sharp",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Puffin_(Fratercula_arctica)_head.jpg"
+   },
+   {
+    "file": "File:Fratercula_arctica_-_Matt_Felperin_-_616954144.jpeg",
+    "author": "Matt Felperin",
+    "license": "CC BY 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Fratercula_arctica_-_Matt_Felperin_-_616954144.jpeg"
+   }
+  ]
+ },
+ "orca": {
+  "count": 2,
+  "credits": [
+   {
+    "file": "File:Killerwhales_jumping.jpg",
+    "author": "Robert Pittman",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Killerwhales_jumping.jpg"
+   },
+   {
+    "file": "File:Orca_porpoising.jpg",
+    "author": "Minette Layne from Seattle, Washington, USA",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Orca_porpoising.jpg"
+   }
+  ]
+ },
+ "reindeer": {
+  "count": 3,
+  "credits": [
+   {
+    "file": "File:Reinbukken_på_frisk_grønt_beite._-_panoramio.jpg",
+    "author": "Are G Nilsen",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Reinbukken_p%C3%A5_frisk_gr%C3%B8nt_beite._-_panoramio.jpg"
+   },
+   {
+    "file": "File:Barren_ground_caribou_grazing_with_autumn_foliage_in_background.jpg",
+    "author": "Bauer, Erwin and Peggy, U.S. Fish and Wildlife Service",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Barren_ground_caribou_grazing_with_autumn_foliage_in_background.jpg"
+   },
+   {
+    "file": "File:Caribou.jpg",
+    "author": "Dean Biggins (U.S. Fish and Wildlife Service)",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Caribou.jpg"
+   }
+  ]
+ },
+ "wolverine": {
+  "count": 2,
+  "credits": [
+   {
+    "file": "File:Järv1.jpg",
+    "author": "Esquilo",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:J%C3%A4rv1.jpg"
+   },
+   {
+    "file": "File:Wolverine_on_rock.jpg",
+    "author": "",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Wolverine_on_rock.jpg"
+   }
+  ]
+ },
+ "moose": {
+  "count": 3,
+  "credits": [
+   {
+    "file": "File:Alce_(Alces_alces),_Potter_marsh,_Alaska,_Estados_Unidos,_2017-08-22,_DD_139.jpg",
+    "author": "Diego Delso",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Alce_(Alces_alces),_Potter_marsh,_Alaska,_Estados_Unidos,_2017-08-22,_DD_139.jpg"
+   },
+   {
+    "file": "File:Alaska_moose.jpg",
+    "author": "Paxson Woelber",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Alaska_moose.jpg"
+   },
+   {
+    "file": "File:Alces_alces_8492.JPG",
+    "author": "Walter Siegmund (talk)",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Alces_alces_8492.JPG"
+   }
+  ]
+ },
+ "norway-lemming": {
+  "count": 3,
+  "credits": [
+   {
+    "file": "File:Tunturisopuli_Lemmus_Lemmus.jpg",
+    "author": "Argus fin",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Tunturisopuli_Lemmus_Lemmus.jpg"
+   },
+   {
+    "file": "File:Lemming_in_snow.jpg",
+    "author": "kgleditsch",
+    "license": "CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Lemming_in_snow.jpg"
+   },
+   {
+    "file": "File:Lemmus_lemmus_in_Kevo_Strict_Nature_Reserve.jpg",
+    "author": "Lakkahillo",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Lemmus_lemmus_in_Kevo_Strict_Nature_Reserve.jpg"
+   }
+  ]
+ },
+ "atlantic-salmon": {
+  "count": 3,
+  "credits": [
+   {
+    "file": "File:Atlantischer Lachs.jpg",
+    "author": "Hartley, William W.",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Atlantischer_Lachs.jpg"
+   },
+   {
+    "file": "File:Jumping salmon 1.jpg",
+    "author": "Thomas Bjørkan from Brønnøysund, Norway",
+    "license": "CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Jumping_salmon_1.jpg"
+   },
+   {
+    "file": "File:PICT0628 Stovelfossen laks.jpg",
+    "author": "Bjørn Nesheim",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:PICT0628_Stovelfossen_laks.jpg"
+   }
+  ]
+ },
+ "grey-wolf": {
+  "count": 2,
+  "credits": [
+   {
+    "file": "File:Eurasian_wolf_2.jpg",
+    "author": "User:Mas3cf",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Eurasian_wolf_2.jpg"
+   },
+   {
+    "file": "File:Front_view_of_a_resting_Canis_lupus_ssp.jpg",
+    "author": "Gary Kramer",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Front_view_of_a_resting_Canis_lupus_ssp.jpg"
+   }
+  ]
+ },
+ "beluga-whale": {
+  "count": 2,
+  "credits": [
+   {
+    "file": "File:Delphinapterus leucas head 3.jpg",
+    "author": "Stan Shebs",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Delphinapterus_leucas_head_3.jpg"
+   },
+   {
+    "file": "File:Oceanogràfic_29102004.jpg",
+    "author": "Javier Yaya Tur / CIUDAD DE LAS ARTES Y LAS CIENCIAS from Valencia, España",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Oceanogr%C3%A0fic_29102004.jpg"
+   }
+  ]
+ },
+ "snowy-owl": {
+  "count": 2,
+  "credits": [
+   {
+    "file": "File:Bubo_scandiacus_(Linnaeus,_1758)_Male.jpg",
+    "author": "Michael Gäbler",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Bubo_scandiacus_(Linnaeus,_1758)_Male.jpg"
+   },
+   {
+    "file": "File:SnowyOwlAmericanBlackDuck.jpg",
+    "author": "Chuck Homler d/b/a Focus On Wildlife",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:SnowyOwlAmericanBlackDuck.jpg"
+   }
+  ]
+ },
+ "grey-seal": {
+  "count": 3,
+  "credits": [
+   {
+    "file": "File:Two_seals_in_the_water.jpg",
+    "author": "Lucc77",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Two_seals_in_the_water.jpg"
+   },
+   {
+    "file": "File:Donna_Nook_NNR_-_Grey_Seal_pupping_and_breeding_season_-_38804871202_(cropped).jpg",
+    "author": "kitmasterbloke",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Donna_Nook_NNR_-_Grey_Seal_pupping_and_breeding_season_-_38804871202_(cropped).jpg"
+   },
+   {
+    "file": "File:Focas_grises_(Halichoerus_grypus),_playa_de_Horsey,_Norfolk,_Inglaterra,_2022-11-20,_DD_11.jpg",
+    "author": "Diego Delso",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Focas_grises_(Halichoerus_grypus),_playa_de_Horsey,_Norfolk,_Inglaterra,_2022-11-20,_DD_11.jpg"
+   }
+  ]
+ },
+ "european-otter": {
+  "count": 3,
+  "credits": [
+   {
+    "file": "File:Fischotter,_Lutra_Lutra.JPG",
+    "author": "Bernard Landgraf",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Fischotter,_Lutra_Lutra.JPG"
+   },
+   {
+    "file": "File:Saukko_Korkeasaari_2.jpg",
+    "author": "kallerna",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Saukko_Korkeasaari_2.jpg"
+   },
+   {
+    "file": "File:European_Otter.jpg",
+    "author": "Michael Gäbler",
+    "license": "CC BY 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:European_Otter.jpg"
+   }
+  ]
+ },
+ "siberian-flying-squirrel": {
+  "count": 2,
+  "credits": [
+   {
+    "file": "File:Pteromys_volans_292232567.jpg",
+    "author": "Andrew Bazdyrev",
+    "license": "CC BY 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Pteromys_volans_292232567.jpg"
+   },
+   {
+    "file": "File:Летяга.jpg",
+    "author": "Чеканов Павел",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:%D0%9B%D0%B5%D1%82%D1%8F%D0%B3%D0%B0.jpg"
+   }
+  ]
+ },
+ "eurasian-lynx": {
+  "count": 3,
+  "credits": [
+   {
+    "file": "File:Lynx_Nationalpark_Bayerischer_Wald_01.jpg",
+    "author": "Aconcagua (talk)",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Lynx_Nationalpark_Bayerischer_Wald_01.jpg"
+   },
+   {
+    "file": "File:Parc_des_felins_Felin_06.jpg",
+    "author": "Abujoy",
+    "license": "CC BY 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Parc_des_felins_Felin_06.jpg"
+   },
+   {
+    "file": "File:Lynx_lynx2.jpg",
+    "author": "mpiet (http://www.mindbox.at/gallery/)",
+    "license": "CC BY-SA 2.0 de",
+    "source": "https://commons.wikimedia.org/wiki/File:Lynx_lynx2.jpg"
+   }
+  ]
+ },
+ "red-fox": {
+  "count": 3,
+  "credits": [
+   {
+    "file": "File:Portrait_of_a_red_fox_in_Rautas_fjällurskog_(cropped).jpg",
+    "author": "ClaudiaTen",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Portrait_of_a_red_fox_in_Rautas_fj%C3%A4llurskog_(cropped).jpg"
+   },
+   {
+    "file": "File:Red_fox_kits_playing_Bombay_Hook_(36455).jpg",
+    "author": "Rhododendrites",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Red_fox_kits_playing_Bombay_Hook_(36455).jpg"
+   },
+   {
+    "file": "File:Red_fox_kits_(40215161564).jpg",
+    "author": "U.S. Fish and Wildlife Service Headquarters",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Red_fox_kits_(40215161564).jpg"
+   }
+  ]
+ },
+ "roe-deer": {
+  "count": 3,
+  "credits": [
+   {
+    "file": "File:Roe_deer_(Capreolus_capreolus)_female_Cumnor.jpg",
+    "author": "Charles J. Sharp",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Roe_deer_(Capreolus_capreolus)_female_Cumnor.jpg"
+   },
+   {
+    "file": "File:Roe_deer_(Capreolus_capreolus)_young_male_Cumnor.jpg",
+    "author": "Charles J. Sharp",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Roe_deer_(Capreolus_capreolus)_young_male_Cumnor.jpg"
+   },
+   {
+    "file": "File:NZ8_4958_(53076882987).jpg",
+    "author": "Bengt Nyman from Vaxholm, Sweden",
+    "license": "CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:NZ8_4958_(53076882987).jpg"
+   }
+  ]
+ },
+ "european-hedgehog": {
+  "count": 2,
+  "credits": [
+   {
+    "file": "File:Erinaceus_europaeus_LC0119.jpg",
+    "author": "Jörg Hempel",
+    "license": "CC BY-SA 2.0 de",
+    "source": "https://commons.wikimedia.org/wiki/File:Erinaceus_europaeus_LC0119.jpg"
+   },
+   {
+    "file": "File:Milton_blonde_hedgehog.jpg",
+    "author": "No machine-readable author provided. Percy Snoodle~commonswiki assumed (based on copyright claims).",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Milton_blonde_hedgehog.jpg"
+   }
+  ]
+ },
+ "wild-boar": {
+  "count": 3,
+  "credits": [
+   {
+    "file": "File:Jabalí_13._F._FOTO-ARDEIDAS.jpg",
+    "author": "FOTO-ARDEIDAS",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Jabal%C3%AD_13._F._FOTO-ARDEIDAS.jpg"
+   },
+   {
+    "file": "File:Augen_zu_und_schlafen.JPG",
+    "author": "4028mdk09",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Augen_zu_und_schlafen.JPG"
+   },
+   {
+    "file": "File:Young_Wild_Boar_(5696463735).jpg",
+    "author": "Tony Hisgett from Birmingham, UK",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Young_Wild_Boar_(5696463735).jpg"
+   }
+  ]
+ },
+ "eurasian-beaver": {
+  "count": 2,
+  "credits": [
+   {
+    "file": "File:Beaver_pho34.jpg",
+    "author": "Per Harald Olsen",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Beaver_pho34.jpg"
+   },
+   {
+    "file": "File:Eurasian_beaver_(Castor_fiber)_Wizna.jpg",
+    "author": "Charles J. Sharp",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Eurasian_beaver_(Castor_fiber)_Wizna.jpg"
+   }
+  ]
+ },
+ "white-stork": {
+  "count": 2,
+  "credits": [
+   {
+    "file": "File:White_stork_(Ciconia_ciconia)_Białowieza.jpg",
+    "author": "Charles J. Sharp",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:White_stork_(Ciconia_ciconia)_Bia%C5%82owieza.jpg"
+   },
+   {
+    "file": "File:White_Stork.jpg",
+    "author": "Andreas Trepte",
+    "license": "CC BY-SA 2.5",
+    "source": "https://commons.wikimedia.org/wiki/File:White_Stork.jpg"
+   }
+  ]
+ },
+ "european-bison": {
+  "count": 2,
+  "credits": [
+   {
+    "file": "File:European_bison_(Bison_bonasus)_male_Białowieza.jpg",
+    "author": "Charles J. Sharp",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:European_bison_(Bison_bonasus)_male_Bia%C5%82owieza.jpg"
+   },
+   {
+    "file": "File:European_Bison.JPG",
+    "author": "Talks Presenters 09 (talk)",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:European_Bison.JPG"
+   }
+  ]
+ },
+ "brown-hare": {
+  "count": 2,
+  "credits": [
+   {
+    "file": "File:European_hare_(_Lepus_europaeus).jpg",
+    "author": "Nagusb",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:European_hare_(_Lepus_europaeus).jpg"
+   },
+   {
+    "file": "File:Feldhase,_Lepus_europaeus_3a.JPG",
+    "author": "Böhringer Friedrich",
+    "license": "CC BY-SA 2.5",
+    "source": "https://commons.wikimedia.org/wiki/File:Feldhase,_Lepus_europaeus_3a.JPG"
+   }
+  ]
+ },
+ "european-badger": {
+  "count": 3,
+  "credits": [
+   {
+    "file": "File:European_badger_(Meles_meles_taxus)_head_Drenthe.jpg",
+    "author": "Charles J. Sharp",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:European_badger_(Meles_meles_taxus)_head_Drenthe.jpg"
+   },
+   {
+    "file": "File:European_badger_(Meles_meles_taxus)_Drenthe.jpg",
+    "author": "Charles J. Sharp",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:European_badger_(Meles_meles_taxus)_Drenthe.jpg"
+   },
+   {
+    "file": "File:European_badger_(Meles_meles_taxus)_climbing_Drenthe.jpg",
+    "author": "Charles J. Sharp",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:European_badger_(Meles_meles_taxus)_climbing_Drenthe.jpg"
+   }
+  ]
+ },
+ "fire-salamander": {
+  "count": 3,
+  "credits": [
+   {
+    "file": "File:Salamandra_salamandra_(Marek_Szczepanek).jpg",
+    "author": "",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Salamandra_salamandra_(Marek_Szczepanek).jpg"
+   },
+   {
+    "file": "File:Salamandra_salamandra_MHNT_1.jpg",
+    "author": "Didier Descouens",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Salamandra_salamandra_MHNT_1.jpg"
+   },
+   {
+    "file": "File:Feuersalamander_schlafend1.jpg",
+    "author": "",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Feuersalamander_schlafend1.jpg"
+   }
+  ]
+ },
+ "chamois": {
+  "count": 3,
+  "credits": [
+   {
+    "file": "File:064_Wild_Chamois_Parc_régional_Chasseral_Photo_by_Giles_Laurent.jpg",
+    "author": "Giles Laurent",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:064_Wild_Chamois_Parc_r%C3%A9gional_Chasseral_Photo_by_Giles_Laurent.jpg"
+   },
+   {
+    "file": "File:013_Wild_Baby_Chamois_Riederalp_Photo_by_Giles_Laurent.jpg",
+    "author": "Giles Laurent",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:013_Wild_Baby_Chamois_Riederalp_Photo_by_Giles_Laurent.jpg"
+   },
+   {
+    "file": "File:012_Wild_Chamois_Riederalp_Photo_by_Giles_Laurent.jpg",
+    "author": "Giles Laurent",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:012_Wild_Chamois_Riederalp_Photo_by_Giles_Laurent.jpg"
+   }
+  ]
+ },
+ "alpine-marmot": {
+  "count": 2,
+  "credits": [
+   {
+    "file": "File:Marmotte_2014_2015_(10).JPG",
+    "author": "Ibex73",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Marmotte_2014_2015_(10).JPG"
+   },
+   {
+    "file": "File:071_Wild_marmot_at_Grand_Muveran_Nature_Reserve_Photo_by_Giles_Laurent.jpg",
+    "author": "Photography captured by Giles Laurent",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:071_Wild_marmot_at_Grand_Muveran_Nature_Reserve_Photo_by_Giles_Laurent.jpg"
+   }
+  ]
+ },
+ "alpine-ibex": {
+  "count": 2,
+  "credits": [
+   {
+    "file": "File:003_Wild_Alpine_Ibex_Sunset_Creux_du_Van_Mont_Racine_Photo_by_Giles_Laurent.jpg",
+    "author": "Giles Laurent",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:003_Wild_Alpine_Ibex_Sunset_Creux_du_Van_Mont_Racine_Photo_by_Giles_Laurent.jpg"
+   },
+   {
+    "file": "File:094_Wild_female_Alpine_Ibex_at_Creux_du_Van_Photo_by_Giles_Laurent.jpg",
+    "author": "Giles Laurent",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:094_Wild_female_Alpine_Ibex_at_Creux_du_Van_Photo_by_Giles_Laurent.jpg"
+   }
+  ]
+ },
+ "harbour-seal": {
+  "count": 2,
+  "credits": [
+   {
+    "file": "File:Common_Seal_Phoca_vitulina.jpg",
+    "author": "Andreas Trepte",
+    "license": "CC BY-SA 2.5",
+    "source": "https://commons.wikimedia.org/wiki/File:Common_Seal_Phoca_vitulina.jpg"
+   },
+   {
+    "file": "File:Common_seal_(Phoca_vitulina)_2.jpg",
+    "author": "Charles J. Sharp",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Common_seal_(Phoca_vitulina)_2.jpg"
+   }
+  ]
+ },
+ "brown-bear": {
+  "count": 2,
+  "credits": [
+   {
+    "file": "File:Eurasian_brown_bear_(Ursus_arctos_arctos)_female_1.jpg",
+    "author": "Charles J. Sharp",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Eurasian_brown_bear_(Ursus_arctos_arctos)_female_1.jpg"
+   },
+   {
+    "file": "File:2010-kodiak-bear-1.jpg",
+    "author": "Yathin S Krishnappa",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:2010-kodiak-bear-1.jpg"
+   }
+  ]
+ },
+ "european-ground-squirrel": {
+  "count": 2,
+  "credits": [
+   {
+    "file": "File:European_souslik_(Spermophilus_citellus)_Obrovisko.jpg",
+    "author": "Charles J. Sharp",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:European_souslik_(Spermophilus_citellus)_Obrovisko.jpg"
+   },
+   {
+    "file": "File:Spermophilus_citellus_3_TK.jpg",
+    "author": "T. Kebert",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Spermophilus_citellus_3_TK.jpg"
+   }
+  ]
+ },
+ "saiga": {
+  "count": 3,
+  "credits": [
+   {
+    "file": "File:Saiga_antelope_at_the_Stepnoi_Sanctuary.jpg",
+    "author": "Andrey Giljov",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Saiga_antelope_at_the_Stepnoi_Sanctuary.jpg"
+   },
+   {
+    "file": "File:Saiga_tatarica_tatarica_81831106_(cropped).jpg",
+    "author": "Лариса Артемьева",
+    "license": "CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:Saiga_tatarica_tatarica_81831106_(cropped).jpg"
+   },
+   {
+    "file": "File:Сайгак.jpg",
+    "author": "SNCH",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:%D0%A1%D0%B0%D0%B9%D0%B3%D0%B0%D0%BA.jpg"
+   }
+  ]
+ },
+ "olm": {
+  "count": 2,
+  "credits": [
+   {
+    "file": "File:Proteus_anguinus_Postojnska_Jama_Slovenija.jpg",
+    "author": "Boštjan Burger",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Proteus_anguinus_Postojnska_Jama_Slovenija.jpg"
+   },
+   {
+    "file": "File:P_anguinus1.jpg",
+    "author": "Arne Hodalič",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:P_anguinus1.jpg"
+   }
+  ]
+ },
+ "iberian-lynx": {
+  "count": 3,
+  "credits": [
+   {
+    "file": "File:Lince_ibérico_(Lynx_pardinus),_Almuradiel,_Ciudad_Real,_España,_2021-12-19,_DD_07.jpg",
+    "author": "Diego Delso",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Lince_ib%C3%A9rico_(Lynx_pardinus),_Almuradiel,_Ciudad_Real,_Espa%C3%B1a,_2021-12-19,_DD_07.jpg"
+   },
+   {
+    "file": "File:Iberian_Lynx_catching_his_prey.jpg",
+    "author": "http://www.lynxexsitu.es",
+    "license": "CC BY 3.0 es",
+    "source": "https://commons.wikimedia.org/wiki/File:Iberian_Lynx_catching_his_prey.jpg"
+   },
+   {
+    "file": "File:Iberian_Lynx_eating_bird.jpg",
+    "author": "http://www.lynxexsitu.es",
+    "license": "CC BY 3.0 es",
+    "source": "https://commons.wikimedia.org/wiki/File:Iberian_Lynx_eating_bird.jpg"
+   }
+  ]
+ },
+ "barbary-macaque": {
+  "count": 2,
+  "credits": [
+   {
+    "file": "File:Macaca_sylvanus.Mother_and_baby.jpg",
+    "author": "Vitold Muratov",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Macaca_sylvanus.Mother_and_baby.jpg"
+   },
+   {
+    "file": "File:Macaca_sylvanus,_ZOO_Praha_131.jpg",
+    "author": "Matěj Baťha",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Macaca_sylvanus,_ZOO_Praha_131.jpg"
+   }
+  ]
+ },
+ "greater-flamingo": {
+  "count": 3,
+  "credits": [
+   {
+    "file": "File:010_Greater_flamingos_male_and_female_in_the_Camargue_during_mating_season_Photo_by_Giles_Laurent.jpg",
+    "author": "Giles Laurent",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:010_Greater_flamingos_male_and_female_in_the_Camargue_during_mating_season_Photo_by_Giles_Laurent.jpg"
+   },
+   {
+    "file": "File:002_Greater_flamingo_taking_off_in_the_Camargue_Photo_by_Giles_Laurent.jpg",
+    "author": "Giles Laurent",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:002_Greater_flamingo_taking_off_in_the_Camargue_Photo_by_Giles_Laurent.jpg"
+   },
+   {
+    "file": "File:019_Greater_flamingo_landing_in_the_Camargue_Photo_by_Giles_Laurent.jpg",
+    "author": "Giles Laurent",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:019_Greater_flamingo_landing_in_the_Camargue_Photo_by_Giles_Laurent.jpg"
+   }
+  ]
+ },
+ "bearded-vulture": {
+  "count": 3,
+  "credits": [
+   {
+    "file": "File:Bartgeier_(Gypaetus_barbatus)_Goldau.jpg",
+    "author": "Chme82",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Bartgeier_(Gypaetus_barbatus)_Goldau.jpg"
+   },
+   {
+    "file": "File:Bearded_Vulture,_Mykolayiv,_UA_imported_from_iNaturalist_photo_423777567.jpg",
+    "author": "(c) Igor Balashov, some rights reserved (CC BY)",
+    "license": "CC BY 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Bearded_Vulture,_Mykolayiv,_UA_imported_from_iNaturalist_photo_423777567.jpg"
+   },
+   {
+    "file": "File:010e_Wild_Bearded_Vulture_in_flight_at_Pfyn-Finges_(Switzerland)_Photo_by_Giles_Laurent.jpg",
+    "author": "Giles Laurent",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:010e_Wild_Bearded_Vulture_in_flight_at_Pfyn-Finges_(Switzerland)_Photo_by_Giles_Laurent.jpg"
+   }
+  ]
+ },
+ "mouflon": {
+  "count": 3,
+  "credits": [
+   {
+    "file": "File:Mufflon-02.jpg",
+    "author": "Unknown authorUnknown author",
+    "license": "CC BY-SA 2.0 de",
+    "source": "https://commons.wikimedia.org/wiki/File:Mufflon-02.jpg"
+   },
+   {
+    "file": "File:Mufflon_Widder.jpg",
+    "author": "Lencer at de.wikipedia",
+    "license": "Attribution",
+    "source": "https://commons.wikimedia.org/wiki/File:Mufflon_Widder.jpg"
+   },
+   {
+    "file": "File:European_mouflon_(Ovis_orientalis_musimon)_(2).jpg",
+    "author": "Ken Billington",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:European_mouflon_(Ovis_orientalis_musimon)_(2).jpg"
+   }
+  ]
+ },
+ "crested-porcupine": {
+  "count": 2,
+  "credits": [
+   {
+    "file": "File:Hystrix_cristata_qtl1.jpg",
+    "author": "Quartl",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Hystrix_cristata_qtl1.jpg"
+   },
+   {
+    "file": "File:Crested Porcupine (Hystrix cristata).jpg",
+    "author": "Cliff from I now live in Arlington, VA (Outside Washington DC), USA",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Crested_Porcupine_(Hystrix_cristata).jpg"
+   }
+  ]
+ },
+ "hermanns-tortoise": {
+  "count": 2,
+  "credits": [
+   {
+    "file": "File:Testudo_hermanni_hermanni_Mallorca_02.jpg",
+    "author": "Orchi",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Testudo_hermanni_hermanni_Mallorca_02.jpg"
+   },
+   {
+    "file": "File:Pugliese.jpg",
+    "author": "Francesco Trimogliozzi",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Pugliese.jpg"
+   }
+  ]
+ },
+ "nose-horned-viper": {
+  "count": 3,
+  "credits": [
+   {
+    "file": "File:Benny_Trapp_Vipera_ammodytes.jpg",
+    "author": "Benny Trapp",
+    "license": "CC BY 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Benny_Trapp_Vipera_ammodytes.jpg"
+   },
+   {
+    "file": "File:Vipera-ammodytes-ruffoi-weiblich.jpg",
+    "author": "Holger Krisp",
+    "license": "CC BY 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Vipera-ammodytes-ruffoi-weiblich.jpg"
+   },
+   {
+    "file": "File:ViperaDSCF8246a.JPG",
+    "author": "Elena Terkel, Moscow, Russia",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:ViperaDSCF8246a.JPG"
+   }
+  ]
+ },
+ "kri-kri": {
+  "count": 3,
+  "credits": [
+   {
+    "file": "File:Kri kri.jpg",
+    "author": "",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Kri_kri.jpg"
+   },
+   {
+    "file": "File:Kri-Kri,_Samaria_Gorge,_Crete,_female.jpg",
+    "author": "Wannes",
+    "license": "CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:Kri-Kri,_Samaria_Gorge,_Crete,_female.jpg"
+   },
+   {
+    "file": "File:Capra aegagrus cretica 5990.jpg",
+    "author": "יעקב",
+    "license": "CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:Capra_aegagrus_cretica_5990.jpg"
+   }
+  ]
+ },
+ "loggerhead-sea-turtle": {
+  "count": 3,
+  "credits": [
+   {
+    "file": "File:Georgia_Aquarium_(4662883283).jpg",
+    "author": "jimmyweee",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Georgia_Aquarium_(4662883283).jpg"
+   },
+   {
+    "file": "File:Loggerhead_sea_turtle.jpg",
+    "author": "ukanda",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Loggerhead_sea_turtle.jpg"
+   },
+   {
+    "file": "File:Loggerhead_turtle.jpg",
+    "author": "Bachrach44",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Loggerhead_turtle.jpg"
+   }
+  ]
+ },
+ "mediterranean-monk-seal": {
+  "count": 3,
+  "credits": [
+   {
+    "file": "File:Το_βλέμμα_της_φώκιας_(cropped).jpg",
+    "author": "Vasilis drosakis",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:%CE%A4%CE%BF_%CE%B2%CE%BB%CE%AD%CE%BC%CE%BC%CE%B1_%CF%84%CE%B7%CF%82_%CF%86%CF%8E%CE%BA%CE%B9%CE%B1%CF%82_(cropped).jpg"
+   },
+   {
+    "file": "File:Monachus_monachus_DSC_0274.jpg",
+    "author": "Marinko Babić",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Monachus_monachus_DSC_0274.jpg"
+   },
+   {
+    "file": "File:Monachus_monachus_DSC_0384_(cropped).jpg",
+    "author": "Marinko Babić",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Monachus_monachus_DSC_0384_(cropped).jpg"
+   }
+  ]
+ },
+ "fin-whale": {
+  "count": 3,
+  "credits": [
+   {
+    "file": "File:Finhval_(1).jpg",
+    "author": "Aqqa Rosing-Asvid - Visit Greenland",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Finhval_(1).jpg"
+   },
+   {
+    "file": "File:Balaenoptera_physalus_Saint-Laurent_02.jpg",
+    "author": "Cephas",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Balaenoptera_physalus_Saint-Laurent_02.jpg"
+   },
+   {
+    "file": "File:Finwhaleapproach.jpg",
+    "author": "",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Finwhaleapproach.jpg"
+   }
+  ]
+ },
+ "bottlenose-dolphin": {
+  "count": 2,
+  "credits": [
+   {
+    "file": "File:Tursiops_truncatus_01-cropped.jpg",
+    "author": "NASA",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Tursiops_truncatus_01-cropped.jpg"
+   },
+   {
+    "file": "File:010_Atlantic_bottlenose_dolphin_jumping_at_Pelican_point_Photo_by_Giles_Laurent.jpg",
+    "author": "Giles Laurent",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:010_Atlantic_bottlenose_dolphin_jumping_at_Pelican_point_Photo_by_Giles_Laurent.jpg"
+   }
+  ]
+ },
+ "common-octopus": {
+  "count": 2,
+  "credits": [
+   {
+    "file": "File:Octopus_vulgaris_2.jpg",
+    "author": "Albert Kok at Dutch Wikipedia\n\n(Original text: Albert Kok)",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Octopus_vulgaris_2.jpg"
+   },
+   {
+    "file": "File:Octopus2.jpg",
+    "author": "albert kok",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Octopus2.jpg"
+   }
+  ]
+ }
+}

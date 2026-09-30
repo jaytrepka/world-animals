@@ -1,12 +1,10 @@
-"""Resize + recompress animal photos (needs Pillow). Full photos max 900px, thumbs 240px square-ish."""
-import glob
+"""Resize + recompress full-size photos (max 900px). Usage: python3 scripts/compress_images.py <continent>  (needs Pillow)"""
+import glob, os, sys
 from PIL import Image, ImageOps
-for p in glob.glob("public/animals/*/*.jpg"):
+
+for p in glob.glob(f"public/animals/{sys.argv[1]}/*/[0-9].jpg"):
     im = ImageOps.exif_transpose(Image.open(p)).convert("RGB")
-    thumb = p.endswith("thumb.jpg")
-    if thumb:
-        im = Image.open(p.replace("thumb.jpg", "1.jpg")).convert("RGB")
-        im = ImageOps.fit(im, (240, 240), Image.LANCZOS, centering=(0.5, 0.45))
-    else:
-        im.thumbnail((900, 900), Image.LANCZOS)
-    im.save(p, "JPEG", quality=78 if not thumb else 82, optimize=True, progressive=True)
+    if max(im.size) <= 900 and os.path.getsize(p) < 180_000:
+        continue
+    im.thumbnail((900, 900), Image.LANCZOS)
+    im.save(p, "JPEG", quality=78, optimize=True, progressive=True)
