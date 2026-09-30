@@ -65,39 +65,70 @@ export function isContinent(key: string | undefined): key is ContinentKey {
   )
 }
 
-export function loadContinent(key: ContinentKey): Promise<ContinentData> {
-  let p = cache.get(key)
+const animalCache = new Map<ContinentKey, Promise<Animal[]>>()
+
+/** The animals of one continent (texts, positions, photos) – without the big map picture. */
+export function loadAnimals(key: ContinentKey): Promise<Animal[]> {
+  let p = animalCache.get(key)
   if (!p) {
     const none = <T,>(v: T) => Promise.resolve(v)
     p = Promise.all([
       contentMods[`./${key}/content.ts`]?.() ?? none({ content: [] as AnimalContent[] }),
       placementMods[`./${key}/placements.json`]?.() ?? none({ default: [] as Placement[] }),
       imageMods[`./${key}/images.json`]?.() ?? none({ default: {} as Images }),
-      geoMods[`../geo/${key}.json`](),
-      decodeImage(mapUrl(key)),
-    ]).then(([{ content }, { default: placements }, { default: images }, { default: geo }]) => {
+    ]).then(([{ content }, { default: placements }, { default: images }]) => {
       const byId = new Map(content.map((c) => [c.id, c]))
-      const animals = placements.flatMap((p): Animal[] => {
+      return placements.flatMap((p): Animal[] => {
         const c = byId.get(p.id)
         const img = images[p.id]
         if (!c || !img?.count) return []
         return [
           {
             ...c,
+            continent: key,
             region: p.region,
             x: p.x,
             y: p.y,
-            thumb: `/animals/${key}/${p.id}/thumb.jpg`,
+            thumb: thumbUrl(key, p.id),
             photos: Array.from({ length: img.count }, (_, i) => `/animals/${key}/${p.id}/${i + 1}.jpg`),
             credits: img.credits,
           },
         ]
       })
-      return { key, geo, animals }
     })
+    animalCache.set(key, p)
+  }
+  return p
+}
+
+/** Everything needed to show a continent page: map meta, the decoded map picture and the animals. */
+export function loadContinent(key: ContinentKey): Promise<ContinentData> {
+  let p = cache.get(key)
+  if (!p) {
+    p = Promise.all([loadAnimals(key), geoMods[`../geo/${key}.json`](), decodeImage(mapUrl(key))]).then(
+      ([animals, { default: geo }]) => ({ key, geo, animals }),
+    )
     cache.set(key, p)
   }
   return p
 }
 
-export const thumbUrl = (continent: ContinentKey, id: string) => `/animals/${continent}/${id}/thumb.jpg`
+let allCache: Promise<Animal[]> | null = null
+
+/** Every animal of every continent, each species once (e.g. the polar bear lives on three continents). */
+export function loadAllAnimals(): Promise<Animal[]> {
+  allCache ??= Promise.all(CONTINENTS.filter((k) => isContinent(k)).map(loadAnimals)).then((lists) => {
+    const seen = new Set<string>()
+    return lists.flat().filter((a) => {
+      const species = a.classification.species.toLowerCase()
+      if (seen.has(species)) return false
+      seen.add(species)
+      return true
+    })
+  })
+  return allCache
+}
+
+export function thumbUrl(continent: ContinentKey, id: string) {
+  return `/animals/${continent}/${id}/thumb.jpg`
+}

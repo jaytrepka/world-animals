@@ -49,3 +49,15 @@ export function UkFlag() {
     </svg>
   )
 }
+
+/** A grid of four little squares – "show all animals". */
+export function GridIcon() {
+  return (
+    <svg viewBox="0 0 48 48" aria-hidden="true">
+      <rect x="6" y="6" width="15" height="15" rx="4" fill="currentColor" />
+      <rect x="27" y="6" width="15" height="15" rx="4" fill="currentColor" />
+      <rect x="6" y="27" width="15" height="15" rx="4" fill="currentColor" />
+      <rect x="27" y="27" width="15" height="15" rx="4" fill="currentColor" />
+    </svg>
+  )
+}

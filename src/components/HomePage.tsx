@@ -4,6 +4,7 @@ import { isContinent, loadContinent, thumbUrl, type ContinentKey } from '../data
 import { CONTINENT_NAMES, UI, useLang } from '../i18n'
 import { speak } from '../speech'
 import Logo from './Logo'
+import { GridIcon } from './icons'
 
 
 const COLORS: Record<string, string> = {
@@ -55,7 +56,7 @@ const TEASERS: Partial<Record<ContinentKey, { id: string; dx: number; dy: number
   ],
 }
 
-export default function HomePage({ onOpen }: { onOpen: (continent: ContinentKey) => void }) {
+export default function HomePage({ onOpen, onList }: { onOpen: (continent: ContinentKey) => void; onList: () => void }) {
   const { lang, t } = useLang()
   const [wiggle, setWiggle] = useState<string | null>(null)
 
@@ -73,6 +74,17 @@ export default function HomePage({ onOpen }: { onOpen: (continent: ContinentKey)
 
   return (
     <main className="home">
+      <button
+        className="round-btn list-btn"
+        onClick={() => {
+          speak(t(UI.allAnimals), lang)
+          onList()
+        }}
+        aria-label={t(UI.allAnimals)}
+        title={t(UI.allAnimals)}
+      >
+        <GridIcon />
+      </button>
       <header className="home-header">
         <Logo title={t(UI.title)} />
       </header>

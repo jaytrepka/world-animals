@@ -4,6 +4,7 @@ import type { L, Lang } from './data/types'
 export const UI = {
   title: { en: 'Animals of the World', cs: 'Zvířata světa' },
   comingSoon: { en: 'Coming soon!', cs: 'Už brzy!' },
+  allAnimals: { en: 'All animals', cs: 'Všechna zvířata' },
   back: { en: 'Back', cs: 'Zpět' },
   goNorth: { en: 'Go north', cs: 'Na sever' },
   goSouth: { en: 'Go south', cs: 'Na jih' },

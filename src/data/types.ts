@@ -38,6 +38,8 @@ export interface PhotoCredit {
 
 /** Content + position on the continent map + photos. */
 export interface Animal extends AnimalContent {
+  /** Key of the continent this entry comes from (see data/continents). */
+  continent: string
   region: RegionId
   /** Position in projected map units. */
   x: number

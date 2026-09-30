@@ -1,19 +1,25 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
-import { isContinent, loadContinent, type ContinentData, type ContinentKey } from './data/continents'
-import type { Lang, RegionId } from './data/types'
+import { isContinent, loadAnimals, loadContinent, type ContinentData, type ContinentKey } from './data/continents'
+import type { Animal, Lang, RegionId } from './data/types'
 import { LangContext, UI } from './i18n'
 import { stopSpeaking } from './speech'
 import HomePage from './components/HomePage'
 import ContinentPage from './components/ContinentPage'
 import AnimalModal from './components/AnimalModal'
+import AnimalListPage from './components/AnimalListPage'
 import { CzechFlag, UkFlag } from './components/icons'
 
-type Route = { page: 'home' } | { page: 'continent'; continent: ContinentKey; region: RegionId; animal?: string }
+type Route =
+  | { page: 'home' }
+  | { page: 'continent'; continent: ContinentKey; region: RegionId; animal?: string }
+  /** The alphabetical list; `animal` is "<continent>/<id>" of the open animal window. */
+  | { page: 'list'; animal?: string }
 
 const REGIONS: RegionId[] = ['north', 'middle', 'south']
 
 function parseHash(hash: string): Route {
   const [continent, region, animal] = hash.replace(/^#\/?/, '').split('/')
+  if (continent === 'animals') return { page: 'list', animal: region && animal ? `${region}/${animal}` : undefined }
   if (isContinent(continent)) {
     return { page: 'continent', continent, region: REGIONS.includes(region as RegionId) ? (region as RegionId) : 'north', animal }
   }
@@ -22,6 +28,7 @@ function parseHash(hash: string): Route {
 
 function toHash(r: Route) {
   if (r.page === 'home') return '#/'
+  if (r.page === 'list') return `#/animals${r.animal ? `/${r.animal}` : ''}`
   return `#/${r.continent}/${r.region}${r.animal ? `/${r.animal}` : ''}`
 }
 
@@ -86,12 +93,55 @@ export default function App() {
     }
   }, [wantedKey])
   const current = data && data.key === wantedKey ? data : null
-  const animal = route.page === 'continent' && route.animal ? current?.animals.find((a) => a.id === route.animal) : undefined
+
+  // Animal window opened from the list page
+  const [listAnimal, setListAnimal] = useState<Animal | null>(null)
+  const listKey = route.page === 'list' ? route.animal : undefined
+  useEffect(() => {
+    const [key, id] = listKey?.split('/') ?? []
+    if (!isContinent(key)) return
+    let alive = true
+    loadAnimals(key).then((list) => alive && setListAnimal(list.find((a) => a.id === id) ?? null))
+    return () => {
+      alive = false
+    }
+  }, [listKey])
+
+  const animal =
+    route.page === 'continent' && route.animal
+      ? current?.animals.find((a) => a.id === route.animal)
+      : route.page === 'list' && listAnimal && listKey === `${listAnimal.continent}/${listAnimal.id}`
+        ? listAnimal
+        : undefined
+
+  const openAnimal = (r: Route) => {
+    modalPushed.current = true
+    navigate(r)
+  }
+  const closeAnimal = () => {
+    if (route.page === 'home') return
+    const without = { ...route, animal: undefined }
+    if (modalPushed.current) {
+      modalPushed.current = false
+      window.history.back()
+      setRoute(without)
+    } else {
+      navigate(without, true)
+    }
+  }
 
   return (
     <LangContext.Provider value={langValue}>
       {route.page === 'home' ? (
-        <HomePage onOpen={(c) => navigate({ page: 'continent', continent: c, region: 'north' })} />
+        <HomePage
+          onOpen={(c) => navigate({ page: 'continent', continent: c, region: 'north' })}
+          onList={() => navigate({ page: 'list' })}
+        />
+      ) : route.page === 'list' ? (
+        <AnimalListPage
+          onBack={() => navigate({ page: 'home' })}
+          onAnimal={(a) => openAnimal({ page: 'list', animal: `${a.continent}/${a.id}` })}
+        />
       ) : !current ? (
         <div className="loading" aria-busy="true">
           <span>🐾</span>
@@ -105,27 +155,11 @@ export default function App() {
           region={route.region}
           onRegion={(region) => navigate({ ...route, region, animal: undefined }, true)}
           onBack={() => navigate({ page: 'home' })}
-          onAnimal={(a) => {
-            modalPushed.current = true
-            navigate({ ...route, animal: a.id })
-          }}
+          onAnimal={(a) => openAnimal({ ...route, animal: a.id })}
         />
       )}
 
-      {animal && route.page === 'continent' && (
-        <AnimalModal
-          animal={animal}
-          onClose={() => {
-            if (modalPushed.current) {
-              modalPushed.current = false
-              window.history.back()
-              setRoute({ ...route, animal: undefined })
-            } else {
-              navigate({ ...route, animal: undefined }, true)
-            }
-          }}
-        />
-      )}
+      {animal && <AnimalModal key={`${animal.continent}/${animal.id}`} animal={animal} onClose={closeAnimal} />}
 
       <button
         className="round-btn lang-btn"
