@@ -16,6 +16,10 @@ const equidae = { latin: 'Equidae', en: 'Horses, donkeys and zebras', cs: 'Koňo
 const squamata = { latin: 'Squamata', en: 'Lizards and snakes', cs: 'Šupinatí' }
 const testudines = { latin: 'Testudines', en: 'Turtles', cs: 'Želvy' }
 
+const viverridae = { latin: 'Viverridae', en: 'Civets and genets', cs: 'Cibetkovití' }
+const eupleridae = { latin: 'Eupleridae', en: 'Malagasy carnivorans', cs: 'Šelmy madagaskarské' }
+const nandiniidae = { latin: 'Nandiniidae', en: 'African palm civet', cs: 'Nandiniovití' }
+
 export const moreContent: AnimalContent[] = [
   // ——— North ———
   {
@@ -693,6 +697,107 @@ export const moreContent: AnimalContent[] = [
     predators: {
       en: 'The fossa hunts it in the trees. Hawks and big snakes may catch its babies.',
       cs: 'Na stromech ho loví fosa. Mláďata mohou ulovit jestřábi a velcí hadi.',
+    },
+  },
+  // ---------- civets and relatives ----------
+  {
+    id: 'african-civet',
+    name: { en: 'African civet', cs: 'Cibetka africká' },
+    classification: {
+      kingdom,
+      phylum: chordata,
+      class: mammals,
+      order: carnivora,
+      family: viverridae,
+      genus: 'Civettictis',
+      species: 'Civettictis civetta',
+    },
+    habitat: {
+      en: 'It lives in savannas and bushy forests across much of Africa, here in Zambia. It comes out at night and has a black mask like a raccoon.',
+      cs: 'Žije v savanách a křovinatých lesích ve velké části Afriky, třeba v Zambii. Vychází v noci a na obličeji má černou masku jako mýval.',
+    },
+    diet: {
+      en: 'It eats almost anything: mice, frogs, insects, eggs, fruit and even poisonous millipedes.',
+      cs: 'Jí skoro všechno: myši, žáby, hmyz, vejce, ovoce a dokonce i jedovaté mnohonožky.',
+    },
+    predators: {
+      en: 'Lions, leopards and big pythons may catch it. When scared, it lifts the long hair on its back to look bigger.',
+      cs: 'Může ji ulovit lev, levhart nebo velká krajta. Když se lekne, naježí dlouhé chlupy na zádech, aby vypadala větší.',
+    },
+  },
+  {
+    id: 'cape-genet',
+    name: { en: 'Cape genet', cs: 'Ženetka skvrnitá' },
+    classification: {
+      kingdom,
+      phylum: chordata,
+      class: mammals,
+      order: carnivora,
+      family: viverridae,
+      genus: 'Genetta',
+      species: 'Genetta tigrina',
+    },
+    habitat: {
+      en: 'It lives in bushes and forests in the south of South Africa. It looks like a slim spotted cat with a long striped tail.',
+      cs: 'Žije v křovinách a lesích na jihu Jihoafrické republiky. Vypadá jako štíhlá skvrnitá kočka s dlouhým pruhovaným ocasem.',
+    },
+    diet: {
+      en: 'At night it hunts mice, birds, lizards, frogs and insects. It climbs trees very well.',
+      cs: 'V noci loví myši, ptáky, ještěrky, žáby a hmyz. Výborně šplhá po stromech.',
+    },
+    predators: {
+      en: 'Leopards, caracals, eagle-owls and big snakes may catch it.',
+      cs: 'Může ji ulovit levhart, karakal, výr nebo velký had.',
+    },
+  },
+  {
+    id: 'african-palm-civet',
+    name: { en: 'African palm civet', cs: 'Nandinie znamenaná' },
+    classification: {
+      kingdom,
+      phylum: chordata,
+      class: mammals,
+      order: carnivora,
+      family: nandiniidae,
+      genus: 'Nandinia',
+      species: 'Nandinia binotata',
+    },
+    habitat: {
+      en: 'It lives high in the trees of rainforests in West and Central Africa. It has two small pale spots on its shoulders.',
+      cs: 'Žije vysoko na stromech v deštných pralesích západní a střední Afriky. Na ramenou má dvě malé světlé skvrnky.',
+    },
+    diet: {
+      en: 'It mostly eats ripe fruit, and also rodents, birds, eggs and insects.',
+      cs: 'Jí hlavně zralé ovoce, ale také hlodavce, ptáky, vejce a hmyz.',
+    },
+    predators: {
+      en: 'Leopards, big snakes and crowned eagles may catch it.',
+      cs: 'Může ji ulovit levhart, velký had nebo orel korunový.',
+    },
+  },
+  {
+    id: 'malagasy-civet',
+    name: { en: 'Malagasy civet', cs: 'Fanaloka' },
+    classification: {
+      kingdom,
+      phylum: chordata,
+      class: mammals,
+      order: carnivora,
+      family: eupleridae,
+      genus: 'Fossa',
+      species: 'Fossa fossana',
+    },
+    habitat: {
+      en: 'It lives only in the rainforests of Madagascar, near streams. It has rows of dark spots and comes out at night.',
+      cs: 'Žije jen v deštných pralesích Madagaskaru, blízko potoků. Má řady tmavých skvrn a vychází v noci.',
+    },
+    diet: {
+      en: 'It eats mice, frogs, crabs, eels, insects and bird eggs. Before winter it stores fat in its tail.',
+      cs: 'Jí myši, žáby, kraby, úhoře, hmyz a ptačí vejce. Na zimu si do ocasu ukládá tuk.',
+    },
+    predators: {
+      en: 'The fossa and big boas may hunt it. Dogs brought by people are dangerous for it too.',
+      cs: 'Lovit ji může fosa a velcí hroznýši. Nebezpeční jsou pro ni i psi, které přivezli lidé.',
     },
   },
 ]

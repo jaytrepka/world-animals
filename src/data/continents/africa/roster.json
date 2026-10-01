@@ -516,5 +516,9 @@
   "wiki": "Verreaux's sifaka",
   "lon": 44.5,
   "lat": -20.5
- }
+ },
+  {"id": "african-civet", "wiki": "African civet", "lon": 26.5, "lat": -11.5},
+  {"id": "cape-genet", "wiki": "Cape genet", "lon": 27.5, "lat": -32.8},
+  {"id": "african-palm-civet", "wiki": "African palm civet", "lon": -4.5, "lat": 7.0},
+  {"id": "malagasy-civet", "wiki": "Malagasy civet", "lon": 47.4, "lat": -21.3}
 ]

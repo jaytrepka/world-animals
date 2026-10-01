@@ -1,46 +1,60 @@
 {
- "coelacanth": [
-  "File:Latimeria chalumnae.jpg",
-  "File:Coelacanth off Pumula on the KwaZulu-Natal South Coast, South Africa, on 22 November 2019.png",
-  "File:Latimeria.jpg"
- ],
- "african-spurred-tortoise": [
-  "File:African Spurred Tortoise (Centrochelys sulcata).jpg",
-  "File:Centrochelys sulcata - closeup on head.jpg",
-  "File:Flickr - Rainbirder - African Spurred Tortoise.jpg"
- ],
- "leatherback-sea-turtle": [
-  "File:Leatherback Sea Turtle (Dermochelys coriacea) (24622605130).jpg",
-  "File:Leatherback sea turtle Tinglar, USVI (5839996547).jpg",
-  "File:Dermochelys coriacea (beach).jpg"
- ],
- "chimpanzee": [
-  "File:015_Chimpanzee_at_Kibale_forest_National_Park_Photo_by_Giles_Laurent.jpg",
-  "File:Chimpanzee VIII (13945323981).jpg",
-  "File:Magdeburg, Zoo, Schimpanse.jpg"
- ],
- "honey-badger": [
-  "File:Honey_Badger.jpg",
-  "File:Prague ZOO - Mellivora capensis 2.jpg",
-  "File:Honey badger, Mellivora capensis, carrying young pup in her mouth at Kgalagadi Transfrontier Park, Northern Cape, South Africa (34739010541).jpg",
-  "File:Ratel (Mellivora capensis) (54043837631).jpg"
- ],
- "aye-aye": [
-  "File:Wild aye aye.jpg",
-  "File:Aye-aye (Daubentonia madagascariensis) 1.jpg",
-  "File:Aye-aye (Daubentonia madagascariensis) 2.jpg",
-  "File:Aye aye Frankfurt.jpg"
- ],
- "cape-fur-seal": [
-  "File:CC - Portrait of a Cape fur seal at Cape Cross, Namibia, 2007.jpg",
-  "File:129 Cape fur seal bull walking at Pelican point Photo by Giles Laurent.jpg",
-  "File:130 Baby Cape fur seal at Cape cross Photo by Giles Laurent.jpg",
-  "File:Cape Fur Seal (Arctocephalus pusillus), Hout Bay.jpg"
- ],
- "senegal-bushbaby": [
-  "File:Galago senegalensis.jpg",
-  "File:Galago senegalensis in Moscow zoo.jpg",
-  "File:240614 Senegal bushbaby.jpg",
-  "File:Komba ušatá.jpg"
- ]
+  "coelacanth": [
+    "File:Latimeria chalumnae.jpg",
+    "File:Coelacanth off Pumula on the KwaZulu-Natal South Coast, South Africa, on 22 November 2019.png",
+    "File:Latimeria.jpg"
+  ],
+  "african-spurred-tortoise": [
+    "File:African Spurred Tortoise (Centrochelys sulcata).jpg",
+    "File:Centrochelys sulcata - closeup on head.jpg",
+    "File:Flickr - Rainbirder - African Spurred Tortoise.jpg"
+  ],
+  "leatherback-sea-turtle": [
+    "File:Leatherback Sea Turtle (Dermochelys coriacea) (24622605130).jpg",
+    "File:Leatherback sea turtle Tinglar, USVI (5839996547).jpg",
+    "File:Dermochelys coriacea (beach).jpg"
+  ],
+  "chimpanzee": [
+    "File:015_Chimpanzee_at_Kibale_forest_National_Park_Photo_by_Giles_Laurent.jpg",
+    "File:Chimpanzee VIII (13945323981).jpg",
+    "File:Magdeburg, Zoo, Schimpanse.jpg"
+  ],
+  "honey-badger": [
+    "File:Honey_Badger.jpg",
+    "File:Prague ZOO - Mellivora capensis 2.jpg",
+    "File:Honey badger, Mellivora capensis, carrying young pup in her mouth at Kgalagadi Transfrontier Park, Northern Cape, South Africa (34739010541).jpg",
+    "File:Ratel (Mellivora capensis) (54043837631).jpg"
+  ],
+  "aye-aye": [
+    "File:Wild aye aye.jpg",
+    "File:Aye-aye (Daubentonia madagascariensis) 1.jpg",
+    "File:Aye-aye (Daubentonia madagascariensis) 2.jpg",
+    "File:Aye aye Frankfurt.jpg"
+  ],
+  "cape-fur-seal": [
+    "File:CC - Portrait of a Cape fur seal at Cape Cross, Namibia, 2007.jpg",
+    "File:129 Cape fur seal bull walking at Pelican point Photo by Giles Laurent.jpg",
+    "File:130 Baby Cape fur seal at Cape cross Photo by Giles Laurent.jpg",
+    "File:Cape Fur Seal (Arctocephalus pusillus), Hout Bay.jpg"
+  ],
+  "senegal-bushbaby": [
+    "File:Galago senegalensis.jpg",
+    "File:Galago senegalensis in Moscow zoo.jpg",
+    "File:240614 Senegal bushbaby.jpg",
+    "File:Komba ušatá.jpg"
+  ],
+  "african-civet": [
+    "File:African civet, South Luangwa National Park (51866143791).jpg",
+    "File:African civet, South Luangwa National Park (51866891390).jpg",
+    "File:Civettictis civetta 35635750.jpg",
+    "File:Civettictis civetta 15218629.jpg",
+    "File:African Civet (Civettictis civetta).jpg"
+  ],
+  "cape-genet": [
+    "File:Large-spotted Genet (Genetta tigrina) (17356502041) (crop).jpg",
+    "File:Genetta tigrina 239838199.jpg",
+    "File:Large-spotted Genet (Genetta tigrina) (17182311499).jpg",
+    "File:Genetta tigrina 302391443.jpg",
+    "File:Genetta tigrina 67312068.jpg"
+  ]
 }

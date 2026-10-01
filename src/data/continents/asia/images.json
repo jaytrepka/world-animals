@@ -1803,5 +1803,79 @@
     "source": "https://commons.wikimedia.org/wiki/File:Equus_kiang_-_Changtang.jpg"
    }
   ]
+ },
+ "large-indian-civet": {
+  "count": 2,
+  "credits": [
+   {
+    "file": "File:Large_Indian_Civet,_Viverra_zibetha_in_Kaeng_Krachan_national_park.jpg",
+    "author": "tontantravel, Kaeng Krachan national park tours",
+    "license": "CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Large_Indian_Civet,_Viverra_zibetha_in_Kaeng_Krachan_national_park.jpg"
+   },
+   {
+    "file": "File:Large_Indian_Civet_Namdapha2.jpg",
+    "author": "Rohit Naniwadekar",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Large_Indian_Civet_Namdapha2.jpg"
+   }
+  ]
+ },
+ "malayan-civet": {
+  "count": 2,
+  "credits": [
+   {
+    "file": "File:Malay_civet.jpg",
+    "author": "",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Malay_civet.jpg"
+   },
+   {
+    "file": "File:Viverra tangalunga 339015485.jpg",
+    "author": "James Eaton",
+    "license": "CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:Viverra_tangalunga_339015485.jpg"
+   }
+  ]
+ },
+ "asian-palm-civet": {
+  "count": 3,
+  "credits": [
+   {
+    "file": "File:Asian palm civet in Rabindra Sarobar October 2024 by Tisha Mukherjee 01.jpg",
+    "author": "Tisha Mukherjee",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Asian_palm_civet_in_Rabindra_Sarobar_October_2024_by_Tisha_Mukherjee_01.jpg"
+   },
+   {
+    "file": "File:Common Palm Civet (Paradoxurus hermaphroditus) (7781509830).jpg",
+    "author": "Bernard DUPONT from FRANCE",
+    "license": "CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Common_Palm_Civet_(Paradoxurus_hermaphroditus)_(7781509830).jpg"
+   },
+   {
+    "file": "File:Asian Palm Civet Over A Tree.jpg",
+    "author": "Praveenp",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Asian_Palm_Civet_Over_A_Tree.jpg"
+   }
+  ]
+ },
+ "masked-palm-civet": {
+  "count": 2,
+  "credits": [
+   {
+    "file": "File:Palm_civet_on_tree_(detail).jpg",
+    "author": "Denise Chan from Hong Kong, China",
+    "license": "CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Palm_civet_on_tree_(detail).jpg"
+   },
+   {
+    "file": "File:Masked_Palm_Civet.jpg",
+    "author": "Rejaul karim.rk",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Masked_Palm_Civet.jpg"
+   }
+  ]
  }
 }

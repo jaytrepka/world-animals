@@ -1,46 +1,52 @@
 {
- "atlantic-salmon": [
-  "File:Atlantischer Lachs.jpg",
-  "File:Jumping salmon 1.jpg",
-  "File:PICT0628 Stovelfossen laks.jpg"
- ],
- "beluga-whale": [
-  "File:Oceanogràfic_29102004.jpg",
-  "File:Delphinapterus leucas head 3.jpg",
-  "File:Beluga Whale Delphinapterus Leucas.jpg",
-  "File:Belugas.jpg"
- ],
- "siberian-flying-squirrel": [
-  "File:Pteromys_volans_292232567.jpg",
-  "File:Pteromys volans.jpg",
-  "File:Pteromys volans 0zz.jpg",
-  "File:Летяга.jpg"
- ],
- "crested-porcupine": [
-  "File:Hystrix_cristata_qtl1.jpg",
-  "File:Crested Porcupine (Hystrix cristata).jpg",
-  "File:Hystrix cristata 4.jpg",
-  "File:Hystrix cristata 3.jpg"
- ],
- "kri-kri": [
-  "File:Kri kri.jpg",
-  "File:Kri-Kri,_Samaria_Gorge,_Crete,_female.jpg",
-  "File:Capra aegagrus cretica 5990.jpg",
-  "File:Kri-kri-.jpg"
- ],
- "northern-pike": [
-  "File:Esox lucius ZOO 1.jpg",
-  "File:Northern pike fish underwater esox lucius linnaeus.jpg",
-  "File:Europaeischer Hecht.jpg"
- ],
- "beluga-sturgeon": [
-  "File:Білуга (Huso huso).jpg",
-  "File:Huso huso, Kazan (2024-04-05) 01.jpg",
-  "File:Hausen (Huso huso L.).JPG"
- ],
- "atlantic-bluefin-tuna": [
-  "File:Thunnus thynnus Croatia.jpg",
-  "File:I see you! - Bluefin tuna (Thunnus thynnus) and little gulls (Hydrocoloeus minutus) in Palaiou Bay.jpg",
-  "File:Thunnus thynnus 2.jpg"
- ]
+  "atlantic-salmon": [
+    "File:Atlantischer Lachs.jpg",
+    "File:Jumping salmon 1.jpg",
+    "File:PICT0628 Stovelfossen laks.jpg"
+  ],
+  "beluga-whale": [
+    "File:Oceanogràfic_29102004.jpg",
+    "File:Delphinapterus leucas head 3.jpg",
+    "File:Beluga Whale Delphinapterus Leucas.jpg",
+    "File:Belugas.jpg"
+  ],
+  "siberian-flying-squirrel": [
+    "File:Pteromys_volans_292232567.jpg",
+    "File:Pteromys volans.jpg",
+    "File:Pteromys volans 0zz.jpg",
+    "File:Летяга.jpg"
+  ],
+  "crested-porcupine": [
+    "File:Hystrix_cristata_qtl1.jpg",
+    "File:Crested Porcupine (Hystrix cristata).jpg",
+    "File:Hystrix cristata 4.jpg",
+    "File:Hystrix cristata 3.jpg"
+  ],
+  "kri-kri": [
+    "File:Kri kri.jpg",
+    "File:Kri-Kri,_Samaria_Gorge,_Crete,_female.jpg",
+    "File:Capra aegagrus cretica 5990.jpg",
+    "File:Kri-kri-.jpg"
+  ],
+  "northern-pike": [
+    "File:Esox lucius ZOO 1.jpg",
+    "File:Northern pike fish underwater esox lucius linnaeus.jpg",
+    "File:Europaeischer Hecht.jpg"
+  ],
+  "beluga-sturgeon": [
+    "File:Білуга (Huso huso).jpg",
+    "File:Huso huso, Kazan (2024-04-05) 01.jpg",
+    "File:Hausen (Huso huso L.).JPG"
+  ],
+  "atlantic-bluefin-tuna": [
+    "File:Thunnus thynnus Croatia.jpg",
+    "File:I see you! - Bluefin tuna (Thunnus thynnus) and little gulls (Hydrocoloeus minutus) in Palaiou Bay.jpg",
+    "File:Thunnus thynnus 2.jpg"
+  ],
+  "common-genet": [
+    "File:Kleinfleck-Ginstekatze (Genetta genetta) (cropped).jpg",
+    "File:Common genet (Genetta genetta). Viverridae - Flickr - gailhampshire.jpg",
+    "File:Common Genet (Genetta genetta) (7076892781).jpg",
+    "File:Genetta genetta felina (Wroclaw zoo).JPG"
+  ]
 }

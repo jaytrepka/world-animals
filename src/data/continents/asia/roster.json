@@ -558,5 +558,9 @@
   "wiki": "Kiang",
   "lon": 95.0,
   "lat": 35.5
- }
+ },
+  {"id": "large-indian-civet", "wiki": "Large Indian civet", "lon": 91.2, "lat": 23.8},
+  {"id": "malayan-civet", "wiki": "Malayan civet", "lon": 104.5, "lat": -4.5},
+  {"id": "asian-palm-civet", "wiki": "Asian palm civet", "lon": 77.0, "lat": 10.0},
+  {"id": "masked-palm-civet", "wiki": "Masked palm civet", "lon": 121.0, "lat": 23.8}
 ]

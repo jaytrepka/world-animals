@@ -1420,5 +1420,22 @@
     "source": "https://commons.wikimedia.org/wiki/File:Butrint_Turtles.jpg"
    }
   ]
+ },
+ "common-genet": {
+  "count": 2,
+  "credits": [
+   {
+    "file": "File:Kleinfleck-Ginstekatze (Genetta genetta) (cropped).jpg",
+    "author": "Scarabinol",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Kleinfleck-Ginstekatze_(Genetta_genetta)_(cropped).jpg"
+   },
+   {
+    "file": "File:Common Genet (Genetta genetta) (7076892781).jpg",
+    "author": "Bernard DUPONT from FRANCE",
+    "license": "CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Common_Genet_(Genetta_genetta)_(7076892781).jpg"
+   }
+  ]
  }
 }

@@ -12,6 +12,8 @@ const anura = { latin: 'Anura', en: 'Frogs and toads', cs: 'Žáby' }
 const phocoenidae = { latin: 'Phocoenidae', en: 'Porpoises', cs: 'Sviňuchovití' }
 const delphinidae = { latin: 'Delphinidae', en: 'Oceanic dolphins', cs: 'Delfínovití' }
 
+const viverridae = { latin: 'Viverridae', en: 'Civets and genets', cs: 'Cibetkovití' }
+
 export const moreContent: AnimalContent[] = [
   // ---------- north ----------
   {
@@ -620,6 +622,107 @@ export const moreContent: AnimalContent[] = [
     predators: {
       en: 'Grown-ups have almost no enemies. Orcas sometimes attack the babies.',
       cs: 'Dospělí vorvani nemají skoro žádné nepřátele. Kosatky občas napadnou mláďata.',
+    },
+  },
+  // ---------- civets and relatives ----------
+  {
+    id: 'large-indian-civet',
+    name: { en: 'Large Indian civet', cs: 'Cibetka asijská' },
+    classification: {
+      kingdom,
+      phylum: chordata,
+      class: mammals,
+      order: carnivora,
+      family: viverridae,
+      genus: 'Viverra',
+      species: 'Viverra zibetha',
+    },
+    habitat: {
+      en: 'It lives in forests and bushy places from the Himalayas to Southeast Asia. It has a black-and-white striped tail.',
+      cs: 'Žije v lesích a křovinách od Himálaje až po jihovýchodní Asii. Má černobíle pruhovaný ocas.',
+    },
+    diet: {
+      en: 'At night it walks on the ground and eats rats, frogs, birds, snakes, eggs and fruit.',
+      cs: 'V noci chodí po zemi a jí krysy, žáby, ptáky, hady, vejce i ovoce.',
+    },
+    predators: {
+      en: 'Tigers, leopards and big pythons may catch it.',
+      cs: 'Může ji ulovit tygr, levhart nebo velká krajta.',
+    },
+  },
+  {
+    id: 'malayan-civet',
+    name: { en: 'Malayan civet', cs: 'Cibetka tangalunga' },
+    classification: {
+      kingdom,
+      phylum: chordata,
+      class: mammals,
+      order: carnivora,
+      family: viverridae,
+      genus: 'Viverra',
+      species: 'Viverra tangalunga',
+    },
+    habitat: {
+      en: 'It lives in rainforests on Sumatra, Borneo and the Malay Peninsula. It has lots of black spots and a ringed tail.',
+      cs: 'Žije v deštných pralesích na Sumatře, Borneu a Malajském poloostrově. Má spoustu černých skvrn a kroužkovaný ocas.',
+    },
+    diet: {
+      en: 'At night it sniffs along the forest floor for worms, insects, frogs, mice and fallen fruit.',
+      cs: 'V noci očichává zem v pralese a hledá žížaly, hmyz, žáby, myši a spadané ovoce.',
+    },
+    predators: {
+      en: 'Clouded leopards and big pythons may catch it.',
+      cs: 'Může ji ulovit levhart obláčkový nebo velká krajta.',
+    },
+  },
+  {
+    id: 'asian-palm-civet',
+    name: { en: 'Asian palm civet', cs: 'Oviječ skvrnitý' },
+    classification: {
+      kingdom,
+      phylum: chordata,
+      class: mammals,
+      order: carnivora,
+      family: viverridae,
+      genus: 'Paradoxurus',
+      species: 'Paradoxurus hermaphroditus',
+    },
+    habitat: {
+      en: 'It lives in forests, gardens and even on house roofs in South and Southeast Asia, here in southern India.',
+      cs: 'Žije v lesích, zahradách a dokonce i na střechách domů v jižní a jihovýchodní Asii, třeba na jihu Indie.',
+    },
+    diet: {
+      en: 'It loves ripe fruit like mangoes, bananas and coffee berries. It also eats insects, mice and sweet palm juice.',
+      cs: 'Miluje zralé ovoce, třeba manga, banány a plody kávovníku. Jí také hmyz, myši a sladkou palmovou šťávu.',
+    },
+    predators: {
+      en: 'Leopards, big pythons and large owls may catch it.',
+      cs: 'Může ho ulovit levhart, velká krajta nebo velká sova.',
+    },
+  },
+  {
+    id: 'masked-palm-civet',
+    name: { en: 'Masked palm civet', cs: 'Oviječ maskovaný' },
+    classification: {
+      kingdom,
+      phylum: chordata,
+      class: mammals,
+      order: carnivora,
+      family: viverridae,
+      genus: 'Paguma',
+      species: 'Paguma larvata',
+    },
+    habitat: {
+      en: 'It lives in forests from the Himalayas to China and Southeast Asia, here on the island of Taiwan. It has a white mask on its face.',
+      cs: 'Žije v lesích od Himálaje přes Čínu až po jihovýchodní Asii, třeba na ostrově Tchaj-wan. Na obličeji má bílou masku.',
+    },
+    diet: {
+      en: 'It climbs trees and eats lots of fruit. It also catches mice, birds and insects.',
+      cs: 'Šplhá po stromech a jí hodně ovoce. Chytá také myši, ptáky a hmyz.',
+    },
+    predators: {
+      en: 'Leopards, big snakes and eagles may catch it.',
+      cs: 'Může ho ulovit levhart, velký had nebo orel.',
     },
   },
 ]

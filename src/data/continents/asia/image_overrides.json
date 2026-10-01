@@ -1,71 +1,78 @@
 {
- "taimen": [
-  "File:Hucho taimen June 2007 Uur River.jpg",
-  "File:Hucho taimen.jpg",
-  "File:Таймень (р. Олекма).jpg",
-  "File:Таймень в Сибири.jpg"
- ],
- "snow-leopard": [
-  "File:Irbis4.JPG",
-  "File:Snow leopard portrait-2010-07-09.jpg",
-  "File:Uncia uncia in Liberec ZOO in Liberec, Liberec District.jpg",
-  "File:Snow leopard (Panthera uncia).JPG"
- ],
- "siberian-musk-deer": [
-  "File:Moschus_moschiferus_in_Plzen_zoo_(12.02.2011).jpg",
-  "File:Siberian Musk Deer.jpg",
-  "File:Moschustier.jpg",
-  "File:Moschus 0353.jpg"
- ],
- "mekong-giant-catfish": [
-  "File:Mekong giant catfish side.jpg",
-  "File:Mekong giant catfish.jpg",
-  "File:Pangasianodon_gigas_in_Gifu_World_Fresh_Water_Aquarium_-_2.jpg",
-  "File:Mekong close.jpg"
- ],
- "philippine-eagle": [
-  "File:Pithecophaga jefferyi -Philippine Eagle Center, Davao City, Philippines-8a.jpg",
-  "File:Pithecophaga jefferyi front.jpg",
-  "File:Pithecophaga jefferyi look.jpg",
-  "File:Pithecophaga jefferyi.jpg",
-  "File:Pamarayeg_IIIx2_(cropped).jpg"
- ],
- "north-chinese-leopard": [
-  "File:Chinesischer Leopard Panthera pardus japonensis Tierpark Hellabrunn-5.jpg",
-  "File:Kineski amurski leopard (Panthera pardus japonensis) u Zagrebu.jpg",
-  "File:Chinesischer Leopard Panthera pardus japonensis Tierpark Hellabrunn-1.jpg",
-  "File:Panthera pardus japonensis 05.jpg",
-  "File:Panthera pardus japonensis 10.jpg"
- ],
- "bowhead-whale": [
-  "File:Bowheads42.jpg",
-  "File:Bowhead Whale NOAA.jpg",
-  "File:Grönlandwal 6-1999.jpg"
- ],
- "tibetan-antelope": [
-  "File:Chiru (Pantholops hodgsonii) 01.jpg",
-  "File:Chiru (Pantholops hodgsonii) 02.jpg",
-  "File:Chiru (Pantholops hodgsonii) 03.jpg"
- ],
- "finless-porpoise": [
-  "File:Neophocaena phocaenoides -Miyajima Aquarium -Japan-8a.jpg",
-  "File:Finless Porpoise.JPG",
-  "File:Neophocaena phocaenoides 31299614.jpg",
-  "File:Neophocaena phocaenoides 31299550.jpg"
- ],
- "irrawaddy-dolphin": [
-  "File:Irrawaddy dolphin-Orcaella brevirostris by 2eight.jpg",
-  "File:Irrawaddy Dolphin (Orcaella brevirostris) (15223163534).jpg",
-  "File:DKoehl Irrawaddi Dolphin jumping.jpg"
- ],
- "wallaces-flying-frog": [
-  "File:Rhacophorus nigropalmatus.jpg",
-  "File:Wallace's Flying Frog (Rhacophorus nigropalmatus) (22928752144).jpg",
-  "File:Wallace's Flying Frog (Rhacophorus nigropalmatus) (23189284839).jpg"
- ],
- "argali": [
-  "File:Ovis ammon (cropped).jpg",
-  "File:Ovis ammon ammon 330746043.jpg",
-  "File:A herd of Argali (Ovis ammon) 02.JPG"
- ]
+  "taimen": [
+    "File:Hucho taimen June 2007 Uur River.jpg",
+    "File:Hucho taimen.jpg",
+    "File:Таймень (р. Олекма).jpg",
+    "File:Таймень в Сибири.jpg"
+  ],
+  "snow-leopard": [
+    "File:Irbis4.JPG",
+    "File:Snow leopard portrait-2010-07-09.jpg",
+    "File:Uncia uncia in Liberec ZOO in Liberec, Liberec District.jpg",
+    "File:Snow leopard (Panthera uncia).JPG"
+  ],
+  "siberian-musk-deer": [
+    "File:Moschus_moschiferus_in_Plzen_zoo_(12.02.2011).jpg",
+    "File:Siberian Musk Deer.jpg",
+    "File:Moschustier.jpg",
+    "File:Moschus 0353.jpg"
+  ],
+  "mekong-giant-catfish": [
+    "File:Mekong giant catfish side.jpg",
+    "File:Mekong giant catfish.jpg",
+    "File:Pangasianodon_gigas_in_Gifu_World_Fresh_Water_Aquarium_-_2.jpg",
+    "File:Mekong close.jpg"
+  ],
+  "philippine-eagle": [
+    "File:Pithecophaga jefferyi -Philippine Eagle Center, Davao City, Philippines-8a.jpg",
+    "File:Pithecophaga jefferyi front.jpg",
+    "File:Pithecophaga jefferyi look.jpg",
+    "File:Pithecophaga jefferyi.jpg",
+    "File:Pamarayeg_IIIx2_(cropped).jpg"
+  ],
+  "north-chinese-leopard": [
+    "File:Chinesischer Leopard Panthera pardus japonensis Tierpark Hellabrunn-5.jpg",
+    "File:Kineski amurski leopard (Panthera pardus japonensis) u Zagrebu.jpg",
+    "File:Chinesischer Leopard Panthera pardus japonensis Tierpark Hellabrunn-1.jpg",
+    "File:Panthera pardus japonensis 05.jpg",
+    "File:Panthera pardus japonensis 10.jpg"
+  ],
+  "bowhead-whale": [
+    "File:Bowheads42.jpg",
+    "File:Bowhead Whale NOAA.jpg",
+    "File:Grönlandwal 6-1999.jpg"
+  ],
+  "tibetan-antelope": [
+    "File:Chiru (Pantholops hodgsonii) 01.jpg",
+    "File:Chiru (Pantholops hodgsonii) 02.jpg",
+    "File:Chiru (Pantholops hodgsonii) 03.jpg"
+  ],
+  "finless-porpoise": [
+    "File:Neophocaena phocaenoides -Miyajima Aquarium -Japan-8a.jpg",
+    "File:Finless Porpoise.JPG",
+    "File:Neophocaena phocaenoides 31299614.jpg",
+    "File:Neophocaena phocaenoides 31299550.jpg"
+  ],
+  "irrawaddy-dolphin": [
+    "File:Irrawaddy dolphin-Orcaella brevirostris by 2eight.jpg",
+    "File:Irrawaddy Dolphin (Orcaella brevirostris) (15223163534).jpg",
+    "File:DKoehl Irrawaddi Dolphin jumping.jpg"
+  ],
+  "wallaces-flying-frog": [
+    "File:Rhacophorus nigropalmatus.jpg",
+    "File:Wallace's Flying Frog (Rhacophorus nigropalmatus) (22928752144).jpg",
+    "File:Wallace's Flying Frog (Rhacophorus nigropalmatus) (23189284839).jpg"
+  ],
+  "argali": [
+    "File:Ovis ammon (cropped).jpg",
+    "File:Ovis ammon ammon 330746043.jpg",
+    "File:A herd of Argali (Ovis ammon) 02.JPG"
+  ],
+  "asian-palm-civet": [
+    "File:Asian Palm Civet Over A Tree.jpg",
+    "File:Asian palm civet in Rabindra Sarobar October 2024 by Tisha Mukherjee 01.jpg",
+    "File:Common Palm Civet (Paradoxurus hermaphroditus) (7781509830).jpg",
+    "File:Paradoxurus hermaphroditus 49122932.jpg",
+    "File:Palm Civet (Paradoxurus hermaphroditus).jpg"
+  ]
 }

@@ -444,5 +444,6 @@
   "wiki": "European pond turtle",
   "lon": 12.3,
   "lat": 44.9
- }
+ },
+  {"id": "common-genet", "wiki": "Common genet", "lon": -8.0, "lat": 41.6}
 ]

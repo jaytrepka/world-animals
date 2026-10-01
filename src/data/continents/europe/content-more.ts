@@ -15,6 +15,8 @@ const accipitriformes = { latin: 'Accipitriformes', en: 'Birds of prey', cs: 'Dr
 const mustelidae = { latin: 'Mustelidae', en: 'Weasels, otters and badgers', cs: 'Lasicovití' }
 const canidae = { latin: 'Canidae', en: 'Dogs, wolves and foxes', cs: 'Psovití' }
 
+const viverridae = { latin: 'Viverridae', en: 'Civets and genets', cs: 'Cibetkovití' }
+
 export const moreContent: AnimalContent[] = [
   // ---------- north ----------
   {
@@ -592,6 +594,32 @@ export const moreContent: AnimalContent[] = [
     predators: {
       en: 'Grown-up turtles are safe in their shells. Foxes, badgers and crows dig up the eggs, and herons eat the babies.',
       cs: 'Dospělé želvy chrání krunýř. Vajíčka ale vyhrabávají lišky, jezevci a vrány a mláďata jedí volavky.',
+    },
+  },
+  // ---------- civets and relatives ----------
+  {
+    id: 'common-genet',
+    name: { en: 'Common genet', cs: 'Ženetka tečkovaná' },
+    classification: {
+      kingdom,
+      phylum: chordata,
+      class: mammals,
+      order: carnivora,
+      family: viverridae,
+      genus: 'Genetta',
+      species: 'Genetta genetta',
+    },
+    habitat: {
+      en: 'It lives in forests and bushy hills in Spain, Portugal and southern France, and also in Africa. People brought it to Europe long ago.',
+      cs: 'Žije v lesích a křovinatých kopcích ve Španělsku, Portugalsku a jižní Francii a také v Africe. Do Evropy ji kdysi dávno přivezli lidé.',
+    },
+    diet: {
+      en: 'At night it hunts mice, birds, lizards and insects, and it eats berries too. It climbs trees like a cat.',
+      cs: 'V noci loví myši, ptáky, ještěrky a hmyz a jí i bobule. Po stromech šplhá jako kočka.',
+    },
+    predators: {
+      en: 'Eagle-owls, eagles, foxes and lynxes may catch it.',
+      cs: 'Může ji ulovit výr, orel, liška nebo rys.',
     },
   },
 ]

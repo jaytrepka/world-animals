@@ -1696,5 +1696,85 @@
     "source": "https://commons.wikimedia.org/wiki/File:Verreauxs_Sifika_Kirindy_Madagascar.jpg"
    }
   ]
+ },
+ "african-civet": {
+  "count": 3,
+  "credits": [
+   {
+    "file": "File:Civettictis civetta 35635750.jpg",
+    "author": "Michal Sloviak",
+    "license": "CC BY 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Civettictis_civetta_35635750.jpg"
+   },
+   {
+    "file": "File:African civet, South Luangwa National Park (51866891390).jpg",
+    "author": "I've Got It On Film!",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:African_civet,_South_Luangwa_National_Park_(51866891390).jpg"
+   },
+   {
+    "file": "File:African civet, South Luangwa National Park (51866143791).jpg",
+    "author": "I've Got It On Film!",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:African_civet,_South_Luangwa_National_Park_(51866143791).jpg"
+   }
+  ]
+ },
+ "cape-genet": {
+  "count": 3,
+  "credits": [
+   {
+    "file": "File:Large-spotted Genet (Genetta tigrina) (17356502041) (crop).jpg",
+    "author": "Bernard Dupont from FRANCE",
+    "license": "CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Large-spotted_Genet_(Genetta_tigrina)_(17356502041)_(crop).jpg"
+   },
+   {
+    "file": "File:Genetta tigrina 239838199.jpg",
+    "author": "Justin Ponder",
+    "license": "CC BY 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Genetta_tigrina_239838199.jpg"
+   },
+   {
+    "file": "File:Large-spotted Genet (Genetta tigrina) (17182311499).jpg",
+    "author": "Bernard DUPONT from FRANCE",
+    "license": "CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Large-spotted_Genet_(Genetta_tigrina)_(17182311499).jpg"
+   }
+  ]
+ },
+ "african-palm-civet": {
+  "count": 2,
+  "credits": [
+   {
+    "file": "File:Nandinia binotata 259338581.jpg",
+    "author": "Tommy Andriollo",
+    "license": "CC BY 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Nandinia_binotata_259338581.jpg"
+   },
+   {
+    "file": "File:Nandinia_binotata,_crop.jpg",
+    "author": "Thomas Galewski",
+    "license": "CC BY 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Nandinia_binotata,_crop.jpg"
+   }
+  ]
+ },
+ "malagasy-civet": {
+  "count": 2,
+  "credits": [
+   {
+    "file": "File:Spotted_fanaloka_(Fossa_fossana).jpg",
+    "author": "Charles J. Sharp",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Spotted_fanaloka_(Fossa_fossana).jpg"
+   },
+   {
+    "file": "File:Striped Civet - Fossa fossana - Madagascar.jpg",
+    "author": "Hectonichus",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Striped_Civet_-_Fossa_fossana_-_Madagascar.jpg"
+   }
+  ]
  }
 }
