@@ -4,10 +4,15 @@ import type { Animal, Lang } from '../data/types'
 import { UI, useLang } from '../i18n'
 import { ArrowIcon, CloseIcon, SearchIcon } from './icons'
 
-/** First letter for the headings; in Czech "Ch" is its own letter. */
+/**
+ * First letter for the headings. In Czech, Č Ř Š Ž and "Ch" are letters of their own;
+ * other accents (Á, Ď, É, Ť…) are filed under the plain letter, as in a Czech dictionary.
+ */
 function initial(name: string, lang: Lang) {
   if (lang === 'cs' && /^ch/i.test(name)) return 'Ch'
-  return name.charAt(0).toLocaleUpperCase(lang)
+  const first = name.charAt(0).toLocaleUpperCase(lang)
+  if (lang === 'cs' && 'ČŘŠŽ'.includes(first)) return first
+  return first.normalize('NFD').replace(/[\u0300-\u036f]/g, '')
 }
 
 /** Lower-case and without accents, so "zirafa" finds "Žirafa". */
@@ -33,16 +38,12 @@ export default function AnimalListPage({ onBack, onAnimal }: { onBack: () => voi
     }
   }, [])
 
-  // Each animal's searchable text: both names and the Latin name
-  const searchText = useMemo(
-    () => new Map((animals ?? []).map((a) => [a, fold(`${a.name.cs} ${a.name.en} ${a.classification.species}`)])),
-    [animals],
-  )
 
   const groups = useMemo(() => {
     if (!animals) return []
     const words = fold(query).split(/\s+/).filter(Boolean)
-    const found = words.length ? animals.filter((a) => words.every((w) => searchText.get(a)!.includes(w))) : animals
+    // Search only the name shown on the card (in the current language)
+    const found = words.length ? animals.filter((a) => words.every((w) => fold(a.name[lang]).includes(w))) : animals
     const collator = new Intl.Collator(lang, { sensitivity: 'base' })
     const sorted = [...found].sort((a, b) => collator.compare(a.name[lang], b.name[lang]))
     const out: { letter: string; animals: Animal[] }[] = []
@@ -52,7 +53,7 @@ export default function AnimalListPage({ onBack, onAnimal }: { onBack: () => voi
       out.at(-1)!.animals.push(a)
     }
     return out
-  }, [animals, lang, query, searchText])
+  }, [animals, lang, query])
 
   const count = groups.reduce((n, g) => n + g.animals.length, 0)
 
@@ -128,6 +129,24 @@ export default function AnimalListPage({ onBack, onAnimal }: { onBack: () => voi
 function LetterBar({ letters }: { letters: string[] }) {
   const [active, setActive] = useState<string | null>(null)
   const last = useRef<string | null>(null)
+  const [height, setHeight] = useState(() => window.innerHeight)
+  useEffect(() => {
+    const onResize = () => setHeight(window.innerHeight)
+    window.addEventListener('resize', onResize)
+    return () => window.removeEventListener('resize', onResize)
+  }, [])
+
+  // On short screens (e.g. a phone held sideways) show only some letters with dots between them, like iOS.
+  // Every item still jumps to a real letter, so sliding along the bar reaches all of them.
+  const fit = Math.max(5, Math.floor((height - 190) / 13))
+  const slots = fit % 2 ? fit : fit - 1 // odd, so the bar starts and ends with a real letter
+  const items: { letter: string; label: string }[] =
+    letters.length <= fit
+      ? letters.map((l) => ({ letter: l, label: l }))
+      : Array.from({ length: slots }, (_, i) => {
+          const letter = letters[Math.round((i * (letters.length - 1)) / (slots - 1))]
+          return { letter, label: i % 2 ? '•' : letter }
+        })
 
   const jumpAt = (x: number, y: number) => {
     const el = document.elementFromPoint(x, y) as HTMLElement | null
@@ -147,6 +166,7 @@ function LetterBar({ letters }: { letters: string[] }) {
     <>
       <nav
         className="letter-bar"
+        style={{ '--n': items.length } as React.CSSProperties}
         aria-label="A–Z"
         onPointerDown={(e) => {
           e.currentTarget.setPointerCapture(e.pointerId)
@@ -156,9 +176,9 @@ function LetterBar({ letters }: { letters: string[] }) {
         onPointerUp={end}
         onPointerCancel={end}
       >
-        {letters.map((l) => (
-          <span key={l} data-letter={l} className={l === active ? 'on' : ''}>
-            {l}
+        {items.map((it, i) => (
+          <span key={i} data-letter={it.letter} className={it.letter === active && it.label !== '•' ? 'on' : ''}>
+            {it.label}
           </span>
         ))}
       </nav>
