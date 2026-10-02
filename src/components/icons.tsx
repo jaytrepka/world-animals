@@ -61,3 +61,12 @@ export function GridIcon() {
     </svg>
   )
 }
+
+export function SearchIcon() {
+  return (
+    <svg viewBox="0 0 48 48" aria-hidden="true">
+      <circle cx="21" cy="21" r="12" fill="none" stroke="currentColor" strokeWidth="5" />
+      <path d="M30 30 L41 41" stroke="currentColor" strokeWidth="6" strokeLinecap="round" />
+    </svg>
+  )
+}
