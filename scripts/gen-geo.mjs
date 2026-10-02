@@ -121,7 +121,7 @@ const CONFIG = {
     projection: () => geoAzimuthalEqualArea().rotate([-18, -3]),
     area: { lon: [-30, 66], lat: [-48, 40] },
     splits: [12, -8],
-    main: (a3, cont, b) => cont === 'Africa' && b.lat1 > -48,
+    main: (a3, cont, b) => cont === 'Africa' && b.lat1 > -40, // not the sub-Antarctic Prince Edward Islands
   },
   asia: {
     projection: () => geoAzimuthalEqualArea().rotate([-98, -42]),

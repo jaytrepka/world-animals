@@ -3,7 +3,7 @@
 A picture map of animals for small kids (who can't read yet), in English and Czech.
 
 - **Home:** logo + world map. Tap any continent.
-- **Continent:** painted map split into north / middle / south parts – big green arrows move between them, the yellow arrow goes back. The map can also be dragged. (Antarctica is seen from above the South Pole: Antarctic Peninsula / South Pole / East Antarctica.)
+- **Continent:** painted map split into north / middle / south parts – big green arrows move between them, the yellow arrow goes back. The map can be dragged and zoomed (mouse wheel / trackpad pinch, two-finger pinch on touch screens, double-click, or the + / − buttons) – the animal pictures grow when zooming in. (Antarctica is seen from above the South Pole: Antarctic Peninsula / South Pole / East Antarctica.)
 - **Animals:** ~350 animals on 7 continents. Tap a round photo to open the animal window: photos, full name, scientific classification, where it lives, what it eats, who eats it. The blue 🔊 buttons read the text aloud (browser speech, Czech or English).
 - **All animals:** the green grid button (top-right on the home page) opens an alphabetical list of every species with its photo, a search bar (searches the animal names shown, accents optional) and an A–Z bar on the right to jump to a letter; tapping an animal opens the same animal window.
 - **Language:** flag button in the bottom-left corner.

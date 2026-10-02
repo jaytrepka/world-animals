@@ -70,3 +70,19 @@ export function SearchIcon() {
     </svg>
   )
 }
+
+export function PlusIcon() {
+  return (
+    <svg viewBox="0 0 48 48" aria-hidden="true">
+      <path d="M24 10 V38 M10 24 H38" stroke="currentColor" strokeWidth="7" strokeLinecap="round" />
+    </svg>
+  )
+}
+
+export function MinusIcon() {
+  return (
+    <svg viewBox="0 0 48 48" aria-hidden="true">
+      <path d="M10 24 H38" stroke="currentColor" strokeWidth="7" strokeLinecap="round" />
+    </svg>
+  )
+}

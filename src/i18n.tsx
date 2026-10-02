@@ -10,6 +10,8 @@ export const UI = {
   clearSearch: { en: 'Clear search', cs: 'Smazat hledání' },
   noResults: { en: 'No animal found', cs: 'Žádné zvíře jsme nenašli' },
   back: { en: 'Back', cs: 'Zpět' },
+  zoomIn: { en: 'Zoom in', cs: 'Přiblížit' },
+  zoomOut: { en: 'Zoom out', cs: 'Oddálit' },
   goNorth: { en: 'Go north', cs: 'Na sever' },
   goSouth: { en: 'Go south', cs: 'Na jih' },
   close: { en: 'Close', cs: 'Zavřít' },
