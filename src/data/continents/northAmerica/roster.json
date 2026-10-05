@@ -496,5 +496,6 @@
   "wiki": "Cozumel raccoon",
   "lon": -86.92,
   "lat": 20.47
- }
+ },
+ {"id": "fisher", "wiki": "Fisher (animal)", "lon": -84, "lat": 50}
 ]

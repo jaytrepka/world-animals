@@ -520,5 +520,7 @@
   {"id": "african-civet", "wiki": "African civet", "lon": 26.5, "lat": -11.5},
   {"id": "cape-genet", "wiki": "Cape genet", "lon": 27.5, "lat": -32.8},
   {"id": "african-palm-civet", "wiki": "African palm civet", "lon": -4.5, "lat": 7.0},
-  {"id": "malagasy-civet", "wiki": "Malagasy civet", "lon": 47.4, "lat": -21.3}
+  {"id": "malagasy-civet", "wiki": "Malagasy civet", "lon": 47.4, "lat": -21.3},
+ {"id": "maned-rat", "wiki": "Maned rat", "lon": 34.7, "lat": 1},
+ {"id": "hamadryas-baboon", "wiki": "Hamadryas baboon", "lon": 40.2, "lat": 9.3}
 ]

@@ -615,4 +615,30 @@ export const moreContent: AnimalContent[] = [
       cs: 'Na ostrově ho může chytit velký had hroznýš nebo toulavý pes. Těchto mývalů zbývá jen velmi málo, a proto je lidé chrání.',
     },
   },
+  // ---------- added later ----------
+  {
+    id: 'fisher',
+    name: { en: 'Fisher', cs: 'Kuna rybářská' },
+    classification: {
+      kingdom: animalia,
+      phylum: chordata,
+      class: mammalia,
+      order: carnivora,
+      family: mustelidae,
+      genus: 'Pekania',
+      species: 'Pekania pennanti',
+    },
+    habitat: {
+      en: 'It lives in thick forests of Canada and the northern United States. It is a big, dark marten that climbs trees very well, even head first down.',
+      cs: 'Žije v hustých lesích Kanady a na severu Spojených států. Je to velká tmavá kuna, která skvěle šplhá po stromech, i hlavou dolů.',
+    },
+    diet: {
+      en: 'Despite its name, it hardly ever eats fish. It hunts hares, squirrels and mice, and it is one of the few animals that can catch a porcupine.',
+      cs: 'I když se jmenuje rybářská, ryby skoro nejí. Loví zajíce, veverky a myši a je jedním z mála zvířat, která dokážou ulovit urzona.',
+    },
+    predators: {
+      en: 'Grown-up fishers have few enemies. Sometimes a lynx, a coyote or a big owl catches one, mostly a young one.',
+      cs: 'Dospělé kuny rybářské mají málo nepřátel. Občas některou, hlavně mladou, uloví rys, kojot nebo velká sova.',
+    },
+  },
 ]

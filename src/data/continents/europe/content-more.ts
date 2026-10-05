@@ -622,4 +622,55 @@ export const moreContent: AnimalContent[] = [
       cs: 'Může ji ulovit výr, orel, liška nebo rys.',
     },
   },
+  // ---------- added later ----------
+  {
+    id: 'beech-marten',
+    name: { en: 'Beech marten', cs: 'Kuna skalní' },
+    classification: {
+      kingdom,
+      phylum: chordata,
+      class: mammals,
+      order: carnivora,
+      family: mustelidae,
+      genus: 'Martes',
+      species: 'Martes foina',
+    },
+    habitat: {
+      en: 'It lives in rocky hills, villages and even towns, and likes to sleep in attics and barns. It has a white, forked patch on its chest.',
+      cs: 'Žije ve skalnatých kopcích, ve vesnicích i ve městech a ráda spí na půdách a ve stodolách. Na hrudi má bílou rozdvojenou skvrnu.',
+    },
+    diet: {
+      en: 'It hunts mice, rats and birds, and loves eggs, fruit and berries. Sometimes it climbs into cars and chews the cables!',
+      cs: 'Loví myši, potkany a ptáky a moc jí chutnají vajíčka, ovoce a bobule. Někdy vleze do auta a překouše kabely!',
+    },
+    predators: {
+      en: 'Eagle-owls, golden eagles, foxes and lynxes can catch it.',
+      cs: 'Může ji ulovit výr, orel skalní, liška nebo rys.',
+    },
+  },
+  {
+    id: 'little-owl',
+    name: { en: 'Little owl', cs: 'Sýček obecný' },
+    classification: {
+      kingdom,
+      phylum: chordata,
+      class: birds,
+      order: { latin: 'Strigiformes', en: 'Owls', cs: 'Sovy' },
+      family: { latin: 'Strigidae', en: 'True owls', cs: 'Puštíkovití' },
+      genus: 'Athene',
+      species: 'Athene noctua',
+    },
+    habitat: {
+      en: 'This small owl with big yellow eyes lives in warm open country with old trees, olive groves and old farm buildings. It often sits on a post even in the daytime.',
+      cs: 'Tato malá sova s velkýma žlutýma očima žije v teplé otevřené krajině se starými stromy, olivovými háji a statky. Často sedí na sloupku i ve dne.',
+    },
+    diet: {
+      en: 'It catches beetles, earthworms, mice and small birds. It runs and hops on the ground after its food.',
+      cs: 'Chytá brouky, žížaly, myši a malé ptáčky. Za potravou běhá a poskakuje po zemi.',
+    },
+    predators: {
+      en: 'Eagle-owls, tawny owls, hawks, martens and cats can catch it.',
+      cs: 'Může ho chytit výr, puštík, jestřáb, kuna nebo kočka.',
+    },
+  },
 ]

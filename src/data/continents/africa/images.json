@@ -1776,5 +1776,39 @@
     "source": "https://commons.wikimedia.org/wiki/File:Striped_Civet_-_Fossa_fossana_-_Madagascar.jpg"
    }
   ]
+ },
+ "maned-rat": {
+  "count": 1,
+  "credits": [
+   {
+    "file": "File:Lophiomys imhausi.jpg",
+    "author": "Kevin Deacon",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Lophiomys_imhausi.jpg"
+   }
+  ]
+ },
+ "hamadryas-baboon": {
+  "count": 3,
+  "credits": [
+   {
+    "file": "File:Papio_hamadryas_eating_an_apple.JPG",
+    "author": "LadyofHats",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Papio_hamadryas_eating_an_apple.JPG"
+   },
+   {
+    "file": "File:Papio_hamadryas_pair.jpg",
+    "author": "Manuel González Olaechea y Franco",
+    "license": "CC BY 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Papio_hamadryas_pair.jpg"
+   },
+   {
+    "file": "File:Hamadryas_harems.jpg",
+    "author": "beggs",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Hamadryas_harems.jpg"
+   }
+  ]
  }
 }

@@ -1437,5 +1437,45 @@
     "source": "https://commons.wikimedia.org/wiki/File:Common_Genet_(Genetta_genetta)_(7076892781).jpg"
    }
   ]
+ },
+ "beech-marten": {
+  "count": 2,
+  "credits": [
+   {
+    "file": "File:Stone_marten_(Martes_foina)_Drenthe.jpg",
+    "author": "Charles J. Sharp",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Stone_marten_(Martes_foina)_Drenthe.jpg"
+   },
+   {
+    "file": "File:Martes_foina_1_(Bohuš_Číčel).jpg",
+    "author": "Bohuš Číčel (https://www.flickr.com/photos/bcicel/)",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Martes_foina_1_(Bohu%C5%A1_%C4%8C%C3%AD%C4%8Del).jpg"
+   }
+  ]
+ },
+ "little-owl": {
+  "count": 3,
+  "credits": [
+   {
+    "file": "File:Домовый_сыч._Сова_в_каньоне_урочища_Бозжыра._01.jpg",
+    "author": "Максат79",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:%D0%94%D0%BE%D0%BC%D0%BE%D0%B2%D1%8B%D0%B9_%D1%81%D1%8B%D1%87._%D0%A1%D0%BE%D0%B2%D0%B0_%D0%B2_%D0%BA%D0%B0%D0%BD%D1%8C%D0%BE%D0%BD%D0%B5_%D1%83%D1%80%D0%BE%D1%87%D0%B8%D1%89%D0%B0_%D0%91%D0%BE%D0%B7%D0%B6%D1%8B%D1%80%D0%B0._01.jpg"
+   },
+   {
+    "file": "File:Littleowljan21.jpg",
+    "author": "Pobpob11",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Littleowljan21.jpg"
+   },
+   {
+    "file": "File:Little_Owl_(Athene_noctua)_(45679271535).jpg",
+    "author": "Imran Shah from Islamabad, Pakistan",
+    "license": "CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Little_Owl_(Athene_noctua)_(45679271535).jpg"
+   }
+  ]
  }
 }

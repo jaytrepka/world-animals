@@ -514,5 +514,7 @@
   "wiki": "Nasuella olivacea",
   "lon": -79.2,
   "lat": -4.1
- }
+ },
+ {"id": "tayra", "wiki": "Tayra", "lon": -51.5, "lat": 1.5},
+ {"id": "ornate-hawk-eagle", "wiki": "Ornate hawk-eagle", "lon": -50, "lat": -6.5}
 ]

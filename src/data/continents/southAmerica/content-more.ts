@@ -9,6 +9,9 @@ const procyonidae = { latin: 'Procyonidae', en: 'Raccoons and coatis', cs: 'Medv
 const alligatoridae = { latin: 'Alligatoridae', en: 'Alligators and caimans', cs: 'Aligátorovití' }
 const myrmecophagidae = { latin: 'Myrmecophagidae', en: 'Anteaters', cs: 'Mravenečníkovití' }
 const sirenia = { latin: 'Sirenia', en: 'Sea cows', cs: 'Sirény' }
+const mustelidae = { latin: 'Mustelidae', en: 'Weasels, martens and badgers', cs: 'Lasicovití' }
+const accipitriformes = { latin: 'Accipitriformes', en: 'Birds of prey', cs: 'Dravci' }
+const accipitridae = { latin: 'Accipitridae', en: 'Hawks and eagles', cs: 'Jestřábovití' }
 const trichechidae = { latin: 'Trichechidae', en: 'Manatees', cs: 'Kapustňákovití' }
 
 export const moreContent: AnimalContent[] = [
@@ -691,6 +694,57 @@ export const moreContent: AnimalContent[] = [
     predators: {
       en: 'Pumas, Andean foxes and big birds of prey hunt it.',
       cs: 'Loví ho pumy, andské lišky a velcí draví ptáci.',
+    },
+  },
+  // ---------- added later ----------
+  {
+    id: 'tayra',
+    name: { en: 'Tayra', cs: 'Hyrare' },
+    classification: {
+      kingdom,
+      phylum: chordata,
+      class: mammals,
+      order: carnivora,
+      family: mustelidae,
+      genus: 'Eira',
+      species: 'Eira barbara',
+    },
+    habitat: {
+      en: 'It lives in rainforests from Mexico to Argentina. It is a big, dark brown marten with a pale head and a yellow spot on its throat, and it climbs and runs very fast.',
+      cs: 'Žije v deštných pralesích od Mexika až po Argentinu. Je to velká tmavohnědá šelma podobná kuně, se světlou hlavou a žlutou skvrnou na krku. Rychle šplhá i běhá.',
+    },
+    diet: {
+      en: 'It eats almost anything: fruit, honey, birds, lizards and small animals. It even hides green fruit and comes back to eat it when it is ripe.',
+      cs: 'Jí skoro všechno: ovoce, med, ptáky, ještěrky i malá zvířátka. Zelené ovoce si dokonce schová a vrátí se pro ně, až dozraje.',
+    },
+    predators: {
+      en: 'Jaguars, pumas, ocelots and big eagles can catch it.',
+      cs: 'Na hyrare si troufne jaguár, puma, ocelot nebo velký orel.',
+    },
+  },
+  {
+    id: 'ornate-hawk-eagle',
+    name: { en: 'Ornate hawk-eagle', cs: 'Orel ozdobný' },
+    classification: {
+      kingdom,
+      phylum: chordata,
+      class: birds,
+      order: accipitriformes,
+      family: accipitridae,
+      genus: 'Spizaetus',
+      species: 'Spizaetus ornatus',
+    },
+    habitat: {
+      en: 'It lives high in the trees of the Amazon rainforest. It has a pointed crest on its head, an orange-brown neck and a belly with black and white stripes.',
+      cs: 'Žije vysoko v korunách stromů amazonského pralesa. Na hlavě má špičatou chocholku, krk má oranžovohnědý a bříško pruhované černobíle.',
+    },
+    diet: {
+      en: 'It hunts birds like pigeons and parrots, and also monkeys, squirrels and lizards.',
+      cs: 'Loví ptáky, třeba holuby a papoušky, a také opice, veverky a ještěrky.',
+    },
+    predators: {
+      en: 'Grown-ups have almost no enemies. Monkeys, snakes or wild cats may steal eggs or chicks from the nest.',
+      cs: 'Dospělí orli nemají skoro žádné nepřátele. Vejce nebo mláďata z hnízda mohou ukrást opice, hadi nebo kočkovité šelmy.',
     },
   },
 ]

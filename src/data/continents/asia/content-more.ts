@@ -2,7 +2,7 @@ import type { AnimalContent } from '../../types'
 import {
   kingdom, chordata, mammals, reptiles, amphibians, rayFinned,
   carnivora, artiodactyla, artiodactylaWhales, perissodactyla, primates, caudata, crocodilia, testudines,
-  felidae, ursidae, canidae, bovidae, cercopithecidae,
+  felidae, ursidae, canidae, bovidae, cercopithecidae, mustelidae,
 } from './taxa'
 
 const lagomorpha = { latin: 'Lagomorpha', en: 'Rabbits, hares and pikas', cs: 'Zajícovci' }
@@ -723,6 +723,107 @@ export const moreContent: AnimalContent[] = [
     predators: {
       en: 'Leopards, big snakes and eagles may catch it.',
       cs: 'Může ho ulovit levhart, velký had nebo orel.',
+    },
+  },
+  // ---------- added later ----------
+  {
+    id: 'yellow-throated-marten',
+    name: { en: 'Yellow-throated marten', cs: 'Charza žlutohrdlá' },
+    classification: {
+      kingdom,
+      phylum: chordata,
+      class: mammals,
+      order: carnivora,
+      family: mustelidae,
+      genus: 'Martes',
+      species: 'Martes flavigula',
+    },
+    habitat: {
+      en: 'It lives in forests from the Himalayas to southern China and the Far East. It is a big, colourful marten with a black head and a bright yellow-orange throat.',
+      cs: 'Žije v lesích od Himálaje přes jižní Čínu až po Dálný východ. Je to velká pestrá kuna s černou hlavou a jasně žlutooranžovým hrdlem.',
+    },
+    diet: {
+      en: 'It often hunts in small groups: squirrels, birds, rats and sometimes even small deer. It also loves honey and fruit.',
+      cs: 'Často loví v malých skupinkách veverky, ptáky, krysy a někdy i malé jelínky. Moc ráda má také med a ovoce.',
+    },
+    predators: {
+      en: 'Grown-ups have few enemies. Only sometimes a leopard, a tiger or a big eagle catches one.',
+      cs: 'Dospělé charzy mají málo nepřátel. Jen občas některou uloví levhart, tygr nebo velký orel.',
+    },
+  },
+  {
+    id: 'japanese-marten',
+    name: { en: 'Japanese marten', cs: 'Sobol východní' },
+    classification: {
+      kingdom,
+      phylum: chordata,
+      class: mammals,
+      order: carnivora,
+      family: mustelidae,
+      genus: 'Martes',
+      species: 'Martes melampus',
+    },
+    habitat: {
+      en: 'It lives only in Japan, in the forests of the islands Honshu, Shikoku and Kyushu. In winter its fur is often a bright golden yellow.',
+      cs: 'Žije jen v Japonsku, v lesích na ostrovech Honšú, Šikoku a Kjúšú. V zimě má kožich často krásně zlatožlutý.',
+    },
+    diet: {
+      en: 'It eats mice, birds, frogs and insects, and lots of berries and fruit. It spreads the seeds all around the forest.',
+      cs: 'Jí myši, ptáky, žáby a hmyz a také spoustu bobulí a ovoce. Semínka pak roznáší po celém lese.',
+    },
+    predators: {
+      en: 'Big birds of prey, like hawk-eagles and eagle-owls, and also dogs can catch it.',
+      cs: 'Může ho ulovit velký dravec, třeba orel nebo výr, a také psi.',
+    },
+  },
+  {
+    id: 'great-jerboa',
+    name: { en: 'Great jerboa', cs: 'Frček větší' },
+    classification: {
+      kingdom,
+      phylum: chordata,
+      class: mammals,
+      order: rodentia,
+      family: { latin: 'Dipodidae', en: 'Jerboas', cs: 'Tarbíkovití' },
+      genus: 'Allactaga',
+      species: 'Allactaga major',
+    },
+    habitat: {
+      en: 'It lives in the wide grassy steppes of Kazakhstan. It looks like a tiny kangaroo, with long back legs, big ears and a very long tail with a tuft at the end.',
+      cs: 'Žije v širých travnatých stepích Kazachstánu. Vypadá jako malinký klokan s dlouhýma zadníma nohama, velkýma ušima a dlouhým ocasem se štětičkou.',
+    },
+    diet: {
+      en: 'At night it hops around looking for seeds, roots, juicy plant bulbs and beetles.',
+      cs: 'V noci skáče po stepi a hledá semínka, kořínky, šťavnaté cibulky a brouky.',
+    },
+    predators: {
+      en: 'Foxes, corsac foxes, owls, polecats and snakes like to catch it. It escapes with huge jumps.',
+      cs: 'Loví ho lišky, korsaci, sovy, tchoři a hadi. Utíká jim obrovskými skoky.',
+    },
+  },
+  {
+    id: 'corsac-fox',
+    name: { en: 'Corsac fox', cs: 'Korsak' },
+    classification: {
+      kingdom,
+      phylum: chordata,
+      class: mammals,
+      order: carnivora,
+      family: canidae,
+      genus: 'Vulpes',
+      species: 'Vulpes corsac',
+    },
+    habitat: {
+      en: 'This small fox lives in the dry steppes and semi-deserts of Kazakhstan and Mongolia. In winter it grows thick, pale fur to keep warm.',
+      cs: 'Tahle malá liška žije v suchých stepích a polopouštích Kazachstánu a Mongolska. Na zimu jí naroste hustý světlý kožich, který ji hřeje.',
+    },
+    diet: {
+      en: 'It hunts voles, gerbils, jerboas and birds, and it also eats insects and fruit.',
+      cs: 'Loví hraboše, pískomily, tarbíky a ptáky a jí také hmyz a ovoce.',
+    },
+    predators: {
+      en: 'Wolves, eagles and eagle-owls can catch it. It hides from them in burrows.',
+      cs: 'Může ho ulovit vlk, orel nebo výr. Schovává se před nimi v norách.',
     },
   },
 ]

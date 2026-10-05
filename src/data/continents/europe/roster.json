@@ -445,5 +445,7 @@
   "lon": 12.3,
   "lat": 44.9
  },
-  {"id": "common-genet", "wiki": "Common genet", "lon": -8.0, "lat": 41.6}
+  {"id": "common-genet", "wiki": "Common genet", "lon": -8.0, "lat": 41.6},
+ {"id": "beech-marten", "wiki": "Beech marten", "lon": -4, "lat": 48.2},
+ {"id": "little-owl", "wiki": "Little owl", "lon": 17, "lat": 40.6}
 ]

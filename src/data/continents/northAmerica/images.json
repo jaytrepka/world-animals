@@ -1592,5 +1592,22 @@
     "source": "https://commons.wikimedia.org/wiki/File:Cozumel_Raccoon2.jpg"
    }
   ]
+ },
+ "fisher": {
+  "count": 2,
+  "credits": [
+   {
+    "file": "File:Fishers_(14584727897).jpg",
+    "author": "Mount Rainier National Park from Ashford, WA, United States",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Fishers_(14584727897).jpg"
+   },
+   {
+    "file": "File:Fisher-face-snow_-_West_Virginia_-_ForestWander.jpg",
+    "author": "ForestWander",
+    "license": "CC BY-SA 3.0 us",
+    "source": "https://commons.wikimedia.org/wiki/File:Fisher-face-snow_-_West_Virginia_-_ForestWander.jpg"
+   }
+  ]
  }
 }

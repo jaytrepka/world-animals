@@ -11,6 +11,7 @@ const artiodactyla = { latin: 'Artiodactyla', en: 'Even-toed hoofed mammals', cs
 const perissodactyla = { latin: 'Perissodactyla', en: 'Odd-toed hoofed mammals', cs: 'Lichokopytníci' }
 const carnivora = { latin: 'Carnivora', en: 'Carnivorans', cs: 'Šelmy' }
 const primates = { latin: 'Primates', en: 'Primates', cs: 'Primáti' }
+const rodentia = { latin: 'Rodentia', en: 'Rodents', cs: 'Hlodavci' }
 const bovidae = { latin: 'Bovidae', en: 'Cattle, antelopes and goats', cs: 'Turovití' }
 const equidae = { latin: 'Equidae', en: 'Horses, donkeys and zebras', cs: 'Koňovití' }
 const squamata = { latin: 'Squamata', en: 'Lizards and snakes', cs: 'Šupinatí' }
@@ -798,6 +799,57 @@ export const moreContent: AnimalContent[] = [
     predators: {
       en: 'The fossa and big boas may hunt it. Dogs brought by people are dangerous for it too.',
       cs: 'Lovit ji může fosa a velcí hroznýši. Nebezpeční jsou pro ni i psi, které přivezli lidé.',
+    },
+  },
+  // ---------- added later ----------
+  {
+    id: 'maned-rat',
+    name: { en: 'Maned rat', cs: 'Chlupáč dlouhosrstý' },
+    classification: {
+      kingdom,
+      phylum: chordata,
+      class: mammals,
+      order: rodentia,
+      family: { latin: 'Muridae', en: 'Mice, rats and gerbils', cs: 'Myšovití' },
+      genus: 'Lophiomys',
+      species: 'Lophiomys imhausi',
+    },
+    habitat: {
+      en: 'It lives in forests and bushy hills of East Africa, like on Mount Elgon in Kenya. It has long black-and-white striped fur and a mane on its back.',
+      cs: 'Žije v lesích a křovinatých kopcích východní Afriky, třeba na hoře Elgon v Keni. Má dlouhou černobíle pruhovanou srst a na zádech hřívu.',
+    },
+    diet: {
+      en: 'It eats leaves, fruit and roots. It chews the bark of a poisonous tree and licks the poison into its fur.',
+      cs: 'Jí listy, ovoce a kořínky. Okusuje kůru jedovatého stromu a jed si pak olizuje do srsti.',
+    },
+    predators: {
+      en: 'Almost nobody dares to eat it. A dog or a wild cat that bites it can get very sick. When scared, it raises its mane to show its poison stripe.',
+      cs: 'Skoro nikdo se ho neodváží sníst. Pes nebo divoká kočka, která ho kousne, může těžce onemocnět. Když se lekne, naježí hřívu a ukáže jedovatý pruh.',
+    },
+  },
+  {
+    id: 'hamadryas-baboon',
+    name: { en: 'Hamadryas baboon', cs: 'Pavián pláštíkový' },
+    classification: {
+      kingdom,
+      phylum: chordata,
+      class: mammals,
+      order: primates,
+      family: { latin: 'Cercopithecidae', en: 'Old World monkeys', cs: 'Kočkodanovití' },
+      genus: 'Papio',
+      species: 'Papio hamadryas',
+    },
+    habitat: {
+      en: 'It lives on dry rocky hills and cliffs in Ethiopia, Eritrea and Somalia. The big males have a silvery-white cape of hair and a red face.',
+      cs: 'Žije na suchých skalnatých kopcích a útesech v Etiopii, Eritreji a Somálsku. Velcí samci mají stříbřitě bílý plášť z chlupů a červený obličej.',
+    },
+    diet: {
+      en: 'It eats grass, seeds, roots, flowers and acacia pods, and sometimes insects and small animals.',
+      cs: 'Jí trávu, semínka, kořínky, květy a lusky akácií a občas i hmyz a malá zvířátka.',
+    },
+    predators: {
+      en: 'Leopards, hyenas and big eagles can catch it, mostly the young ones. At night the whole troop sleeps safely on high cliffs.',
+      cs: 'Mohou ho ulovit levharti, hyeny a velcí orli, hlavně mláďata. V noci celá tlupa bezpečně spí na vysokých skalách.',
     },
   },
 ]

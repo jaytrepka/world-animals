@@ -1877,5 +1877,73 @@
     "source": "https://commons.wikimedia.org/wiki/File:Masked_Palm_Civet.jpg"
    }
   ]
+ },
+ "yellow-throated-marten": {
+  "count": 3,
+  "credits": [
+   {
+    "file": "File:Martes_flavigula,_yellow-throated_marten.jpg",
+    "author": "Rushenb",
+    "license": "CC BY 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Martes_flavigula,_yellow-throated_marten.jpg"
+   },
+   {
+    "file": "File:Yellow-throated_Marten_Pangolakha_Wildlife_Sanctuary_East_Sikkim_India_26.03.2016.jpg",
+    "author": "Dibyendu Ash",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Yellow-throated_Marten_Pangolakha_Wildlife_Sanctuary_East_Sikkim_India_26.03.2016.jpg"
+   },
+   {
+    "file": "File:Yellow-throated_marten_from_Corbett_Tiger_Reserve.jpg",
+    "author": "Sanjeevburman76",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Yellow-throated_marten_from_Corbett_Tiger_Reserve.jpg"
+   }
+  ]
+ },
+ "japanese-marten": {
+  "count": 1,
+  "credits": [
+   {
+    "file": "File:Japanese Marten.jpg",
+    "author": "lvovl2",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Japanese_Marten.jpg"
+   }
+  ]
+ },
+ "great-jerboa": {
+  "count": 1,
+  "credits": [
+   {
+    "file": "File:Allactaga major II.jpg",
+    "author": "Kudaibergen Amirekul",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Allactaga_major_II.jpg"
+   }
+  ]
+ },
+ "corsac-fox": {
+  "count": 3,
+  "credits": [
+   {
+    "file": "File:Vulpes corsac 58367738.jpg",
+    "author": "Safina Rezeda",
+    "license": "CC BY 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Vulpes_corsac_58367738.jpg"
+   },
+   {
+    "file": "File:Corsac Fox 1 (6785199523).jpg",
+    "author": "Neil McIntosh from Cambridge, United Kingdom",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Corsac_Fox_1_(6785199523).jpg"
+   },
+   {
+    "file": "File:Fox---Vulpes-corsac---(Gentry).jpg",
+    "author": "Sole Creator and Copyright Holder: Alfred Hutter aka Gentry",
+    "license": "Attribution",
+    "source": "https://commons.wikimedia.org/wiki/File:Fox---Vulpes-corsac---(Gentry).jpg"
+   }
+  ]
  }
 }

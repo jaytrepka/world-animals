@@ -1654,5 +1654,45 @@
     "source": "https://commons.wikimedia.org/wiki/File:Nasua_olivacea_29383711.jpg"
    }
   ]
+ },
+ "tayra": {
+  "count": 2,
+  "credits": [
+   {
+    "file": "File:Tayra_-_Male,_Brazil_(cropped).jpg",
+    "author": "Ninahale",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Tayra_-_Male,_Brazil_(cropped).jpg"
+   },
+   {
+    "file": "File:Belize72.jpg",
+    "author": "",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Belize72.jpg"
+   }
+  ]
+ },
+ "ornate-hawk-eagle": {
+  "count": 3,
+  "credits": [
+   {
+    "file": "File:Spizaetus_ornatus_123203845.jpg",
+    "author": "Martín Márquez",
+    "license": "CC BY 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Spizaetus_ornatus_123203845.jpg"
+   },
+   {
+    "file": "File:Spizaetus-ornatus-001.jpg",
+    "author": "Mdf",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Spizaetus-ornatus-001.jpg"
+   },
+   {
+    "file": "File:Spizaetus-ornatus-002.jpg",
+    "author": "Mdf",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Spizaetus-ornatus-002.jpg"
+   }
+  ]
  }
 }

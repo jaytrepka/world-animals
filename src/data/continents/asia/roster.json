@@ -562,5 +562,9 @@
   {"id": "large-indian-civet", "wiki": "Large Indian civet", "lon": 91.2, "lat": 23.8},
   {"id": "malayan-civet", "wiki": "Malayan civet", "lon": 104.5, "lat": -4.5},
   {"id": "asian-palm-civet", "wiki": "Asian palm civet", "lon": 77.0, "lat": 10.0},
-  {"id": "masked-palm-civet", "wiki": "Masked palm civet", "lon": 121.0, "lat": 23.8}
+  {"id": "masked-palm-civet", "wiki": "Masked palm civet", "lon": 121.0, "lat": 23.8},
+ {"id": "yellow-throated-marten", "wiki": "Yellow-throated marten", "lon": 108.5, "lat": 24.5},
+ {"id": "japanese-marten", "wiki": "Japanese marten", "lon": 140.5, "lat": 40.2},
+ {"id": "great-jerboa", "wiki": "Great jerboa", "lon": 58, "lat": 49.5},
+ {"id": "corsac-fox", "wiki": "Corsac fox", "lon": 78, "lat": 47.5}
 ]
