@@ -566,5 +566,9 @@
  {"id": "yellow-throated-marten", "wiki": "Yellow-throated marten", "lon": 108.5, "lat": 24.5},
  {"id": "japanese-marten", "wiki": "Japanese marten", "lon": 140.5, "lat": 40.2},
  {"id": "great-jerboa", "wiki": "Great jerboa", "lon": 58, "lat": 49.5},
- {"id": "corsac-fox", "wiki": "Corsac fox", "lon": 78, "lat": 47.5}
+ {"id": "corsac-fox", "wiki": "Corsac fox", "lon": 78, "lat": 47.5},
+ {"id": "persian-leopard", "wiki": "Persian leopard", "lon": 45.5, "lat": 39.5},
+ {"id": "caucasian-squirrel", "wiki": "Caucasian squirrel", "lon": 30.5, "lat": 39.5},
+ {"id": "persian-jird", "wiki": "Persian jird", "lon": 51.5, "lat": 32.5},
+ {"id": "siberian-chipmunk", "wiki": "Siberian chipmunk", "lon": 100, "lat": 56}
 ]

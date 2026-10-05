@@ -516,5 +516,11 @@
   "lat": -4.1
  },
  {"id": "tayra", "wiki": "Tayra", "lon": -51.5, "lat": 1.5},
- {"id": "ornate-hawk-eagle", "wiki": "Ornate hawk-eagle", "lon": -50, "lat": -6.5}
+ {"id": "ornate-hawk-eagle", "wiki": "Ornate hawk-eagle", "lon": -50, "lat": -6.5},
+ {"id": "common-opossum", "wiki": "Common opossum", "lon": -66.5, "lat": 10.0},
+ {"id": "water-opossum", "wiki": "Water opossum", "lon": -48.5, "lat": -23.5},
+ {"id": "gray-short-tailed-opossum", "wiki": "Gray short-tailed opossum", "lon": -38.5, "lat": -6.5},
+ {"id": "linnaeus-mouse-opossum", "wiki": "Linnaeus's mouse opossum", "lon": -59.0, "lat": -7.5},
+ {"id": "gray-four-eyed-opossum", "wiki": "Gray four-eyed opossum", "lon": -53.5, "lat": -5.5},
+ {"id": "bare-tailed-woolly-opossum", "wiki": "Bare-tailed woolly opossum", "lon": -53.0, "lat": 3.5}
 ]

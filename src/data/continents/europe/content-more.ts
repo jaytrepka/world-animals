@@ -673,4 +673,29 @@ export const moreContent: AnimalContent[] = [
       cs: 'Může ho chytit výr, puštík, jestřáb, kuna nebo kočka.',
     },
   },
+  {
+    id: 'european-mink',
+    name: { en: 'European mink', cs: 'Norek evropský' },
+    classification: {
+      kingdom,
+      phylum: chordata,
+      class: mammals,
+      order: carnivora,
+      family: mustelidae,
+      genus: 'Mustela',
+      species: 'Mustela lutreola',
+    },
+    habitat: {
+      en: 'It lives by quiet rivers, streams and marshes. It is dark brown with a white chin and swims very well. It is one of the rarest animals in Europe.',
+      cs: 'Žije u klidných řek, potoků a v mokřadech. Je tmavě hnědý s bílou bradičkou a výborně plave. Patří k nejvzácnějším zvířatům Evropy.',
+    },
+    diet: {
+      en: 'It catches fish, frogs, crayfish, water voles and insects in and near the water.',
+      cs: 'Ve vodě i u vody loví ryby, žáby, raky, hryzce a hmyz.',
+    },
+    predators: {
+      en: 'Foxes, eagle-owls and big birds of prey can catch it. The bigger American mink chases it away from its home.',
+      cs: 'Může ho ulovit liška, výr nebo velký dravý pták. Větší norek americký ho vyhání z jeho domova.',
+    },
+  },
 ]

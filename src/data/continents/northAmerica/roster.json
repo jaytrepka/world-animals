@@ -497,5 +497,11 @@
   "lon": -86.92,
   "lat": 20.47
  },
- {"id": "fisher", "wiki": "Fisher (animal)", "lon": -84, "lat": 50}
+ {"id": "fisher", "wiki": "Fisher (animal)", "lon": -84, "lat": 50},
+ {"id": "american-mink", "wiki": "American mink", "lon": -100, "lat": 53},
+ {"id": "american-marten", "wiki": "American marten", "lon": -64, "lat": 51.5},
+ {"id": "american-red-squirrel", "wiki": "American red squirrel", "lon": -89, "lat": 54},
+ {"id": "muskrat", "wiki": "Muskrat", "lon": -111.5, "lat": 58.6},
+ {"id": "great-horned-owl", "wiki": "Great horned owl", "lon": -96, "lat": 41.5},
+ {"id": "willow-ptarmigan", "wiki": "Willow ptarmigan", "lon": -95, "lat": 64}
 ]

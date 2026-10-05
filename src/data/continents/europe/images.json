@@ -1477,5 +1477,22 @@
     "source": "https://commons.wikimedia.org/wiki/File:Little_Owl_(Athene_noctua)_(45679271535).jpg"
    }
   ]
+ },
+ "european-mink": {
+  "count": 2,
+  "credits": [
+   {
+    "file": "File:European_mink_at_Osnabrück_Zoo_(cropped).jpg",
+    "author": "zoofanatic",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:European_mink_at_Osnabr%C3%BCck_Zoo_(cropped).jpg"
+   },
+   {
+    "file": "File:Europäischer_Nerz.jpg",
+    "author": "photo taken by: Nicolai Meyer",
+    "license": "Attribution",
+    "source": "https://commons.wikimedia.org/wiki/File:Europ%C3%A4ischer_Nerz.jpg"
+   }
+  ]
  }
 }

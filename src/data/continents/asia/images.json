@@ -1945,5 +1945,73 @@
     "source": "https://commons.wikimedia.org/wiki/File:Fox---Vulpes-corsac---(Gentry).jpg"
    }
   ]
+ },
+ "persian-leopard": {
+  "count": 3,
+  "credits": [
+   {
+    "file": "File:Persian Leopard sitting.jpg",
+    "author": "Tamar Assaf",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Persian_Leopard_sitting.jpg"
+   },
+   {
+    "file": "File:Persian leopard (Panthera pardus saxicolor).jpg",
+    "author": "T. Sagorski",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Persian_leopard_(Panthera_pardus_saxicolor).jpg"
+   },
+   {
+    "file": "File:Leopard---Panthera-pardus-saxicolor---Face---(Gentry).jpg",
+    "author": "Alfred Hutter",
+    "license": "Attribution",
+    "source": "https://commons.wikimedia.org/wiki/File:Leopard---Panthera-pardus-saxicolor---Face---(Gentry).jpg"
+   }
+  ]
+ },
+ "caucasian-squirrel": {
+  "count": 2,
+  "credits": [
+   {
+    "file": "File:Sciurus anomalus - Jeita Grotto.jpg",
+    "author": "Peripitus",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Sciurus_anomalus_-_Jeita_Grotto.jpg"
+   },
+   {
+    "file": "File:Sciurus anomalus 145851337.jpg",
+    "author": "Mohammad Amin Ghaffari",
+    "license": "CC BY 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Sciurus_anomalus_145851337.jpg"
+   }
+  ]
+ },
+ "persian-jird": {
+  "count": 1,
+  "credits": [
+   {
+    "file": "File:Meriones_persicus.jpg",
+    "author": "Bullet",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Meriones_persicus.jpg"
+   }
+  ]
+ },
+ "siberian-chipmunk": {
+  "count": 2,
+  "credits": [
+   {
+    "file": "File:Streifenhoernchen.jpg",
+    "author": "AndiW 10:51:45, 2005-09-04 (UTC)",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Streifenhoernchen.jpg"
+   },
+   {
+    "file": "File:Tamias_sibiricus_(head).JPG",
+    "author": "Alpsdake",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Tamias_sibiricus_(head).JPG"
+   }
+  ]
  }
 }

@@ -522,5 +522,7 @@
   {"id": "african-palm-civet", "wiki": "African palm civet", "lon": -4.5, "lat": 7.0},
   {"id": "malagasy-civet", "wiki": "Malagasy civet", "lon": 47.4, "lat": -21.3},
  {"id": "maned-rat", "wiki": "Maned rat", "lon": 34.7, "lat": 1},
- {"id": "hamadryas-baboon", "wiki": "Hamadryas baboon", "lon": 40.2, "lat": 9.3}
+ {"id": "hamadryas-baboon", "wiki": "Hamadryas baboon", "lon": 40.2, "lat": 9.3},
+ {"id": "spotted-hyena", "wiki": "Spotted hyena", "lon": 26.5, "lat": -18.8},
+ {"id": "brown-hyena", "wiki": "Brown hyena", "lon": 13.6, "lat": -20.2}
 ]

@@ -1,12 +1,17 @@
 import type { AnimalContent } from '../../types'
 import {
   animalia, chordata, mammalia, aves, reptilia, amphibia, chondrichthyes, carnivora, artiodactyla, rodentia,
-  lagomorpha, squamata, testudines, anura, caudata, canidae, felidae, mustelidae, bovidae, cervidae,
+  lagomorpha, squamata, testudines, anura, caudata, canidae, felidae, mustelidae, bovidae, cervidae, sciuridae,
 } from './taxa'
 
 const leporidae = { latin: 'Leporidae', en: 'Hares and rabbits', cs: 'Zajícovití' }
 const procyonidae = { latin: 'Procyonidae', en: 'Raccoons and coatis', cs: 'Medvídkovití' }
 const actinopterygii = { latin: 'Actinopterygii', en: 'Ray-finned fishes', cs: 'Paprskoploutví' }
+const cricetidae = { latin: 'Cricetidae', en: 'Hamsters, voles and lemmings', cs: 'Křečkovití' }
+const strigiformes = { latin: 'Strigiformes', en: 'Owls', cs: 'Sovy' }
+const strigidae = { latin: 'Strigidae', en: 'True owls', cs: 'Puštíkovití' }
+const galliformes = { latin: 'Galliformes', en: 'Landfowl', cs: 'Hrabaví' }
+const phasianidae = { latin: 'Phasianidae', en: 'Pheasants and relatives', cs: 'Bažantovití' }
 
 export const moreContent: AnimalContent[] = [
   // ---------- north ----------
@@ -639,6 +644,156 @@ export const moreContent: AnimalContent[] = [
     predators: {
       en: 'Grown-up fishers have few enemies. Sometimes a lynx, a coyote or a big owl catches one, mostly a young one.',
       cs: 'Dospělé kuny rybářské mají málo nepřátel. Občas některou, hlavně mladou, uloví rys, kojot nebo velká sova.',
+    },
+  },
+  {
+    id: 'american-mink',
+    name: { en: 'American mink', cs: 'Norek americký' },
+    classification: {
+      kingdom: animalia,
+      phylum: chordata,
+      class: mammalia,
+      order: carnivora,
+      family: mustelidae,
+      genus: 'Neogale',
+      species: 'Neogale vison',
+    },
+    habitat: {
+      en: 'This small, dark brown hunter lives along rivers, lakes and marshes of Canada and the United States. It swims and dives very well.',
+      cs: 'Tenhle malý tmavě hnědý lovec žije u řek, jezer a bažin v Kanadě a ve Spojených státech. Výborně plave i se potápí.',
+    },
+    diet: {
+      en: 'It catches fish, frogs, crayfish, mice and muskrats. Sometimes it also steals bird eggs.',
+      cs: 'Loví ryby, žáby, raky, myši i ondatry. Občas si pochutná i na ptačích vejcích.',
+    },
+    predators: {
+      en: 'Foxes, coyotes, bobcats, wolves and big owls can catch it.',
+      cs: 'Chytit ho mohou lišky, kojoti, rysové červení, vlci a velké sovy.',
+    },
+  },
+  {
+    id: 'american-marten',
+    name: { en: 'American marten', cs: 'Sobol americký' },
+    classification: {
+      kingdom: animalia,
+      phylum: chordata,
+      class: mammalia,
+      order: carnivora,
+      family: mustelidae,
+      genus: 'Martes',
+      species: 'Martes americana',
+    },
+    habitat: {
+      en: 'It lives in big, old pine and spruce forests in Canada and Alaska. It has a bushy tail and an orange patch on its throat, and it climbs trees very fast.',
+      cs: 'Žije ve velkých starých jehličnatých lesích v Kanadě a na Aljašce. Má huňatý ocas, oranžovou skvrnu na krku a po stromech šplhá velmi rychle.',
+    },
+    diet: {
+      en: 'It hunts voles, mice and red squirrels. It also eats berries, birds and eggs.',
+      cs: 'Loví hraboše, myši a čikarí. Jí také bobule, ptáky a vajíčka.',
+    },
+    predators: {
+      en: 'Fishers, lynx, foxes, coyotes, great horned owls and eagles can catch it.',
+      cs: 'Mohou ho ulovit kuny rybářské, rysové, lišky, kojoti, výři virginští a orli.',
+    },
+  },
+  {
+    id: 'american-red-squirrel',
+    name: { en: 'American red squirrel', cs: 'Čikarí červený' },
+    classification: {
+      kingdom: animalia,
+      phylum: chordata,
+      class: mammalia,
+      order: rodentia,
+      family: sciuridae,
+      genus: 'Tamiasciurus',
+      species: 'Tamiasciurus hudsonicus',
+    },
+    habitat: {
+      en: 'This small, reddish squirrel lives in the pine and spruce forests of Canada and the north of the United States. It chatters loudly when someone comes near.',
+      cs: 'Tahle malá zrzavá veverka žije v jehličnatých lesích Kanady a na severu Spojených států. Když se někdo přiblíží, hlasitě štěbetá.',
+    },
+    diet: {
+      en: 'It loves the seeds from pine and spruce cones. It hides big piles of cones for winter and also eats mushrooms and berries.',
+      cs: 'Nejraději má semínka z borových a smrkových šišek. Na zimu si schovává velké hromady šišek a jí i houby a bobule.',
+    },
+    predators: {
+      en: 'Martens, lynx, hawks and owls hunt it.',
+      cs: 'Loví ho sobolové, rysové, jestřábi a sovy.',
+    },
+  },
+  {
+    id: 'muskrat',
+    name: { en: 'Muskrat', cs: 'Ondatra pižmová' },
+    classification: {
+      kingdom: animalia,
+      phylum: chordata,
+      class: mammalia,
+      order: rodentia,
+      family: cricetidae,
+      genus: 'Ondatra',
+      species: 'Ondatra zibethicus',
+    },
+    habitat: {
+      en: 'It lives in marshes, ponds and slow rivers all over North America. It builds a little house of reeds and mud right in the water.',
+      cs: 'Žije v bažinách, rybnících a pomalých řekách po celé Severní Americe. Staví si domeček z rákosu a bahna přímo ve vodě.',
+    },
+    diet: {
+      en: 'It mostly eats water plants like reeds and cattails. Sometimes it also eats mussels, snails or small fish.',
+      cs: 'Jí hlavně vodní rostliny, třeba rákos a orobinec. Občas si dá i mušle, šneky nebo malé rybky.',
+    },
+    predators: {
+      en: 'Minks are its biggest enemy. Otters, foxes, coyotes, owls and hawks also hunt it.',
+      cs: 'Největším nepřítelem je norek. Loví ji také vydry, lišky, kojoti, sovy a jestřábi.',
+    },
+  },
+  {
+    id: 'great-horned-owl',
+    name: { en: 'Great horned owl', cs: 'Výr virginský' },
+    classification: {
+      kingdom: animalia,
+      phylum: chordata,
+      class: aves,
+      order: strigiformes,
+      family: strigidae,
+      genus: 'Bubo',
+      species: 'Bubo virginianus',
+    },
+    habitat: {
+      en: 'This big owl with two feather "horns" lives almost everywhere in America: in forests, deserts, fields and even in towns. It hoots deep at night.',
+      cs: 'Tahle velká sova se dvěma pernatými „růžky“ žije skoro všude v Americe: v lesích, pouštích, na polích i ve městech. V noci hluboce houká.',
+    },
+    diet: {
+      en: 'It hunts at night: mice, rabbits, skunks, birds and even other owls. It swallows small prey whole.',
+      cs: 'Loví v noci myši, králíky, skunky, ptáky a dokonce i jiné sovy. Malou kořist spolkne celou.',
+    },
+    predators: {
+      en: 'Grown-up owls have almost no enemies. Raccoons, foxes and crows may steal eggs or chicks from the nest.',
+      cs: 'Dospělí výři skoro žádné nepřátele nemají. Vajíčka nebo mláďata z hnízda mohou ukrást mývalové, lišky a vrány.',
+    },
+  },
+  {
+    id: 'willow-ptarmigan',
+    name: { en: 'Willow ptarmigan', cs: 'Bělokur rousný' },
+    classification: {
+      kingdom: animalia,
+      phylum: chordata,
+      class: aves,
+      order: galliformes,
+      family: phasianidae,
+      genus: 'Lagopus',
+      species: 'Lagopus lagopus',
+    },
+    habitat: {
+      en: 'This bird lives on the cold tundra of Alaska and northern Canada. In summer it is brown, in winter snow-white, and it has feathers even on its toes.',
+      cs: 'Tenhle pták žije na studené tundře na Aljašce a v severní Kanadě. V létě je hnědý, v zimě sněhobílý a peří má i na prstech.',
+    },
+    diet: {
+      en: 'It eats buds, twigs and leaves of willows and birches. In summer it also eats berries, and chicks eat insects.',
+      cs: 'Jí pupeny, větvičky a listy vrb a bříz. V létě si dá i bobule a kuřátka jedí hmyz.',
+    },
+    predators: {
+      en: 'Gyrfalcons, snowy owls, arctic foxes and wolves hunt it. Its white winter feathers help it hide in the snow.',
+      cs: 'Loví ho raroh lovecký, sovice sněžní, polární lišky a vlci. V zimě se díky bílému peří schová ve sněhu.',
     },
   },
 ]

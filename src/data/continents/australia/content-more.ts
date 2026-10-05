@@ -9,6 +9,8 @@ const cartilaginous = { latin: 'Chondrichthyes', en: 'Cartilaginous fishes', cs:
 const squamata = { latin: 'Squamata', en: 'Lizards and snakes', cs: 'Šupinatí' }
 const turtles = { latin: 'Testudines', en: 'Turtles', cs: 'Želvy' }
 const dasyuromorphia = { latin: 'Dasyuromorphia', en: 'Carnivorous marsupials', cs: 'Kunovci' }
+const diprotodontia = { latin: 'Diprotodontia', en: 'Diprotodont marsupials', cs: 'Dvojitozubci' }
+const macropodidae = { latin: 'Macropodidae', en: 'Kangaroos and wallabies', cs: 'Klokanovití' }
 
 export const moreContent: AnimalContent[] = [
   // ---------- North ----------
@@ -439,6 +441,232 @@ export const moreContent: AnimalContent[] = [
     predators: {
       en: 'Great white sharks, and sometimes killer whales, can hunt it.',
       cs: 'Může ho ulovit žralok bílý a občas i kosatka.',
+    },
+  },
+  // ---------- More kangaroos and friends ----------
+  {
+    id: 'red-necked-wallaby',
+    name: { en: 'Red-necked wallaby', cs: 'Klokan rudokrký' },
+    classification: {
+      kingdom,
+      phylum: chordata,
+      class: mammals,
+      order: diprotodontia,
+      family: macropodidae,
+      genus: 'Notamacropus',
+      species: 'Notamacropus rufogriseus',
+    },
+    habitat: {
+      en: 'It lives in forests and grassy clearings of eastern Australia and Tasmania. It has a reddish neck and shoulders.',
+      cs: 'Žije v lesích a na travnatých mýtinách ve východní Austrálii a na Tasmánii. Má zrzavý krk a ramena.',
+    },
+    diet: {
+      en: 'It nibbles grass, herbs and leaves, mostly in the evening.',
+      cs: 'Okusuje trávu, byliny a listy, hlavně večer.',
+    },
+    predators: {
+      en: 'Dingoes, foxes and wedge-tailed eagles can catch it, especially the young ones.',
+      cs: 'Mohou ho ulovit dingové, lišky a orli klínoocasí, hlavně mláďata.',
+    },
+  },
+  {
+    id: 'swamp-wallaby',
+    name: { en: 'Swamp wallaby', cs: 'Klokan bažinný' },
+    classification: {
+      kingdom,
+      phylum: chordata,
+      class: mammals,
+      order: diprotodontia,
+      family: macropodidae,
+      genus: 'Wallabia',
+      species: 'Wallabia bicolor',
+    },
+    habitat: {
+      en: 'It hides in thick, wet forests and bushes of eastern Australia. Its fur is dark, almost black.',
+      cs: 'Schovává se v hustých vlhkých lesích a křovinách na východě Austrálie. Má tmavou, skoro černou srst.',
+    },
+    diet: {
+      en: "It eats leaves, ferns, bushes and even plants that other kangaroos don't like.",
+      cs: 'Žere listy, kapradiny, keře a dokonce i rostliny, které jiní klokani nemají rádi.',
+    },
+    predators: {
+      en: 'Dingoes and wild dogs hunt it. Foxes and big eagles can catch its babies.',
+      cs: 'Loví ho dingové a divocí psi. Mláďata mohou chytit lišky a velcí orli.',
+    },
+  },
+  {
+    id: 'common-wallaroo',
+    name: { en: 'Common wallaroo', cs: 'Klokan horský' },
+    classification: {
+      kingdom,
+      phylum: chordata,
+      class: mammals,
+      order: diprotodontia,
+      family: macropodidae,
+      genus: 'Osphranter',
+      species: 'Osphranter robustus',
+    },
+    habitat: {
+      en: 'It lives on rocky hills and stony slopes all over Australia. It is stocky and has shaggy fur.',
+      cs: 'Žije na skalnatých kopcích a kamenitých svazích po celé Austrálii. Je zavalitý a má huňatou srst.',
+    },
+    diet: {
+      en: 'It eats grass and shrubs. It can go a long time without drinking water.',
+      cs: 'Žere trávu a keře. Dlouho vydrží bez pití vody.',
+    },
+    predators: {
+      en: 'Dingoes and wedge-tailed eagles can hunt it, mostly the young ones.',
+      cs: 'Mohou ho ulovit dingové a orli klínoocasí, hlavně mláďata.',
+    },
+  },
+  {
+    id: 'western-grey-kangaroo',
+    name: { en: 'Western grey kangaroo', cs: 'Klokan velký' },
+    classification: {
+      kingdom,
+      phylum: chordata,
+      class: mammals,
+      order: diprotodontia,
+      family: macropodidae,
+      genus: 'Macropus',
+      species: 'Macropus fuliginosus',
+    },
+    habitat: {
+      en: 'It lives in woodlands, scrub and grassy plains of southern Australia. It has soft brown fur and hops in big groups called mobs.',
+      cs: 'Žije ve světlých lesích, křovinách a na travnatých pláních na jihu Austrálie. Má hebkou hnědou srst a skáče ve velkých skupinách.',
+    },
+    diet: {
+      en: 'It eats grass, leaves and low bushes.',
+      cs: 'Žere trávu, listy a nízké keře.',
+    },
+    predators: {
+      en: 'Grown-ups are big and strong; dingoes may hunt them. Foxes and eagles can catch the young.',
+      cs: 'Dospělí jsou velcí a silní, ulovit je může dingo. Mláďata mohou chytit lišky a orli.',
+    },
+  },
+  {
+    id: 'matschies-tree-kangaroo',
+    name: { en: "Matschie's tree-kangaroo", cs: 'Klokan Matschieův' },
+    classification: {
+      kingdom,
+      phylum: chordata,
+      class: mammals,
+      order: diprotodontia,
+      family: macropodidae,
+      genus: 'Dendrolagus',
+      species: 'Dendrolagus matschiei',
+    },
+    habitat: {
+      en: 'It lives high in the misty mountain forests of New Guinea. It is a kangaroo that climbs trees and has golden-red fur!',
+      cs: 'Žije vysoko v mlhavých horských lesích na Nové Guineji. Je to klokan, který šplhá po stromech, a má zlatavě rezavou srst!',
+    },
+    diet: {
+      en: 'It eats leaves, flowers, fruit and tree bark.',
+      cs: 'Žere listy, květy, ovoce a kůru stromů.',
+    },
+    predators: {
+      en: 'Big pythons and large birds of prey can catch it, especially the young.',
+      cs: 'Mohou ho chytit velké krajty a dravci, hlavně mláďata.',
+    },
+  },
+  {
+    id: 'red-necked-pademelon',
+    name: { en: 'Red-necked pademelon', cs: 'Klokan pademelon' },
+    classification: {
+      kingdom,
+      phylum: chordata,
+      class: mammals,
+      order: diprotodontia,
+      family: macropodidae,
+      genus: 'Thylogale',
+      species: 'Thylogale thetis',
+    },
+    habitat: {
+      en: 'It lives at the edges of rainforests in eastern Australia. It is a small, shy kangaroo with a reddish neck.',
+      cs: 'Žije na okrajích deštných lesů ve východní Austrálii. Je to malý plachý klokan se zrzavým krkem.',
+    },
+    diet: {
+      en: 'It comes out of the forest in the evening to nibble grass, leaves and fallen fruit.',
+      cs: 'Večer vychází z lesa a okusuje trávu, listy a spadané ovoce.',
+    },
+    predators: {
+      en: 'Dingoes, foxes, pythons and big owls can catch it.',
+      cs: 'Mohou ho ulovit dingové, lišky, krajty a velké sovy.',
+    },
+  },
+  {
+    id: 'brush-tailed-bettong',
+    name: { en: 'Brush-tailed bettong', cs: 'Klokánek králíkovitý' },
+    classification: {
+      kingdom,
+      phylum: chordata,
+      class: mammals,
+      order: diprotodontia,
+      family: { latin: 'Potoroidae', en: 'Rat-kangaroos', cs: 'Klokánkovití' },
+      genus: 'Bettongia',
+      species: 'Bettongia penicillata',
+    },
+    habitat: {
+      en: 'It lives in dry woodlands of south-western Australia. It is a tiny kangaroo with a black, bushy tip on its tail.',
+      cs: 'Žije v suchých lesích na jihozápadě Austrálie. Je to malinký klokánek s černou chlupatou špičkou na ocasu.',
+    },
+    diet: {
+      en: 'It digs up mushrooms that grow under the ground. It also eats seeds, roots and insects.',
+      cs: 'Vyhrabává houby, které rostou pod zemí. Žere také semínka, kořínky a hmyz.',
+    },
+    predators: {
+      en: 'Foxes and wild cats hunt it, and owls catch it at night.',
+      cs: 'Loví ho lišky a zdivočelé kočky a v noci ho chytají sovy.',
+    },
+  },
+  {
+    id: 'eastern-pygmy-possum',
+    name: { en: 'Eastern pygmy possum', cs: 'Vakoplch drobný' },
+    classification: {
+      kingdom,
+      phylum: chordata,
+      class: mammals,
+      order: diprotodontia,
+      family: { latin: 'Burramyidae', en: 'Pygmy possums', cs: 'Vakoplchovití' },
+      genus: 'Cercartetus',
+      species: 'Cercartetus nanus',
+    },
+    habitat: {
+      en: 'It lives in forests and heaths of south-eastern Australia and Tasmania. It is as small as a mouse and has big eyes.',
+      cs: 'Žije v lesích a vřesovištích na jihovýchodě Austrálie a na Tasmánii. Je malý jako myš a má velké oči.',
+    },
+    diet: {
+      en: 'It licks nectar and pollen from flowers and also eats insects. In winter it can sleep for many days.',
+      cs: 'Líže nektar a pyl z květů a žere také hmyz. V zimě dokáže spát mnoho dní.',
+    },
+    predators: {
+      en: 'Owls, cats, foxes and snakes can catch it.',
+      cs: 'Mohou ho chytit sovy, kočky, lišky a hadi.',
+    },
+  },
+  {
+    id: 'eastern-quoll',
+    name: { en: 'Eastern quoll', cs: 'Kunovec tečkovaný' },
+    classification: {
+      kingdom,
+      phylum: chordata,
+      class: mammals,
+      order: dasyuromorphia,
+      family: { latin: 'Dasyuridae', en: 'Quolls and their relatives', cs: 'Kunovcovití' },
+      genus: 'Dasyurus',
+      species: 'Dasyurus viverrinus',
+    },
+    habitat: {
+      en: 'Today it lives only in Tasmania, in grassland and forest. Its fur is brown or black with white spots.',
+      cs: 'Dnes žije jen na Tasmánii, v travnaté krajině a v lesích. Má hnědou nebo černou srst s bílými puntíky.',
+    },
+    diet: {
+      en: 'It hunts insects, mice and small birds at night. It also eats fruit and leftovers.',
+      cs: 'V noci loví hmyz, myši a malé ptáky. Sní i ovoce a zbytky potravy.',
+    },
+    predators: {
+      en: 'Tasmanian devils, owls, cats and foxes can catch it.',
+      cs: 'Mohou ho chytit ďáblové medvědovití, sovy, kočky a lišky.',
     },
   },
 ]

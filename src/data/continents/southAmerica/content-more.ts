@@ -13,6 +13,8 @@ const mustelidae = { latin: 'Mustelidae', en: 'Weasels, martens and badgers', cs
 const accipitriformes = { latin: 'Accipitriformes', en: 'Birds of prey', cs: 'Dravci' }
 const accipitridae = { latin: 'Accipitridae', en: 'Hawks and eagles', cs: 'Jestřábovití' }
 const trichechidae = { latin: 'Trichechidae', en: 'Manatees', cs: 'Kapustňákovití' }
+const didelphimorphia = { latin: 'Didelphimorphia', en: 'American opossums', cs: 'Vačice' }
+const didelphidae = { latin: 'Didelphidae', en: 'Opossums', cs: 'Vačicovití' }
 
 export const moreContent: AnimalContent[] = [
   // ---------- north ----------
@@ -745,6 +747,157 @@ export const moreContent: AnimalContent[] = [
     predators: {
       en: 'Grown-ups have almost no enemies. Monkeys, snakes or wild cats may steal eggs or chicks from the nest.',
       cs: 'Dospělí orli nemají skoro žádné nepřátele. Vejce nebo mláďata z hnízda mohou ukrást opice, hadi nebo kočkovité šelmy.',
+    },
+  },
+  // ---------- opossums ----------
+  {
+    id: 'common-opossum',
+    name: { en: 'Common opossum', cs: 'Vačice opossum' },
+    classification: {
+      kingdom,
+      phylum: chordata,
+      class: mammals,
+      order: didelphimorphia,
+      family: didelphidae,
+      genus: 'Didelphis',
+      species: 'Didelphis marsupialis',
+    },
+    habitat: {
+      en: 'It lives in forests, fields and even gardens near towns. It is a marsupial: the mother carries her tiny babies in a pouch on her belly.',
+      cs: 'Žije v lesích, na polích a dokonce i na zahradách u měst. Je to vačnatec: maminka nosí malinká mláďata ve vaku na bříšku.',
+    },
+    diet: {
+      en: 'It eats almost anything: fruit, insects, frogs, eggs, small animals and leftovers.',
+      cs: 'Jí skoro všechno: ovoce, hmyz, žáby, vajíčka, malá zvířátka i zbytky jídla.',
+    },
+    predators: {
+      en: 'Jaguars, ocelots, foxes, big owls, eagles and big snakes can catch it.',
+      cs: 'Může ji ulovit jaguár, ocelot, liška, velká sova, orel nebo velký had.',
+    },
+  },
+  {
+    id: 'water-opossum',
+    name: { en: 'Water opossum', cs: 'Vačice vydří' },
+    classification: {
+      kingdom,
+      phylum: chordata,
+      class: mammals,
+      order: didelphimorphia,
+      family: didelphidae,
+      genus: 'Chironectes',
+      species: 'Chironectes minimus',
+    },
+    habitat: {
+      en: 'It lives by clear forest streams. It swims with webbed back feet, and the mother can close her pouch so her babies stay dry under water.',
+      cs: 'Žije u čistých lesních potoků. Plave pomocí blan na zadních nohách a maminka umí vak zavřít, aby mláďata zůstala pod vodou v suchu.',
+    },
+    diet: {
+      en: 'At night it catches fish, crayfish, shrimps and frogs in the water.',
+      cs: 'V noci loví ve vodě ryby, raky, krevety a žáby.',
+    },
+    predators: {
+      en: 'Ocelots, big owls, big snakes and caimans can catch it.',
+      cs: 'Může ji ulovit ocelot, velká sova, velký had nebo kajman.',
+    },
+  },
+  {
+    id: 'gray-short-tailed-opossum',
+    name: { en: 'Gray short-tailed opossum', cs: 'Vačice krysí' },
+    classification: {
+      kingdom,
+      phylum: chordata,
+      class: mammals,
+      order: didelphimorphia,
+      family: didelphidae,
+      genus: 'Monodelphis',
+      species: 'Monodelphis domestica',
+    },
+    habitat: {
+      en: 'This little opossum lives on the ground in dry bushland and grassland. It has no pouch, so the babies hold on to their mother\'s belly.',
+      cs: 'Tahle malá vačice žije na zemi v suchých křovinách a trávě. Nemá vak, a tak se mláďata drží maminky na bříšku.',
+    },
+    diet: {
+      en: 'It hunts insects, spiders, worms and small mice, and it also eats some fruit.',
+      cs: 'Loví hmyz, pavouky, žížaly a malé myši a sní i trochu ovoce.',
+    },
+    predators: {
+      en: 'Owls, snakes, foxes and small wild cats can catch it.',
+      cs: 'Může ji chytit sova, had, liška nebo malá divoká kočka.',
+    },
+  },
+  {
+    id: 'linnaeus-mouse-opossum',
+    name: { en: "Linnaeus's mouse opossum", cs: 'Vačice trpasličí' },
+    classification: {
+      kingdom,
+      phylum: chordata,
+      class: mammals,
+      order: didelphimorphia,
+      family: didelphidae,
+      genus: 'Marmosa',
+      species: 'Marmosa murina',
+    },
+    habitat: {
+      en: 'It lives in forests and climbs nimbly in bushes and trees. It is as small as a mouse and has big dark rings around its eyes, like a little mask.',
+      cs: 'Žije v lesích a hbitě šplhá po keřích a stromech. Je malá jako myška a kolem očí má velké tmavé kroužky jako malou masku.',
+    },
+    diet: {
+      en: 'It eats insects, spiders, bird eggs and sweet fruit.',
+      cs: 'Jí hmyz, pavouky, ptačí vajíčka a sladké ovoce.',
+    },
+    predators: {
+      en: 'Owls, snakes, ocelots and other small hunters can catch it.',
+      cs: 'Může ji chytit sova, had, ocelot nebo jiný malý lovec.',
+    },
+  },
+  {
+    id: 'gray-four-eyed-opossum',
+    name: { en: 'Gray four-eyed opossum', cs: 'Vačice čtyřoká' },
+    classification: {
+      kingdom,
+      phylum: chordata,
+      class: mammals,
+      order: didelphimorphia,
+      family: didelphidae,
+      genus: 'Philander',
+      species: 'Philander opossum',
+    },
+    habitat: {
+      en: 'It lives in rainforests, often near rivers. Above each eye it has a white spot, so it looks like it has four eyes!',
+      cs: 'Žije v deštných pralesích, často u řek. Nad každým okem má bílou skvrnu, takže to vypadá, jako by měla čtyři oči!',
+    },
+    diet: {
+      en: 'It eats insects, frogs, crabs, small animals and fruit.',
+      cs: 'Jí hmyz, žáby, kraby, malá zvířátka a ovoce.',
+    },
+    predators: {
+      en: 'Ocelots, owls, big snakes and other wild cats can catch it.',
+      cs: 'Může ji ulovit ocelot, sova, velký had nebo jiná divoká kočka.',
+    },
+  },
+  {
+    id: 'bare-tailed-woolly-opossum',
+    name: { en: 'Bare-tailed woolly opossum', cs: 'Vačice vlnatá' },
+    classification: {
+      kingdom,
+      phylum: chordata,
+      class: mammals,
+      order: didelphimorphia,
+      family: didelphidae,
+      genus: 'Caluromys',
+      species: 'Caluromys philander',
+    },
+    habitat: {
+      en: 'It lives high in the rainforest trees. It has soft woolly fur, big eyes and a long tail that it wraps around branches.',
+      cs: 'Žije vysoko v korunách pralesních stromů. Má hebký vlnatý kožíšek, velké oči a dlouhý ocas, kterým se omotává kolem větví.',
+    },
+    diet: {
+      en: 'At night it eats ripe fruit, flower nectar, insects and sometimes bird eggs.',
+      cs: 'V noci jí zralé ovoce, nektar z květů, hmyz a někdy i ptačí vajíčka.',
+    },
+    predators: {
+      en: 'Owls, ocelots, margays and tree snakes can catch it.',
+      cs: 'Může ji ulovit sova, ocelot, margay nebo stromový had.',
     },
   },
 ]

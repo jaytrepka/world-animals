@@ -21,6 +21,8 @@ const viverridae = { latin: 'Viverridae', en: 'Civets and genets', cs: 'Cibetkov
 const eupleridae = { latin: 'Eupleridae', en: 'Malagasy carnivorans', cs: 'Šelmy madagaskarské' }
 const nandiniidae = { latin: 'Nandiniidae', en: 'African palm civet', cs: 'Nandiniovití' }
 
+const hyaenidae = { latin: 'Hyaenidae', en: 'Hyenas', cs: 'Hyenovití' }
+
 export const moreContent: AnimalContent[] = [
   // ——— North ———
   {
@@ -850,6 +852,58 @@ export const moreContent: AnimalContent[] = [
     predators: {
       en: 'Leopards, hyenas and big eagles can catch it, mostly the young ones. At night the whole troop sleeps safely on high cliffs.',
       cs: 'Mohou ho ulovit levharti, hyeny a velcí orli, hlavně mláďata. V noci celá tlupa bezpečně spí na vysokých skalách.',
+    },
+  },
+
+  // ——— added: hyenas ———
+  {
+    id: 'spotted-hyena',
+    name: { en: 'Spotted hyena', cs: 'Hyena skvrnitá' },
+    classification: {
+      kingdom,
+      phylum: chordata,
+      class: mammals,
+      order: carnivora,
+      family: hyaenidae,
+      genus: 'Crocuta',
+      species: 'Crocuta crocuta',
+    },
+    habitat: {
+      en: 'It lives in big family groups on the open savannas, like here in Hwange in Zimbabwe. It calls to its family with loud whoops and giggles.',
+      cs: 'Žije ve velkých rodinných skupinách na otevřených savanách, třeba tady v Hwange v Zimbabwe. Na svou rodinu volá hlasitým houkáním a „smíchem“.',
+    },
+    diet: {
+      en: 'It is a great hunter of zebras, antelopes and wildebeest, and it also eats leftovers. Its strong jaws can crunch bones.',
+      cs: 'Je to skvělý lovec zeber, antilop a pakoňů a sní i zbytky po jiných. Silnými čelistmi rozkouše i kosti.',
+    },
+    predators: {
+      en: 'Lions are its biggest enemies. Leopards and other hyenas can kill the cubs.',
+      cs: 'Největšími nepřáteli jsou lvi. Mláďata mohou zabít levharti a jiné hyeny.',
+    },
+  },
+  {
+    id: 'brown-hyena',
+    name: { en: 'Brown hyena', cs: 'Hyena čabraková' },
+    classification: {
+      kingdom,
+      phylum: chordata,
+      class: mammals,
+      order: carnivora,
+      family: hyaenidae,
+      genus: 'Parahyaena',
+      species: 'Parahyaena brunnea',
+    },
+    habitat: {
+      en: 'It lives in the Namib Desert and the Kalahari. It has long, shaggy brown hair and often walks along the beach at night.',
+      cs: 'Žije v poušti Namib a v Kalahari. Má dlouhou huňatou hnědou srst a v noci se často prochází po mořské pláži.',
+    },
+    diet: {
+      en: 'It mostly eats leftovers of dead animals, and on the coast it finds young seals and washed-up fish. It also eats eggs and wild melons.',
+      cs: 'Jí hlavně zbytky mrtvých zvířat a na pobřeží najde mladé tuleně a vyplavené ryby. Jí také vajíčka a divoké melouny.',
+    },
+    predators: {
+      en: 'Lions, leopards and spotted hyenas can kill it. Jackals can catch the cubs.',
+      cs: 'Zabít ji mohou lvi, levharti a hyeny skvrnité. Mláďata mohou chytit šakalové.',
     },
   },
 ]

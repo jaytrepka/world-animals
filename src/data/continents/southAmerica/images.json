@@ -1694,5 +1694,131 @@
     "source": "https://commons.wikimedia.org/wiki/File:Spizaetus-ornatus-002.jpg"
    }
   ]
+ },
+ "common-opossum": {
+  "count": 2,
+  "credits": [
+   {
+    "file": "File:Rabipelao2.jpg",
+    "author": "Rabipelao.jpg: Juan Tello\nderivative work: WolfmanSF (talk)",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Rabipelao2.jpg"
+   },
+   {
+    "file": "File:Didelphis marsupialis - Barrancabermeja, Santander, Colombia - 2 Jun 2025 - 2.jpg",
+    "author": "Diferoch",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Didelphis_marsupialis_-_Barrancabermeja,_Santander,_Colombia_-_2_Jun_2025_-_2.jpg"
+   }
+  ]
+ },
+ "water-opossum": {
+  "count": 3,
+  "credits": [
+   {
+    "file": "File:Chironectes minimus 135211886 (cropped).jpg",
+    "author": "Pedro Aguilar",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Chironectes_minimus_135211886_(cropped).jpg"
+   },
+   {
+    "file": "File:Chironectes minimus 91742388.jpg",
+    "author": "Eduardo Chacón-Madrigal",
+    "license": "CC BY 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Chironectes_minimus_91742388.jpg"
+   },
+   {
+    "file": "File:Chironectes minimus 335104113.jpg",
+    "author": "Jared Shorma",
+    "license": "CC BY 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Chironectes_minimus_335104113.jpg"
+   }
+  ]
+ },
+ "gray-short-tailed-opossum": {
+  "count": 3,
+  "credits": [
+   {
+    "file": "File:Monodelphis domestica 175946692.jpg",
+    "author": "Célio Moura Neto",
+    "license": "CC BY 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Monodelphis_domestica_175946692.jpg"
+   },
+   {
+    "file": "File:Monodelphis domestica.jpg",
+    "author": "The original uploader was Dawson at English Wikipedia.",
+    "license": "CC BY-SA 2.5",
+    "source": "https://commons.wikimedia.org/wiki/File:Monodelphis_domestica.jpg"
+   },
+   {
+    "file": "File:Monodelphis domestica93-300.jpg",
+    "author": "Paul Samollow, Southwest Foundation for Biomedical Research, San Antonio.",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Monodelphis_domestica93-300.jpg"
+   }
+  ]
+ },
+ "linnaeus-mouse-opossum": {
+  "count": 2,
+  "credits": [
+   {
+    "file": "File:Marmosa murina 260803110.jpg",
+    "author": "Junior França",
+    "license": "CC BY 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Marmosa_murina_260803110.jpg"
+   },
+   {
+    "file": "File:Marmosa murina 126031775.jpg",
+    "author": "Vincent A. Vos",
+    "license": "CC BY 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Marmosa_murina_126031775.jpg"
+   }
+  ]
+ },
+ "gray-four-eyed-opossum": {
+  "count": 3,
+  "credits": [
+   {
+    "file": "File:Gray Four-eyed Opossum (Philander opossum) - Flickr - berniedup (1).jpg",
+    "author": "Bernard DUPONT from FRANCE",
+    "license": "CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Gray_Four-eyed_Opossum_(Philander_opossum)_-_Flickr_-_berniedup_(1).jpg"
+   },
+   {
+    "file": "File:Gray Four-eyed Opossum (Philander opossum) (10382003914).jpg",
+    "author": "Bernard DUPONT from FRANCE",
+    "license": "CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Gray_Four-eyed_Opossum_(Philander_opossum)_(10382003914).jpg"
+   },
+   {
+    "file": "File:Cuica_verdadeira.jpg",
+    "author": "André de Souza Pereira",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Cuica_verdadeira.jpg"
+   }
+  ]
+ },
+ "bare-tailed-woolly-opossum": {
+  "count": 3,
+  "credits": [
+   {
+    "file": "File:Caluromys philander 46736997.jpg",
+    "author": "Diogo Luiz",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Caluromys_philander_46736997.jpg"
+   },
+   {
+    "file": "File:Cuíca-lanosa (cropped).jpg",
+    "author": "Moisés  Silva Lima from Brasil",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Cu%C3%ADca-lanosa_(cropped).jpg"
+   },
+   {
+    "file": "File:Caluromys philander 244224389.jpg",
+    "author": "Stephanie Tran",
+    "license": "CC BY 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Caluromys_philander_244224389.jpg"
+   }
+  ]
  }
 }

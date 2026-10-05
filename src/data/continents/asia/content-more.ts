@@ -826,4 +826,93 @@ export const moreContent: AnimalContent[] = [
       cs: 'Může ho ulovit vlk, orel nebo výr. Schovává se před nimi v norách.',
     },
   },
+
+  // ---------- added: Persian leopard, Caucasian squirrel, Persian jird, Siberian chipmunk ----------
+  {
+    id: 'persian-leopard',
+    name: { en: 'Persian leopard', cs: 'Levhart perský' },
+    classification: {
+      kingdom, phylum: chordata, class: mammals, order: carnivora, family: felidae,
+      genus: 'Panthera',
+      species: 'Panthera pardus tulliana',
+    },
+    habitat: {
+      en: 'It lives in the rocky mountains of the Caucasus and Iran. It is one of the biggest leopards, with pale, thick fur for cold winters.',
+      cs: 'Žije ve skalnatých horách Kavkazu a Íránu. Patří k největším levhartům a má světlou hustou srst, která ho hřeje v zimě.',
+    },
+    diet: {
+      en: 'It sneaks up on wild goats, wild sheep, wild boar and deer, and it also catches hares and porcupines.',
+      cs: 'Plíží se k divokým kozám, ovcím, divočákům a jelenům a chytá také zajíce a dikobrazy.',
+    },
+    predators: {
+      en: 'Grown-up leopards have no enemies except people. Wolves and bears can kill the cubs.',
+      cs: 'Dospělí levharti nemají kromě lidí žádné nepřátele. Mláďata ale mohou zabít vlci a medvědi.',
+    },
+  },
+  {
+    id: 'caucasian-squirrel',
+    name: { en: 'Caucasian squirrel', cs: 'Veverka krátkouchá' },
+    classification: {
+      kingdom, phylum: chordata, class: mammals, order: rodentia,
+      family: { latin: 'Sciuridae', en: 'Squirrels and marmots', cs: 'Veverkovití' },
+      genus: 'Sciurus',
+      species: 'Sciurus anomalus',
+    },
+    habitat: {
+      en: 'It lives in oak and walnut woods in Turkey, the Caucasus and Iran. It has orange-brown fur and short ears without tufts.',
+      cs: 'Žije v dubových a ořešákových lesích v Turecku, na Kavkaze a v Íránu. Má oranžovohnědou srst a krátké uši bez štětiček.',
+    },
+    diet: {
+      en: 'It loves acorns, walnuts, hazelnuts and seeds. In autumn it hides nuts in the ground for winter.',
+      cs: 'Moc ráda má žaludy, vlašské a lískové ořechy a semínka. Na podzim si ořechy schovává do země na zimu.',
+    },
+    predators: {
+      en: 'Martens, wild cats, foxes, hawks and owls try to catch it.',
+      cs: 'Snaží se ji chytit kuny, divoké kočky, lišky, jestřábi a sovy.',
+    },
+  },
+  {
+    id: 'persian-jird',
+    name: { en: 'Persian jird', cs: 'Pískomil perský' },
+    classification: {
+      kingdom, phylum: chordata, class: mammals, order: rodentia,
+      family: { latin: 'Muridae', en: 'Mice, rats and gerbils', cs: 'Myšovití' },
+      genus: 'Meriones',
+      species: 'Meriones persicus',
+    },
+    habitat: {
+      en: 'This little gerbil lives on dry, rocky hills and mountain slopes in Iran. It digs long tunnels and comes out mostly at night.',
+      cs: 'Tenhle malý pískomil žije na suchých kamenitých kopcích a horských svazích v Íránu. Hrabe si dlouhé chodbičky a ven chodí hlavně v noci.',
+    },
+    diet: {
+      en: 'It eats seeds, grains, leaves and roots, and sometimes a beetle. It stores food in its burrow.',
+      cs: 'Jí semínka, zrní, listy a kořínky a občas i brouka. Zásoby si nosí do nory.',
+    },
+    predators: {
+      en: 'Foxes, wild cats, owls, birds of prey and snakes like to catch it.',
+      cs: 'Rády ho chytají lišky, divoké kočky, sovy, dravci a hadi.',
+    },
+  },
+  {
+    id: 'siberian-chipmunk',
+    name: { en: 'Siberian chipmunk', cs: 'Burunduk páskovaný' },
+    classification: {
+      kingdom, phylum: chordata, class: mammals, order: rodentia,
+      family: { latin: 'Sciuridae', en: 'Squirrels and marmots', cs: 'Veverkovití' },
+      genus: 'Eutamias',
+      species: 'Eutamias sibiricus',
+    },
+    habitat: {
+      en: 'This little striped squirrel lives in the forests of Siberia and the Far East. It sleeps through the long, cold winter in a burrow.',
+      cs: 'Tahle malá pruhovaná veverka žije v lesích Sibiře a Dálného východu. Dlouhou studenou zimu prospí v noře.',
+    },
+    diet: {
+      en: 'It eats pine nuts, seeds, berries and mushrooms. It carries food in its cheek pouches and stores a big pile for winter.',
+      cs: 'Jí piniové oříšky, semínka, bobule a houby. Jídlo nosí v lících a na zimu si udělá velkou zásobu.',
+    },
+    predators: {
+      en: 'Sables, weasels, foxes, owls, hawks and snakes hunt it.',
+      cs: 'Loví ho sobol, lasice, lišky, sovy, jestřábi a hadi.',
+    },
+  },
 ]

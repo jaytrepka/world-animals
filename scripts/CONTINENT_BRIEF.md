@@ -10,7 +10,7 @@ Everything for continent `<key>` lives in `src/data/continents/<key>/` and photo
 Do NOT edit files outside those two folders (other people are working in parallel on other continents and on the app code).
 
 Tooling: node → `export NVM_DIR=~/.nvm; source ~/.nvm/nvm.sh; nvm use 22`. Python with Pillow:
-`/private/tmp/claude-502/-Users-jtrepka-Documents-jay-world-animals/f6a76430-5903-4452-8631-26f3634e1e37/scratchpad/venv/bin/python`
+`/private/tmp/claude-502/-Users-jtrepka-Documents-jay-world-animals/f6a76430-5903-4452-8631-26f3634e1e37/scratchpad/more-gemini/venv/bin/python`
 (call it $PY). Plain `python3` (no Pillow) is fine for fetch_images.py. Run all commands from the repo root
 `/Users/jtrepka/Documents/jay/world-animals`.
 

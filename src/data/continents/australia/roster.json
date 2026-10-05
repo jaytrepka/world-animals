@@ -452,5 +452,59 @@
   "lon": 171.5,
   "lat": -46.8,
   "sea": true
+ },
+ {
+  "id": "red-necked-wallaby",
+  "wiki": "Red-necked wallaby",
+  "lon": 150.2,
+  "lat": -29.9
+ },
+ {
+  "id": "swamp-wallaby",
+  "wiki": "Swamp wallaby",
+  "lon": 148.8,
+  "lat": -25.5
+ },
+ {
+  "id": "common-wallaroo",
+  "wiki": "Common wallaroo",
+  "lon": 117.8,
+  "lat": -24.6
+ },
+ {
+  "id": "western-grey-kangaroo",
+  "wiki": "Western grey kangaroo",
+  "lon": 121.2,
+  "lat": -31.0
+ },
+ {
+  "id": "matschies-tree-kangaroo",
+  "wiki": "Matschie's tree-kangaroo",
+  "lon": 147.5,
+  "lat": -6.1
+ },
+ {
+  "id": "red-necked-pademelon",
+  "wiki": "Red-necked pademelon",
+  "lon": 153.2,
+  "lat": -28.3
+ },
+ {
+  "id": "brush-tailed-bettong",
+  "wiki": "Woylie",
+  "lon": 118.3,
+  "lat": -32.3
+ },
+ {
+  "id": "eastern-pygmy-possum",
+  "wiki": "Eastern pygmy possum",
+  "lon": 148.0,
+  "lat": -34.9
+ },
+ {
+  "id": "eastern-quoll",
+  "wiki": "Eastern quoll",
+  "lon": 147.8,
+  "lat": -43.1
  }
 ]

@@ -1609,5 +1609,119 @@
     "source": "https://commons.wikimedia.org/wiki/File:Fisher-face-snow_-_West_Virginia_-_ForestWander.jpg"
    }
   ]
+ },
+ "american-mink": {
+  "count": 2,
+  "credits": [
+   {
+    "file": "File:MinkforWiki.jpg",
+    "author": "Needsmoreritalin",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:MinkforWiki.jpg"
+   },
+   {
+    "file": "File:Mink_in_the_park_(2).jpg",
+    "author": "Mink_in_the_park.jpg: qmnonic\nderivative work: Mariomassone (talk)",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Mink_in_the_park_(2).jpg"
+   }
+  ]
+ },
+ "american-marten": {
+  "count": 2,
+  "credits": [
+   {
+    "file": "File:Newfoundland_Pine_Marten.jpg",
+    "author": "Bailey Parsons",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Newfoundland_Pine_Marten.jpg"
+   },
+   {
+    "file": "File:Marten_with_Flowers.jpg",
+    "author": "United States Fish and Wildlife Service",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Marten_with_Flowers.jpg"
+   }
+  ]
+ },
+ "american-red-squirrel": {
+  "count": 3,
+  "credits": [
+   {
+    "file": "File:Richardson's_red_squirrel_(Tamiasciurus_hudsonicus_richardsoni)_Moraine_Lake.jpg",
+    "author": "Charles J. Sharp",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Richardson%27s_red_squirrel_(Tamiasciurus_hudsonicus_richardsoni)_Moraine_Lake.jpg"
+   },
+   {
+    "file": "File:Red_squirrel.jpg",
+    "author": "D. Gordon E. Robertson",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Red_squirrel.jpg"
+   },
+   {
+    "file": "File:Yukon_Red_Squirrel.jpg",
+    "author": "Tmanaok",
+    "license": "CC BY 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Yukon_Red_Squirrel.jpg"
+   }
+  ]
+ },
+ "muskrat": {
+  "count": 3,
+  "credits": [
+   {
+    "file": "File:Muskrat eating plant.jpg",
+    "author": "Linda Tanner",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Muskrat_eating_plant.jpg"
+   },
+   {
+    "file": "File:Muskrat_swimming_Ottawa.jpg",
+    "author": "D. Gordon E. Robertson",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Muskrat_swimming_Ottawa.jpg"
+   },
+   {
+    "file": "File:Muskrat Eating (26868084687).jpg",
+    "author": "U.S. Fish and Wildlife Service - Midwest Region",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Muskrat_Eating_(26868084687).jpg"
+   }
+  ]
+ },
+ "great-horned-owl": {
+  "count": 2,
+  "credits": [
+   {
+    "file": "File:Bubo_virginianus_06.jpg",
+    "author": "Greg Hume",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Bubo_virginianus_06.jpg"
+   },
+   {
+    "file": "File:Bubo_virginianus_-Canada-6.jpg",
+    "author": "brendan.lally",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Bubo_virginianus_-Canada-6.jpg"
+   }
+  ]
+ },
+ "willow-ptarmigan": {
+  "count": 2,
+  "credits": [
+   {
+    "file": "File:Lagopus_lagopus_-_adult_(Denali,_2010).jpg",
+    "author": "Yathin S Krishnappa",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Lagopus_lagopus_-_adult_(Denali,_2010).jpg"
+   },
+   {
+    "file": "File:Ptarmigan9.jpg",
+    "author": "",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Ptarmigan9.jpg"
+   }
+  ]
  }
 }

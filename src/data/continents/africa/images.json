@@ -1810,5 +1810,45 @@
     "source": "https://commons.wikimedia.org/wiki/File:Hamadryas_harems.jpg"
    }
   ]
+ },
+ "spotted-hyena": {
+  "count": 3,
+  "credits": [
+   {
+    "file": "File:Spotted_hyena_(Crocuta_crocuta).jpg",
+    "author": "Charles J. Sharp",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Spotted_hyena_(Crocuta_crocuta).jpg"
+   },
+   {
+    "file": "File:Spotted_Hyaena_(Crocuta_crocuta)_female_close-up_..._(31339658775).jpg",
+    "author": "Bernard DUPONT from FRANCE",
+    "license": "CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Spotted_Hyaena_(Crocuta_crocuta)_female_close-up_..._(31339658775).jpg"
+   },
+   {
+    "file": "File:Spotted_Hyena_at_White_River.jpg",
+    "author": "Mister E",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Spotted_Hyena_at_White_River.jpg"
+   }
+  ]
+ },
+ "brown-hyena": {
+  "count": 2,
+  "credits": [
+   {
+    "file": "File:Brown_Hyena_(Hyaena_brunnea)_leaving_waterhole_..._(50915531592),_crop.jpg",
+    "author": "Bernard DUPONT from FRANCE",
+    "license": "CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Brown_Hyena_(Hyaena_brunnea)_leaving_waterhole_..._(50915531592),_crop.jpg"
+   },
+   {
+    "file": "File:Five_cheetahs_were_feeding_on_a_Springbok_kill_one_morning_in_th_(34407780271).jpg",
+    "author": "Derek Keats from Johannesburg, South Africa",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Five_cheetahs_were_feeding_on_a_Springbok_kill_one_morning_in_th_(34407780271).jpg"
+   }
+  ]
  }
 }
