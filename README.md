@@ -15,6 +15,19 @@ npm install
 npm run dev
 ```
 
+## Desktop app (Windows, works offline)
+
+The same app packaged with Electron – all maps, photos and the font are inside, no internet needed.
+
+```bash
+npm run desktop     # try it locally
+npm run dist:win    # build release/Zvirata-sveta-Setup-<version>.exe (installer) and Zvirata-sveta-portable-<version>.exe
+```
+
+The `.exe` files are not code-signed, so Windows SmartScreen shows "Windows protected your PC" the first time – click **More info → Run anyway**.
+F11 switches full screen. Read-aloud uses the Windows voices: for Czech, install the Czech language pack (Settings → Time & language → Language → add Čeština with *Text-to-speech*).
+`npx electron electron/smoke-test.cjs` opens the app, saves screenshots to `release/smoke/` and lists any internet requests (there should be none).
+
 ## Data pipeline
 
 Each continent lives in `src/data/continents/<key>/` (`northAmerica`, `southAmerica`, `europe`, `africa`, `asia`, `australia`, `antarctica`):

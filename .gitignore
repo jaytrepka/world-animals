@@ -29,3 +29,6 @@ scripts/geo/
 __pycache__/
 .vercel
 scripts/.build/
+
+# desktop build output
+release/
