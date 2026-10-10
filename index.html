@@ -11,7 +11,31 @@
     <title>Animals of the World</title>
   </head>
   <body>
-    <div id="root"></div>
+    <div id="root">
+      <p class="boot-msg">🐾</p>
+    </div>
+    <script>
+      // Safety net for old browsers: if the app can't start, show a message instead of an empty screen.
+      // (Plain ES5 on purpose – this must run everywhere.)
+      (function () {
+        var shown = false
+        function fail(msg) {
+          var root = document.getElementById('root')
+          if (shown || !root || root.querySelector('main, .loading')) return
+          shown = true
+          root.innerHTML =
+            '<div class="boot-error"><p>😿 Tento prohlížeč aplikaci nezvládá. Zkuste prosím aktualizovat prohlížeč nebo použít Chrome.</p>' +
+            '<p>😿 This browser cannot run the app. Please update the browser or use Chrome.</p>' +
+            '<small>' + String(msg).replace(/</g, '&lt;') + '</small></div>'
+        }
+        window.addEventListener('error', function (e) { fail(e.message || e.type) })
+        window.addEventListener('unhandledrejection', function (e) { fail((e.reason && e.reason.message) || e.reason) })
+        setTimeout(function () {
+          var root = document.getElementById('root')
+          if (root && !root.querySelector('main, .loading')) fail('Timeout – ' + navigator.userAgent)
+        }, 15000)
+      })()
+    </script>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>

@@ -44,11 +44,11 @@ export const mapUrl = (key: ContinentKey) => `/maps/${key}.webp`
  */
 function decodeImage(src: string): Promise<void> {
   const img = new Image()
-  img.src = src
   const loaded = new Promise<void>((resolve) => {
     img.onload = img.onerror = () => resolve()
   })
-  const decoded = img.decode().catch(() => undefined)
+  img.src = src
+  const decoded = typeof img.decode === 'function' ? img.decode().catch(() => undefined) : loaded
   const timeout = new Promise<void>((resolve) => setTimeout(resolve, 4000))
   return Promise.race([decoded, loaded.then(() => Promise.race([decoded, new Promise<void>((r) => setTimeout(r, 400))])), timeout])
 }

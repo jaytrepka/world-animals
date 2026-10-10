@@ -65,7 +65,13 @@ export default function ContinentPage({
   useLayoutEffect(() => {
     const el = viewportRef.current
     if (!el) return
-    const ro = new ResizeObserver(() => setSize({ w: el.clientWidth, h: el.clientHeight }))
+    const update = () => setSize({ w: el.clientWidth, h: el.clientHeight })
+    // Old browsers (e.g. iOS < 13.1) have no ResizeObserver – fall back to window resizes
+    if (typeof ResizeObserver === 'undefined') {
+      window.addEventListener('resize', update)
+      return () => window.removeEventListener('resize', update)
+    }
+    const ro = new ResizeObserver(update)
     ro.observe(el)
     return () => ro.disconnect()
   }, [])

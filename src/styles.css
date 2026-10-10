@@ -26,8 +26,9 @@
   --green: #2f7d32;
   --yellow: #ffd23f;
   --yellow-dark: #e3a700;
-  --pin: clamp(44px, 7.2vmin, 78px);
-  --btn: clamp(62px, 11vmin, 96px);
+  /* fixed sizes for old browsers without clamp()/min() – overridden below where supported */
+  --pin: 56px;
+  --btn: 76px;
   --safe-t: env(safe-area-inset-top, 0px);
   --safe-b: env(safe-area-inset-bottom, 0px);
   --safe-l: env(safe-area-inset-left, 0px);
@@ -849,7 +850,7 @@ button {
 /* letter bar on the right, like the iPhone contact list */
 .letter-bar {
   /* --n = number of letters (set by the component); each letter gets an equal slice of the bar */
-  --slot: min(26px, calc((100vh - 190px) / var(--n)));
+  --slot: 18px; /* old browsers without min() */
   position: fixed;
   right: calc(4px + var(--safe-r));
   top: 50%;
@@ -927,4 +928,39 @@ button {
 .zoom-btn:disabled {
   opacity: 0.45;
   cursor: default;
+}
+
+/* shown before the app starts / if it can't start (see index.html) */
+.boot-msg {
+  margin: 30vh 0 0;
+  text-align: center;
+  font-size: 56px;
+}
+.boot-error {
+  max-width: 640px;
+  margin: 20vh auto 0;
+  padding: 24px;
+  border-radius: 20px;
+  background: #fff;
+  font-size: 22px;
+  text-align: center;
+  color: #3b2f22;
+}
+.boot-error small {
+  display: block;
+  margin-top: 12px;
+  font-size: 12px;
+  color: #9a8c79;
+  word-break: break-word;
+}
+
+/* modern browsers: sizes that follow the screen (must come after the fixed fallbacks above) */
+@supports (width: clamp(1px, 2px, 3px)) {
+  :root {
+    --pin: clamp(44px, 7.2vmin, 78px);
+    --btn: clamp(62px, 11vmin, 96px);
+  }
+  .letter-bar {
+    --slot: min(26px, calc((100vh - 190px) / var(--n)));
+  }
 }
