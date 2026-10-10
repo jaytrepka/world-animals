@@ -29,10 +29,10 @@
   /* fixed sizes for old browsers without clamp()/min() – overridden below where supported */
   --pin: 56px;
   --btn: 76px;
-  --safe-t: env(safe-area-inset-top, 0px);
-  --safe-b: env(safe-area-inset-bottom, 0px);
-  --safe-l: env(safe-area-inset-left, 0px);
-  --safe-r: env(safe-area-inset-right, 0px);
+  --safe-t: 0px;
+  --safe-b: 0px;
+  --safe-l: 0px;
+  --safe-r: 0px;
   color-scheme: light;
 }
 
@@ -70,8 +70,9 @@ button {
   height: var(--btn);
   border: none;
   border-radius: 50%;
-  display: grid;
-  place-items: center;
+  display: flex; /* flex (not grid) so old browsers center too */
+  align-items: center;
+  justify-content: center;
   padding: 0;
   background: var(--yellow);
   color: #6b4200;
@@ -821,8 +822,9 @@ button {
   height: 42px;
   border: none;
   border-radius: 50%;
-  display: grid;
-  place-items: center;
+  display: flex; /* flex (not grid) so old browsers center too */
+  align-items: center;
+  justify-content: center;
   padding: 0;
   background: #ece4d3;
   color: #7a6a55;
@@ -896,8 +898,9 @@ button {
   width: 120px;
   height: 120px;
   border-radius: 28px;
-  display: grid;
-  place-items: center;
+  display: flex; /* flex (not grid) so old browsers center too */
+  align-items: center;
+  justify-content: center;
   font-size: 64px;
   font-weight: 700;
   color: #fff;
@@ -963,4 +966,43 @@ button {
   .letter-bar {
     --slot: min(26px, calc((100vh - 190px) / var(--n)));
   }
+}
+
+/* phones with a notch: keep buttons out of the safe areas (old browsers keep 0px from above) */
+@supports (top: env(safe-area-inset-top)) {
+  :root {
+    --safe-t: env(safe-area-inset-top, 0px);
+    --safe-b: env(safe-area-inset-bottom, 0px);
+    --safe-l: env(safe-area-inset-left, 0px);
+    --safe-r: env(safe-area-inset-right, 0px);
+  }
+}
+
+/* old browsers without CSS grid: wrap the animal cards and the classification rows with flexbox */
+@supports not (display: grid) {
+  .animal-grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -7px;
+  }
+  .animal-card {
+    width: 150px;
+    margin: 7px;
+  }
+  .classification dl {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .classification dl div {
+    width: 240px;
+    margin: 3px 18px 3px 0;
+  }
+}
+
+/* old browsers without CSS variables: the map is moved with an inline transform */
+.map-stage.no-css-vars {
+  transition: transform 0.6s ease-in-out;
+}
+.map-viewport.dragging .map-stage.no-css-vars {
+  transition: none;
 }

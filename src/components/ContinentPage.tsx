@@ -4,6 +4,7 @@ import type { Animal, RegionId } from '../data/types'
 import { UI, useLang } from '../i18n'
 import { speak } from '../speech'
 import { ArrowIcon, MinusIcon, PlusIcon } from './icons'
+import { CSS_VARS, touchAsPointer, type PointerLike } from '../compat'
 
 const REGIONS: RegionId[] = ['north', 'middle', 'south']
 
@@ -177,12 +178,12 @@ export default function ContinentPage({
     } else gesture.current = null
   }
 
-  const onPointerDown = (e: React.PointerEvent) => {
+  const onPointerDown = (e: PointerLike) => {
     pointers.current.set(e.pointerId, { x: e.clientX, y: e.clientY })
     if (pointers.current.size >= 2) capture(e.pointerId)
     startGesture()
   }
-  const onPointerMove = (e: React.PointerEvent) => {
+  const onPointerMove = (e: PointerLike) => {
     if (!pointers.current.has(e.pointerId)) return
     pointers.current.set(e.pointerId, { x: e.clientX, y: e.clientY })
     const g = gesture.current
@@ -206,7 +207,7 @@ export default function ContinentPage({
     }
     commit(zoom, g.tx + dx, g.ty + dy)
   }
-  const onPointerUp = (e: React.PointerEvent) => {
+  const onPointerUp = (e: PointerLike) => {
     pointers.current.delete(e.pointerId)
     const wasMoving = gesture.current?.kind === 'pinch' || (gesture.current?.kind === 'drag' && gesture.current.moved)
     startGesture()
@@ -215,6 +216,9 @@ export default function ContinentPage({
       window.setTimeout(() => setInteracting(false), 0)
     }
   }
+
+  // animal pictures grow when zooming in – a bit slower than the map, so they also spread apart
+  const pinScale = Math.pow(zoom, 0.65)
 
   const zoomButton = (factor: number) => zoomAt(size.w / 2, size.h / 2, zoom * factor)
 
@@ -227,19 +231,23 @@ export default function ContinentPage({
         onPointerMove={onPointerMove}
         onPointerUp={onPointerUp}
         onPointerCancel={onPointerUp}
+        // the handlers only read refs when a touch happens, not during render
+        // eslint-disable-next-line react/refs
+        {...touchAsPointer({ down: onPointerDown, move: onPointerMove, up: onPointerUp })}
         onDoubleClick={(e) => zoomAt(e.clientX, e.clientY, zoom >= MAX_ZOOM ? 1 : zoom * 2)}
       >
         <div
-          className="map-stage"
+          className={`map-stage ${CSS_VARS ? '' : 'no-css-vars'}`}
           style={
             {
               width: geo.width,
               height: geo.height,
+              // old browsers without CSS variables: position the map directly
+              transform: CSS_VARS ? undefined : `translate(${cam.tx}px, ${cam.ty}px) scale(${cam.s})`,
               '--tx': `${cam.tx}px`,
               '--ty': `${cam.ty}px`,
               '--s': cam.s,
-              // animal pictures grow when zooming in – a bit slower than the map, so they also spread apart
-              '--pz': Math.pow(zoom, 0.65),
+              '--pz': pinScale,
             } as React.CSSProperties
           }
         >
@@ -256,7 +264,11 @@ export default function ContinentPage({
             <button
               key={a.id}
               className={`animal-pin ${a.region === region ? 'here' : 'away'}`}
-              style={{ left: a.x, top: a.y }}
+              style={{
+                left: a.x,
+                top: a.y,
+                transform: CSS_VARS ? undefined : `scale(${pinScale / cam.s})`,
+              }}
               onClick={() => {
                 if (!interacting) onAnimal(a)
               }}

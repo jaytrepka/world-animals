@@ -128,7 +128,7 @@ export default function HomePage({ onOpen, onList }: { onOpen: (continent: Conti
                       <circle r="19" />
                     </clipPath>
                     <circle r="22" fill="#fff" />
-                    <image href={thumbUrl(key, a.id)} x="-19" y="-19" width="38" height="38" clipPath={`url(#tc-${key}-${a.id})`} preserveAspectRatio="xMidYMid slice" />
+                    <image href={thumbUrl(key, a.id)} xlinkHref={thumbUrl(key, a.id)} x="-19" y="-19" width="38" height="38" clipPath={`url(#tc-${key}-${a.id})`} preserveAspectRatio="xMidYMid slice" />
                   </g>
                 ))}
               </g>

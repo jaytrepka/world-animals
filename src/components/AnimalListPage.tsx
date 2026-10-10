@@ -3,6 +3,7 @@ import { loadAllAnimals } from '../data/continents'
 import type { Animal, Lang } from '../data/types'
 import { UI, useLang } from '../i18n'
 import { ArrowIcon, CloseIcon, SearchIcon } from './icons'
+import { stripAccents, touchAsPointer } from '../compat'
 
 /**
  * First letter for the headings. In Czech, Č Ř Š Ž and "Ch" are letters of their own;
@@ -12,15 +13,11 @@ function initial(name: string, lang: Lang) {
   if (lang === 'cs' && /^ch/i.test(name)) return 'Ch'
   const first = name.charAt(0).toLocaleUpperCase(lang)
   if (lang === 'cs' && 'ČŘŠŽ'.includes(first)) return first
-  return first.normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+  return stripAccents(first)
 }
 
 /** Lower-case and without accents, so "zirafa" finds "Žirafa". */
-const fold = (s: string) =>
-  s
-    .normalize('NFD')
-    .replace(/[̀-ͯ]/g, '')
-    .toLowerCase()
+const fold = (s: string) => stripAccents(s).toLowerCase()
 
 const letterId = (letter: string) => `letter-${letter}`
 
@@ -148,6 +145,8 @@ function LetterBar({ letters }: { letters: string[] }) {
           return { letter, label: i % 2 ? '•' : letter }
         })
 
+  const slot = Math.min(26, (height - 190) / items.length)
+
   const jumpAt = (x: number, y: number) => {
     const el = document.elementFromPoint(x, y) as HTMLElement | null
     const letter = el?.dataset.letter
@@ -166,7 +165,8 @@ function LetterBar({ letters }: { letters: string[] }) {
     <>
       <nav
         className="letter-bar"
-        style={{ '--n': items.length } as React.CSSProperties}
+        // sizes computed here (not only with CSS min()/var()) so they also work in old browsers
+        style={{ '--n': items.length, height: slot * items.length + 16 } as React.CSSProperties}
         aria-label="A–Z"
         onPointerDown={(e) => {
           e.currentTarget.setPointerCapture(e.pointerId)
@@ -175,9 +175,17 @@ function LetterBar({ letters }: { letters: string[] }) {
         onPointerMove={(e) => e.buttons && jumpAt(e.clientX, e.clientY)}
         onPointerUp={end}
         onPointerCancel={end}
+        // the handlers only read refs when a touch happens, not during render
+        // eslint-disable-next-line react/refs
+        {...touchAsPointer({ down: (p) => jumpAt(p.clientX, p.clientY), move: (p) => jumpAt(p.clientX, p.clientY), up: end })}
       >
         {items.map((it, i) => (
-          <span key={i} data-letter={it.letter} className={it.letter === active && it.label !== '•' ? 'on' : ''}>
+          <span
+            key={i}
+            data-letter={it.letter}
+            className={it.letter === active && it.label !== '•' ? 'on' : ''}
+            style={{ fontSize: Math.max(8, Math.min(18, slot * 0.72)) }}
+          >
             {it.label}
           </span>
         ))}
