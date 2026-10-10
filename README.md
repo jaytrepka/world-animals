@@ -8,6 +8,12 @@ A picture map of animals for small kids (who can't read yet), in English and Cze
 - **All animals:** the green grid button (top-right on the home page) opens an alphabetical list of every species with its photo, a search bar (searches the animal names shown, accents optional) and an A–Z bar on the right to jump to a letter; tapping an animal opens the same animal window.
 - **Language:** flag button in the bottom-left corner.
 
+## Where it runs
+
+- https://world-animals.vercel.app (Vercel, deployed with `vercel --prod`)
+- https://jaytrepka.github.io/world-animals/ (GitHub Pages, built by `.github/workflows/pages.yml` on every push to `main`).
+  Use this one on very old tablets: Vercel sometimes shows its "Security Checkpoint" bot challenge, which old browsers can't pass.
+
 ## Develop
 
 ```bash

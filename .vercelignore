@@ -5,3 +5,5 @@ dist/
 scripts/geo/
 scripts/.build/
 *.HEIC
+dist-pages/
+.github/

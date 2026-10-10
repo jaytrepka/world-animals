@@ -32,3 +32,4 @@ scripts/.build/
 
 # desktop build output
 release/
+dist-pages/

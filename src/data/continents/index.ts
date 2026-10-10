@@ -36,7 +36,10 @@ const geoMods = import.meta.glob<{ default: ContinentGeo }>('../geo/*.json')
 
 const cache = new Map<ContinentKey, Promise<ContinentData>>()
 
-export const mapUrl = (key: ContinentKey) => `/maps/${key}.webp`
+/** URL of a file in public/, relative to where the app is hosted (e.g. /world-animals/ on GitHub Pages). */
+export const asset = (path: string) => import.meta.env.BASE_URL + path
+
+export const mapUrl = (key: ContinentKey) => asset(`maps/${key}.webp`)
 
 /**
  * Download + decode the big painted map before showing the page (so it doesn't pop in).
@@ -90,7 +93,7 @@ export function loadAnimals(key: ContinentKey): Promise<Animal[]> {
             x: p.x,
             y: p.y,
             thumb: thumbUrl(key, p.id),
-            photos: Array.from({ length: img.count }, (_, i) => `/animals/${key}/${p.id}/${i + 1}.jpg`),
+            photos: Array.from({ length: img.count }, (_, i) => asset(`animals/${key}/${p.id}/${i + 1}.jpg`)),
             credits: img.credits,
           },
         ]
@@ -130,5 +133,5 @@ export function loadAllAnimals(): Promise<Animal[]> {
 }
 
 export function thumbUrl(continent: ContinentKey, id: string) {
-  return `/animals/${continent}/${id}/thumb.jpg`
+  return asset(`animals/${continent}/${id}/thumb.jpg`)
 }
