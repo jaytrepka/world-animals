@@ -1,0 +1,7 @@
+# Not needed to build the website
+release/
+node_modules/
+dist/
+scripts/geo/
+scripts/.build/
+*.HEIC
